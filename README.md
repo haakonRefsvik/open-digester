@@ -99,31 +99,50 @@ tolkningen. Har du installert `pypdf` i et venv eller med en annen `python3` enn
 den skriptene bruker, får du den stille feilen under uten at noe ser galt ut.
 `pdftotext` er en binær på PATH og er derfor tolkningsuavhengig.
 
-> ⚠️ **Uten en av disse blir PDF-er indeksert med 0 ankere, og `build` sier
-> fortsatt at alt gikk bra.** For `task_aquarack_v3` er databladet hele poenget
-> med oppgaven, så en tom PDF-indeks gjør evalueringen meningsløs.
+> ⚠️ **Uten en av disse blir PDF-er indeksert med 0 ankere.** `build` sier nå
+> eksplisitt fra om det skjer, og gjengir uttrekkerens egen feilmelding — men
+> indeksen blir skrevet likevel, så oppdager du ikke advarselen sitter du med en
+> tom PDF-indeks. For `task_aquarack_v3` er databladet hele poenget med
+> oppgaven, så det gjør evalueringen meningsløs.
 
-**Slik oppdager du det — ankerantallet er selvsjekken din.** Bygget oppgir
-antall ankere, og PDF-uttrekkeren utgjør forskjellen:
+**Ankerantallet er selvsjekken din.** Ut trekk av PDF-ene utgjør forskjellen
+(tallene gjelder denne repo-tilstanden; totalen flytter seg når innholdet endres,
+men databladets egne tall er stabile):
 
 | | Ankere totalt | Databladet |
 |---|---|---|
-| Uten uttrekker | **299** | `pages=0 anchors=0` |
-| Med uttrekker | **517** | `pages=40 anchors=208` |
+| Uten uttrekker | **304** | `pages=0 anchors=0` |
+| Med uttrekker | **522** | `pages=40 anchors=208` |
+
+```console
+$ ./digest_index.sh build .
+index: 40 files · 304 anchors · 0 summaries · 0 reused · -> .dsh/digest
+index: WARNING — 3 PDF(s) produced no text and were indexed with 0 anchors:
+    task_aquarack_v3/docs/pumpdriver-manual.pdf
+    task_aquarack/docs/pumpdriver-manual.pdf
+    task_aquarack_v2/docs/pumpdriver-manual.pdf
+  reason:
+    pdf_pages: ingen PDF-tekstuttrekker funnet. Installer en av:
+        brew install poppler        (gir 'pdftotext')
+      eller
+      python3 -m pip install pypdf
+```
+
+Ser du `WARNING`, mangler uttrekkeren. Får du ingen advarsel og 522 ankere, er
+PDF-delen intakt. Du kan også sjekke direkte:
 
 ```bash
-./digest_index.sh build .                       # se på ankerantallet her
 ./digest_index.sh lookup . task_aquarack_v3/docs/pumpdriver-manual.pdf
-#   pages=0   -> uttrekkeren mangler
+#   pages=0   -> uttrekkeren mangler (eller PDF-en er en skann uten tekstlag)
 #   pages=40  -> OK
 ```
 
-Får du 299 i stedet for 517, virker alt annet — men PDF-delen av indeksen er tom.
-Verifiser uttrekkeren direkte før du bygger:
+`slice` gir samme diagnose når den ikke får ut tekst:
 
 ```bash
-python3 .pilot/pdf_pages.py task_aquarack_v3/docs/pumpdriver-manual.pdf | head
-# skriver en tydelig installasjonshint til stderr hvis noe mangler
+./digest_index.sh slice task_aquarack_v3/docs/pumpdriver-manual.pdf --pages 6-6
+# mangler uttrekker -> "reason:" + installasjonshintet
+# uttrekker OK, men tomt sidetall -> "the extractor ran but pages ... carry no text"
 ```
 
 Når uttrekkeren virker, gir sideindeksen deg presis navigasjon — f.eks. peker

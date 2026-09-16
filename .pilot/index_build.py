@@ -202,33 +202,93 @@ def extract_anchors(text: str, cap: int) -> list:
     return anchors
 
 
-def pdf_pages(path: str, maxchars: int) -> list:
-    """Page-structured text: [{page, text}, ...] via pdf_pages.py."""
-    out = subprocess.run(
-        [sys.executable, os.path.join(PILOT, "pdf_pages.py"), path, str(maxchars)],
-        capture_output=True, text=True, timeout=320,
-    )
+def _pdf_run(args, diag):
+    """Run pdf_pages.py; return (stdout, ok).
+
+    On failure the extractor's own stderr (which carries the install hint) is
+    appended to `diag` when given. Without this the caller cannot tell
+    "no extractor installed" apart from "PDF has no text layer" — and a PDF
+    that silently yields zero anchors looks like a healthy build.
+    """
+    try:
+        out = subprocess.run(
+            [sys.executable, os.path.join(PILOT, "pdf_pages.py")] + list(args),
+            capture_output=True, text=True, timeout=320,
+        )
+    except Exception as exc:  # timeout, unusable interpreter, ...
+        if diag is not None:
+            diag.append((args[0], str(exc)))
+        return "", False
     if out.returncode != 0:
+        if diag is not None:
+            reason = out.stderr.strip() or f"pdf_pages.py exited {out.returncode}"
+            diag.append((args[0], reason))
+        return "", False
+    return out.stdout, True
+
+
+def pdf_pages(path: str, maxchars: int, diag=None) -> list:
+    """Page-structured text: [{page, text}, ...] via pdf_pages.py.
+
+    Returns [] on failure and records why in `diag` (see _pdf_run).
+    """
+    stdout, ok = _pdf_run([path, str(maxchars)], diag)
+    if not ok:
         return []
     try:
-        return json.loads(out.stdout).get("pages", [])
-    except Exception:
+        return json.loads(stdout).get("pages", [])
+    except Exception as exc:
+        if diag is not None:
+            diag.append((path, f"invalid JSON from pdf_pages.py ({exc})"))
         return []
 
 
-def pdf_slice(path: str, start: int, end: int, maxchars: int = 0) -> str:
-    """Extract ONLY pages [start, end] (1-based, inclusive) as plain text."""
-    out = subprocess.run(
-        [sys.executable, os.path.join(PILOT, "pdf_pages.py"), path, str(maxchars),
-         str(start), str(end)],
-        capture_output=True, text=True, timeout=320,
-    )
-    if out.returncode != 0:
+def pdf_slice(path: str, start: int, end: int, maxchars: int = 0, diag=None) -> str:
+    """Extract ONLY pages [start, end] (1-based, inclusive) as plain text.
+
+    Returns "" on failure and records why in `diag` (see _pdf_run).
+    """
+    stdout, ok = _pdf_run([path, str(maxchars), str(start), str(end)], diag)
+    if not ok:
         return ""
     try:
-        return "\n".join(p["text"] for p in json.loads(out.stdout).get("pages", []))
-    except Exception:
+        return "\n".join(p["text"] for p in json.loads(stdout).get("pages", []))
+    except Exception as exc:
+        if diag is not None:
+            diag.append((path, f"invalid JSON from pdf_pages.py ({exc})"))
         return ""
+
+
+PDF_EXTRACTOR_HINT = (
+    "    install a PDF text extractor and rebuild with --force:\n"
+    "      brew install poppler        (provides 'pdftotext'; interpreter-independent)\n"
+    "      python3 -m pip install pypdf  (must be importable by the python3 the\n"
+    "                                     shell scripts invoke)"
+)
+
+
+def print_pdf_diag(diag, empty_hint=PDF_EXTRACTOR_HINT):
+    """Print each distinct extractor failure reason once, not once per file.
+
+    When no reason was captured, `empty_hint` is printed instead — pass None to
+    stay silent, which is what a caller does when it knows the extractor itself
+    succeeded (e.g. an empty page range).
+    """
+    reasons = []
+    for _path, reason in diag:
+        if reason not in reasons:
+            reasons.append(reason)
+    if not reasons:
+        # No reason captured: the card was reused, or the extractor ran fine and
+        # the PDF genuinely has no text layer (e.g. a scan without OCR).
+        if empty_hint:
+            print(empty_hint, file=sys.stderr)
+        return
+    label = "reason" if len(reasons) == 1 else f"reasons ({len(reasons)})"
+    print(f"  {label}:", file=sys.stderr)
+    for reason in reasons:
+        for line in reason.splitlines():
+            print(f"    {line}", file=sys.stderr)
 
 
 def _page_label(lines):
@@ -478,7 +538,7 @@ def summarize_chunks(text, tokens, model, chunk_tokens, overlap_tokens, chars_pe
 
 
 # -------------------------------------------------------------------- build --
-def build_card(root, relpath, abspath, opts):
+def build_card(root, relpath, abspath, opts, diag=None):
     data = read_bytes(abspath)
     fp = fingerprint(data)
     size = len(data)
@@ -493,7 +553,7 @@ def build_card(root, relpath, abspath, opts):
     is_pdf = os.path.splitext(relpath)[1].lower() == PDF_EXT
     pages = []
     if is_pdf:
-        pages = pdf_pages(abspath, opts.anchor_chars)
+        pages = pdf_pages(abspath, opts.anchor_chars, diag)
         anchors, page_index, n_pages = extract_pdf_anchors(pages, 400)
         card["kind"] = "pdf"
         card["pages"] = n_pages
@@ -507,7 +567,7 @@ def build_card(root, relpath, abspath, opts):
         if is_pdf:
             # Structure-agnostic map-reduce: cut the full text into context-sized
             # chunks with overlap, LLM-tag each, concatenate into a page map.
-            pages = pdf_pages(abspath, 0)
+            pages = pdf_pages(abspath, 0, diag)
             full_text = "\n".join(p["text"] for p in pages)
             page_offsets = page_offset_map(pages)
             model = os.environ.get("DIGEST_MODEL", "qwen3.5:2b-mlx")
@@ -545,6 +605,8 @@ def build(root, outdir, opts):
 
     files = {}
     n_anchors = n_summaries = n_reused = 0
+    diag = []          # PDF extractor failure reasons, for the end-of-build warning
+    empty_pdfs = []    # indexed PDFs that produced no text at all
     for relpath, abspath in iter_files(root, outdir, opts.max_files, opts.max_bytes):
         data = read_bytes(abspath)
         fp = fingerprint(data)
@@ -564,7 +626,7 @@ def build(root, outdir, opts):
                 card = json.load(fh)
             changed = False
         else:
-            card, fp = build_card(root, relpath, abspath, opts)
+            card, fp = build_card(root, relpath, abspath, opts, diag)
             changed = True
             with open(os.path.join(cards_dir, card_name), "w", encoding="utf-8") as fh:
                 json.dump(card, fh, ensure_ascii=False, indent=2)
@@ -583,6 +645,12 @@ def build(root, outdir, opts):
         n_anchors += len(card.get("anchors", []))
         n_summaries += 1 if has_summary else 0
         n_reused += 0 if changed else 1
+        # A PDF with no text yields no anchors and no page index — the reader
+        # would silently fall back to raw bytes. Catch it here, on both the
+        # fresh and the reused path, so build never reports a healthy index
+        # over an empty one.
+        if card.get("kind") == "pdf" and not card.get("pages"):
+            empty_pdfs.append(relpath.replace(os.sep, "/"))
 
     # Drop cards whose file vanished or changed beyond manifest (orphan cleanup).
     for relpath in list(old):
@@ -614,6 +682,15 @@ def build(root, outdir, opts):
         f"{n_summaries} summaries · {n_reused} reused · -> {outdir}",
         file=sys.stderr,
     )
+    if empty_pdfs:
+        print(
+            f"index: WARNING — {len(empty_pdfs)} PDF(s) produced no text and were "
+            f"indexed with 0 anchors:",
+            file=sys.stderr,
+        )
+        for rel in empty_pdfs:
+            print(f"    {rel}", file=sys.stderr)
+        print_pdf_diag(diag)
     return 0
 
 
@@ -708,9 +785,18 @@ def slice_cmd(path, pages, chars, maxchars=0):
     """Extract a page range (--pages A-B) or char range (--chars X-Y) of a PDF."""
     if pages:
         a, b = _parse_range(pages)
-        text = pdf_slice(path, a, b, maxchars)
+        diag = []
+        text = pdf_slice(path, a, b, maxchars, diag)
         if not text:
             print(f"digest-index: no text for pages {a}-{b}", file=sys.stderr)
+            if diag:
+                print_pdf_diag(diag)
+            else:
+                print(
+                    f"    the extractor ran but pages {a}-{b} carry no text — "
+                    "check the range against the page index in `lookup`",
+                    file=sys.stderr,
+                )
             return 1
         sys.stdout.write(text)
         if not text.endswith("\n"):
@@ -718,7 +804,19 @@ def slice_cmd(path, pages, chars, maxchars=0):
         return 0
     if chars:
         x, y = _parse_range(chars)
-        full = "\n".join(p["text"] for p in pdf_pages(path, 0))
+        diag = []
+        full = "\n".join(p["text"] for p in pdf_pages(path, 0, diag))
+        if not full:
+            print(f"digest-index: no text for chars {x}-{y}", file=sys.stderr)
+            if diag:
+                print_pdf_diag(diag)
+            else:
+                print(
+                    "    the extractor ran but this PDF carries no text "
+                    "(likely a scan without OCR)",
+                    file=sys.stderr,
+                )
+            return 1
         sys.stdout.write(full[x:y])
         return 0
     print("digest-index: give --pages A-B or --chars X-Y", file=sys.stderr)
