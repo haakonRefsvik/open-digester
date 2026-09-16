@@ -63,26 +63,103 @@ open-digester/
 
 ## Forutsetninger
 
-- **Python 3** (kun standardbiblioteket for indeksen)
-- **Ollama** med en modell — standard er `qwen3.5:4b-mlx` (overstyr med `DIGEST_MODEL`)
-- **Valgfritt:** `pdftotext` (poppler) for PDF-uttrekk. Uten den brukes `pypdf`
-  hvis det er installert, ellers får du en installasjonshint.
+Alt er Python 3 med kun standardbiblioteket. To ting må du ordne selv — og den
+ene er lett å overse fordi den feiler **stille**:
 
-### Modellene er IKKE i repoet
+| Avhengighet | Trengs for | Uten den |
+|---|---|---|
+| **Python 3** | alt | – |
+| **PDF-uttrekker**: `pdftotext` (poppler) *eller* `pypdf` | all PDF-håndtering | PDF-er indekseres med **0 ankere, uten advarsel** ⚠️ |
+| **Ollama + modell** | `digest.sh`, `--summarize`, prewarm | indeks og oppslag på tekst virker fortsatt |
 
-`.pilot/models/` (~14 GB Ollama-blobs) og `.pilot/ollama/` (serverbinæret) er
-utelatt i `.gitignore`. Hent dem selv:
+### Steg 1 — dette virker med en gang, uten avhengigheter
 
 ```bash
-# Med en vanlig Ollama-installasjon:
-ollama pull qwen3.5:4b-mlx
-ollama serve
-
-# ...eller bruk en bundlet server i prosjektmappa:
-OLLAMA_MODELS="$PWD/.pilot/models" .pilot/ollama/ollama serve
+git clone https://github.com/haakonRefsvik/open-digester.git
+cd open-digester
+./digest_index.sh build .      # 40 filer, ~300 ankere — ren stdlib, ingen LLM
+./digest_index.sh status .
+./digest_index.sh lookup . task_aquarack/OPPGAVE.md
 ```
 
-Pek `OLLAMA_URL` mot riktig port hvis du ikke bruker standarden `11434`.
+Den deterministiske ankertieren og oppslag på **tekstfiler** krever verken
+Ollama eller PDF-verktøy. Det er en fin røyktest på at klonen er intakt.
+
+### Steg 2 — PDF-uttrekker (kreves for `task_aquarack*`)
+
+```bash
+brew install poppler            # gir `pdftotext` — anbefalt, se hvorfor under
+# eller:
+python3 -m pip install pypdf
+```
+
+**Velg `poppler` hvis du kan.** Skjellskriptene kaller hardkodet `python3` fra
+PATH, og `pypdf`-veien er avhengig av at modulen er importerbar i *nøyaktig den*
+tolkningen. Har du installert `pypdf` i et venv eller med en annen `python3` enn
+den skriptene bruker, får du den stille feilen under uten at noe ser galt ut.
+`pdftotext` er en binær på PATH og er derfor tolkningsuavhengig.
+
+> ⚠️ **Uten en av disse blir PDF-er indeksert med 0 ankere, og `build` sier
+> fortsatt at alt gikk bra.** For `task_aquarack_v3` er databladet hele poenget
+> med oppgaven, så en tom PDF-indeks gjør evalueringen meningsløs.
+
+**Slik oppdager du det — ankerantallet er selvsjekken din.** Bygget oppgir
+antall ankere, og PDF-uttrekkeren utgjør forskjellen:
+
+| | Ankere totalt | Databladet |
+|---|---|---|
+| Uten uttrekker | **299** | `pages=0 anchors=0` |
+| Med uttrekker | **517** | `pages=40 anchors=208` |
+
+```bash
+./digest_index.sh build .                       # se på ankerantallet her
+./digest_index.sh lookup . task_aquarack_v3/docs/pumpdriver-manual.pdf
+#   pages=0   -> uttrekkeren mangler
+#   pages=40  -> OK
+```
+
+Får du 299 i stedet for 517, virker alt annet — men PDF-delen av indeksen er tom.
+Verifiser uttrekkeren direkte før du bygger:
+
+```bash
+python3 .pilot/pdf_pages.py task_aquarack_v3/docs/pumpdriver-manual.pdf | head
+# skriver en tydelig installasjonshint til stderr hvis noe mangler
+```
+
+Når uttrekkeren virker, gir sideindeksen deg presis navigasjon — f.eks. peker
+oppslaget over på side 6, som er der `0,1 ml`-enheten står:
+
+```bash
+./digest_index.sh slice task_aquarack_v3/docs/pumpdriver-manual.pdf --pages 6-6
+```
+
+### Steg 3 — Ollama og modellen (kreves for `digest.sh`)
+
+`.pilot/models/` (~14 GB blobs) og `.pilot/ollama/` (serverbinæret) er utelatt i
+`.gitignore`, så **modellene må hentes selv**. Standardmodellen er
+`qwen3.5:4b-mlx` — den ligger i Ollamas offentlige bibliotek, så vanlig `pull`
+holder:
+
+```bash
+ollama serve                    # hvis den ikke allerede kjører
+ollama pull qwen3.5:4b-mlx
+
+# Sjekk at serveren svarer og at modellen er der:
+curl -s http://127.0.0.1:11434/api/tags
+```
+
+Bruker du en annen modell, sett `DIGEST_MODEL`. Pek `OLLAMA_URL` mot riktig port
+hvis du ikke bruker standarden `11434`.
+
+> **Feilsøking:** `digest: failed to reach http://127.0.0.1:11434: HTTP Error
+> 404` betyr nesten alltid at **modellen ikke er trukket**, ikke at serveren er
+> nede. Sjekk `curl .../api/tags` — er `models` en tom liste, kjør `ollama pull`.
+
+Har du en bundlet server i prosjektmappa i stedet:
+
+```bash
+OLLAMA_MODELS="$PWD/.pilot/models" .pilot/ollama/ollama serve
+```
 
 ---
 
@@ -103,9 +180,15 @@ dmesg | ./digest.sh -
 ./digest_index.sh build . --summarize
 
 # 5) Slå opp én fil (FRESH / STALE / MISS) og les kun det relevante utsnittet
-./digest_index.sh lookup task_aquarack_v3 docs/pumpdriver-manual.pdf
-./digest_index.sh slice task_aquarack_v3/docs/pumpdriver-manual.pdf --pages 12-14
+./digest_index.sh lookup . task_aquarack_v3/docs/pumpdriver-manual.pdf
+./digest_index.sh slice task_aquarack_v3/docs/pumpdriver-manual.pdf --pages 10-14
 ```
+
+> **Merk syntaksen på `lookup`:** det første argumentet er `ROOT` (indeksens rot,
+> typisk `.`), det andre er stien til filen. Stien løses mot **arbeidskatalogen**,
+> ikke mot `ROOT`, og må ligge *under* `ROOT`. Skriver du
+> `lookup task_aquarack_v3 docs/manual.pdf` tolkes `task_aquarack_v3` som rot og
+> du får `is outside root`. Bruk `slice` for enkeltfiler — den tar bare en sti.
 
 Indeksen havner i `.dsh/digest/` og er gitignorert — den er lokal cache, ikke
 kildekode.
