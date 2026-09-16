@@ -1,0 +1,32 @@
+# ---- Generert indeks (bygges lokalt, aldri committet) ----
+.dsh/
+.pilot/tmp/
+.pilot/serve.log
+
+# ---- Lokale modeller og binærer (for store for git) ----
+# Ollama-blobs (~14 GB) og serverbinæret lastes ned lokalt, se README.
+.pilot/models/
+.pilot/ollama/
+
+# ---- Tredjepartskode og cacher ----
+.pilot/vendor/
+__pycache__/
+*.py[cod]
+
+# ---- Hemmeligheter og privat tilstand ----
+# Inneholder bl.a. .ollama/id_ed25519 (privat nøkkel) – skal aldri ut.
+.pilot/home/
+.pilot/**/*.ready
+
+# ---- Private arbeidsdata ----
+session.jsonl
+token_spend_by_category.csv
+token_spend_by_session.csv
+
+# ---- macOS ----
+.DS_Store
+._*
+
+# ---- Opphavsrettslig materiale (tredjepart, ikke vår lisens å gi) ----
+Heintzmann*.pdf
+test/*.pdf

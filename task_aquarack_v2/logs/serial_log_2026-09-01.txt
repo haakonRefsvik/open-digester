@@ -1,0 +1,205 @@
+[2026-09-01 08:00:01] [boot] AquaRack oppe
+[2026-09-01 08:00:01] [wifi] kobler til rack-wifi-2g ...
+[2026-09-01 08:001:02] [sensor] EC-pH poll ok, sample=1, ec=1.1, ph=6.1
+[2026-09-01 08:002:02] [sensor] EC-pH poll ok, sample=2, ec=1.2, ph=6.2
+[2026-09-01 08:003:02] [sensor] EC-pH poll ok, sample=3, ec=1.3, ph=6.3
+[2026-09-01 08:004:02] [sensor] EC-pH poll ok, sample=4, ec=1.4, ph=6.4
+[2026-09-01 08:005:02] [sensor] EC-pH poll ok, sample=5, ec=1.5, ph=6.5
+[2026-09-01 08:006:02] [sensor] EC-pH poll ok, sample=6, ec=1.6, ph=6.6
+[2026-09-01 08:007:02] [sensor] EC-pH poll ok, sample=7, ec=1.7, ph=6.0
+[2026-09-01 08:008:02] [sensor] EC-pH poll ok, sample=8, ec=1.8, ph=6.1
+[2026-09-01 08:009:02] [sensor] EC-pH poll ok, sample=9, ec=1.0, ph=6.2
+[2026-09-01 08:010:02] [sensor] EC-pH poll ok, sample=10, ec=1.1, ph=6.3
+[2026-09-01 08:011:02] [sensor] EC-pH poll ok, sample=11, ec=1.2, ph=6.4
+[2026-09-01 08:012:02] [sensor] EC-pH poll ok, sample=12, ec=1.3, ph=6.5
+[2026-09-01 08:013:02] [sensor] EC-pH poll ok, sample=13, ec=1.4, ph=6.6
+[2026-09-01 08:014:02] [sensor] EC-pH poll ok, sample=14, ec=1.5, ph=6.0
+[2026-09-01 08:015:02] [sensor] EC-pH poll ok, sample=15, ec=1.6, ph=6.1
+[2026-09-01 08:016:02] [sensor] EC-pH poll ok, sample=16, ec=1.7, ph=6.2
+[2026-09-01 08:017:02] [sensor] EC-pH poll ok, sample=17, ec=1.8, ph=6.3
+[2026-09-01 08:018:02] [sensor] EC-pH poll ok, sample=18, ec=1.0, ph=6.4
+[2026-09-01 08:019:02] [sensor] EC-pH poll ok, sample=19, ec=1.1, ph=6.5
+[2026-09-01 08:020:02] [sensor] EC-pH poll ok, sample=20, ec=1.2, ph=6.6
+[2026-09-01 08:021:02] [sensor] EC-pH poll ok, sample=21, ec=1.3, ph=6.0
+[2026-09-01 08:022:02] [sensor] EC-pH poll ok, sample=22, ec=1.4, ph=6.1
+[2026-09-01 08:023:02] [sensor] EC-pH poll ok, sample=23, ec=1.5, ph=6.2
+[2026-09-01 08:024:02] [sensor] EC-pH poll ok, sample=24, ec=1.6, ph=6.3
+[2026-09-01 08:025:02] [sensor] EC-pH poll ok, sample=25, ec=1.7, ph=6.4
+[2026-09-01 08:026:02] [sensor] EC-pH poll ok, sample=26, ec=1.8, ph=6.5
+[2026-09-01 08:027:02] [sensor] EC-pH poll ok, sample=27, ec=1.0, ph=6.6
+[2026-09-01 08:028:02] [sensor] EC-pH poll ok, sample=28, ec=1.1, ph=6.0
+[2026-09-01 08:029:02] [sensor] EC-pH poll ok, sample=29, ec=1.2, ph=6.1
+[2026-09-01 08:030:02] [sensor] EC-pH poll ok, sample=30, ec=1.3, ph=6.2
+[2026-09-01 08:031:02] [sensor] EC-pH poll ok, sample=31, ec=1.4, ph=6.3
+[2026-09-01 08:032:02] [sensor] EC-pH poll ok, sample=32, ec=1.5, ph=6.4
+[2026-09-01 08:033:02] [sensor] EC-pH poll ok, sample=33, ec=1.6, ph=6.5
+[2026-09-01 08:034:02] [sensor] EC-pH poll ok, sample=34, ec=1.7, ph=6.6
+[2026-09-01 08:035:02] [sensor] EC-pH poll ok, sample=35, ec=1.8, ph=6.0
+[2026-09-01 08:036:02] [sensor] EC-pH poll ok, sample=36, ec=1.0, ph=6.1
+[2026-09-01 08:037:02] [sensor] EC-pH poll ok, sample=37, ec=1.1, ph=6.2
+[2026-09-01 08:038:02] [sensor] EC-pH poll ok, sample=38, ec=1.2, ph=6.3
+[2026-09-01 08:039:02] [sensor] EC-pH poll ok, sample=39, ec=1.3, ph=6.4
+[2026-09-01 08:00:45] [wifi] tilkoblet, RSSI -68 dBm
+[2026-09-01 08:01:00] [dash] rapport sendt, HTTP/1.1 200 OK
+[2026-09-01 09:00:00] [dose] syklus start
+[2026-09-01 09:00:00] [dose] pumpe 0: 12.5 ml -> register 12
+[2026-09-01 09:00:00] [dose] pumpe 1: 12.5 ml -> register 12
+[2026-09-01 09:00:00] [dose] pumpe 2: 7.0 ml -> register 7
+[2026-09-01 09:00:00] [dose] pumpe 3: 7.0 ml -> register 7
+[2026-09-01 09:00:01] [dose] syklus ferdig
+[2026-09-01 09:001:01] [sensor] EC-pH poll ok, sample=41
+[2026-09-01 09:002:02] [sensor] EC-pH poll ok, sample=42
+[2026-09-01 09:003:03] [sensor] EC-pH poll ok, sample=43
+[2026-09-01 09:004:04] [sensor] EC-pH poll ok, sample=44
+[2026-09-01 09:005:05] [sensor] EC-pH poll ok, sample=45
+[2026-09-01 09:006:06] [sensor] EC-pH poll ok, sample=46
+[2026-09-01 09:007:00] [sensor] EC-pH poll ok, sample=47
+[2026-09-01 09:008:01] [sensor] EC-pH poll ok, sample=48
+[2026-09-01 09:009:02] [sensor] EC-pH poll ok, sample=49
+[2026-09-01 09:010:03] [sensor] EC-pH poll ok, sample=50
+[2026-09-01 09:011:04] [sensor] EC-pH poll ok, sample=51
+[2026-09-01 09:012:05] [sensor] EC-pH poll ok, sample=52
+[2026-09-01 09:013:06] [sensor] EC-pH poll ok, sample=53
+[2026-09-01 09:014:00] [sensor] EC-pH poll ok, sample=54
+[2026-09-01 09:015:01] [sensor] EC-pH poll ok, sample=55
+[2026-09-01 09:016:02] [sensor] EC-pH poll ok, sample=56
+[2026-09-01 09:017:03] [sensor] EC-pH poll ok, sample=57
+[2026-09-01 09:018:04] [sensor] EC-pH poll ok, sample=58
+[2026-09-01 09:019:05] [sensor] EC-pH poll ok, sample=59
+[2026-09-01 09:020:06] [sensor] EC-pH poll ok, sample=60
+[2026-09-01 09:021:00] [sensor] EC-pH poll ok, sample=61
+[2026-09-01 09:022:01] [sensor] EC-pH poll ok, sample=62
+[2026-09-01 09:023:02] [sensor] EC-pH poll ok, sample=63
+[2026-09-01 09:024:03] [sensor] EC-pH poll ok, sample=64
+[2026-09-01 09:025:04] [sensor] EC-pH poll ok, sample=65
+[2026-09-01 09:026:05] [sensor] EC-pH poll ok, sample=66
+[2026-09-01 09:027:06] [sensor] EC-pH poll ok, sample=67
+[2026-09-01 09:028:00] [sensor] EC-pH poll ok, sample=68
+[2026-09-01 09:029:01] [sensor] EC-pH poll ok, sample=69
+[2026-09-01 09:59:59] [dash] rapport sendt, HTTP/1.1 200 OK
+[2026-09-01 10:00:01] [heartbeat] oppe, heap=210001
+[2026-09-01 10:00:02] [heartbeat] oppe, heap=210002
+[2026-09-01 10:00:03] [heartbeat] oppe, heap=210003
+[2026-09-01 10:00:04] [heartbeat] oppe, heap=210004
+[2026-09-01 10:00:05] [heartbeat] oppe, heap=210005
+[2026-09-01 10:00:06] [heartbeat] oppe, heap=210006
+[2026-09-01 10:00:07] [heartbeat] oppe, heap=210007
+[2026-09-01 10:00:08] [heartbeat] oppe, heap=210008
+[2026-09-01 10:00:09] [heartbeat] oppe, heap=210009
+[2026-09-01 10:00:10] [heartbeat] oppe, heap=210010
+[2026-09-01 10:00:11] [heartbeat] oppe, heap=210011
+[2026-09-01 10:00:12] [heartbeat] oppe, heap=210012
+[2026-09-01 10:00:13] [heartbeat] oppe, heap=210013
+[2026-09-01 10:00:14] [heartbeat] oppe, heap=210014
+[2026-09-01 10:00:15] [heartbeat] oppe, heap=210015
+[2026-09-01 10:00:16] [heartbeat] oppe, heap=210016
+[2026-09-01 10:00:17] [heartbeat] oppe, heap=210017
+[2026-09-01 10:00:18] [heartbeat] oppe, heap=210018
+[2026-09-01 10:00:19] [heartbeat] oppe, heap=210019
+[2026-09-01 10:00:20] [heartbeat] oppe, heap=210020
+[2026-09-01 10:00:21] [heartbeat] oppe, heap=210021
+[2026-09-01 10:00:22] [heartbeat] oppe, heap=210022
+[2026-09-01 10:00:23] [heartbeat] oppe, heap=210023
+[2026-09-01 10:00:24] [heartbeat] oppe, heap=210024
+[2026-09-01 10:00:25] [heartbeat] oppe, heap=210025
+[2026-09-01 10:00:26] [heartbeat] oppe, heap=210026
+[2026-09-01 10:00:27] [heartbeat] oppe, heap=210027
+[2026-09-01 10:00:28] [heartbeat] oppe, heap=210028
+[2026-09-01 10:00:29] [heartbeat] oppe, heap=210029
+[2026-09-01 10:00:30] [heartbeat] oppe, heap=210030
+[2026-09-01 10:00:31] [heartbeat] oppe, heap=210031
+[2026-09-01 10:00:32] [heartbeat] oppe, heap=210032
+[2026-09-01 10:00:33] [heartbeat] oppe, heap=210033
+[2026-09-01 10:00:34] [heartbeat] oppe, heap=210034
+[2026-09-01 10:00:35] [heartbeat] oppe, heap=210035
+[2026-09-01 10:00:36] [heartbeat] oppe, heap=210036
+[2026-09-01 10:00:37] [heartbeat] oppe, heap=210037
+[2026-09-01 10:00:38] [heartbeat] oppe, heap=210038
+[2026-09-01 10:00:39] [heartbeat] oppe, heap=210039
+[2026-09-01 10:00:40] [heartbeat] oppe, heap=210040
+[2026-09-01 10:00:41] [heartbeat] oppe, heap=210041
+[2026-09-01 10:00:42] [heartbeat] oppe, heap=210042
+[2026-09-01 10:00:43] [heartbeat] oppe, heap=210043
+[2026-09-01 10:00:44] [heartbeat] oppe, heap=210044
+[2026-09-01 10:00:45] [heartbeat] oppe, heap=210045
+[2026-09-01 10:00:46] [heartbeat] oppe, heap=210046
+[2026-09-01 10:00:47] [heartbeat] oppe, heap=210047
+[2026-09-01 10:00:48] [heartbeat] oppe, heap=210048
+[2026-09-01 10:00:49] [heartbeat] oppe, heap=210049
+[2026-09-01 10:00:50] [heartbeat] oppe, heap=210050
+[2026-09-01 10:00:51] [heartbeat] oppe, heap=210051
+[2026-09-01 10:00:52] [heartbeat] oppe, heap=210052
+[2026-09-01 10:00:53] [heartbeat] oppe, heap=210053
+[2026-09-01 10:00:54] [heartbeat] oppe, heap=210054
+[2026-09-01 10:00:55] [heartbeat] oppe, heap=210055
+[2026-09-01 10:00:56] [heartbeat] oppe, heap=210056
+[2026-09-01 10:00:57] [heartbeat] oppe, heap=210057
+[2026-09-01 10:00:58] [heartbeat] oppe, heap=210058
+[2026-09-01 10:00:59] [heartbeat] oppe, heap=210059
+[2026-09-01 10:01:00] [heartbeat] oppe, heap=210060
+[2026-09-01 10:01:01] [heartbeat] oppe, heap=210061
+[2026-09-01 10:01:02] [heartbeat] oppe, heap=210062
+[2026-09-01 10:01:03] [heartbeat] oppe, heap=210063
+[2026-09-01 10:01:04] [heartbeat] oppe, heap=210064
+[2026-09-01 10:01:05] [heartbeat] oppe, heap=210065
+[2026-09-01 10:01:06] [heartbeat] oppe, heap=210066
+[2026-09-01 10:01:07] [heartbeat] oppe, heap=210067
+[2026-09-01 10:01:08] [heartbeat] oppe, heap=210068
+[2026-09-01 10:01:09] [heartbeat] oppe, heap=210069
+[2026-09-01 10:01:10] [heartbeat] oppe, heap=210070
+[2026-09-01 10:01:11] [heartbeat] oppe, heap=210071
+[2026-09-01 10:01:12] [heartbeat] oppe, heap=210072
+[2026-09-01 10:01:13] [heartbeat] oppe, heap=210073
+[2026-09-01 10:01:14] [heartbeat] oppe, heap=210074
+[2026-09-01 10:01:15] [heartbeat] oppe, heap=210075
+[2026-09-01 10:01:16] [heartbeat] oppe, heap=210076
+[2026-09-01 10:01:17] [heartbeat] oppe, heap=210077
+[2026-09-01 10:01:18] [heartbeat] oppe, heap=210078
+[2026-09-01 10:01:19] [heartbeat] oppe, heap=210079
+[2026-09-01 10:01:20] [heartbeat] oppe, heap=210080
+[2026-09-01 10:01:21] [heartbeat] oppe, heap=210081
+[2026-09-01 10:01:22] [heartbeat] oppe, heap=210082
+[2026-09-01 10:01:23] [heartbeat] oppe, heap=210083
+[2026-09-01 10:01:24] [heartbeat] oppe, heap=210084
+[2026-09-01 10:01:25] [heartbeat] oppe, heap=210085
+[2026-09-01 10:01:26] [heartbeat] oppe, heap=210086
+[2026-09-01 10:01:27] [heartbeat] oppe, heap=210087
+[2026-09-01 10:01:28] [heartbeat] oppe, heap=210088
+[2026-09-01 10:01:29] [heartbeat] oppe, heap=210089
+[2026-09-01 10:01:30] [heartbeat] oppe, heap=210090
+[2026-09-01 10:01:31] [heartbeat] oppe, heap=210091
+[2026-09-01 10:01:32] [heartbeat] oppe, heap=210092
+[2026-09-01 10:01:33] [heartbeat] oppe, heap=210093
+[2026-09-01 10:01:34] [heartbeat] oppe, heap=210094
+[2026-09-01 10:01:35] [heartbeat] oppe, heap=210095
+[2026-09-01 10:01:36] [heartbeat] oppe, heap=210096
+[2026-09-01 10:01:37] [heartbeat] oppe, heap=210097
+[2026-09-01 10:01:38] [heartbeat] oppe, heap=210098
+[2026-09-01 10:01:39] [heartbeat] oppe, heap=210099
+[2026-09-01 10:01:40] [heartbeat] oppe, heap=210100
+[2026-09-01 10:01:41] [heartbeat] oppe, heap=210101
+[2026-09-01 10:01:42] [heartbeat] oppe, heap=210102
+[2026-09-01 10:01:43] [heartbeat] oppe, heap=210103
+[2026-09-01 10:01:44] [heartbeat] oppe, heap=210104
+[2026-09-01 10:01:45] [heartbeat] oppe, heap=210105
+[2026-09-01 10:01:46] [heartbeat] oppe, heap=210106
+[2026-09-01 10:01:47] [heartbeat] oppe, heap=210107
+[2026-09-01 10:01:48] [heartbeat] oppe, heap=210108
+[2026-09-01 10:01:49] [heartbeat] oppe, heap=210109
+[2026-09-01 10:01:50] [heartbeat] oppe, heap=210110
+[2026-09-01 10:01:51] [heartbeat] oppe, heap=210111
+[2026-09-01 10:01:52] [heartbeat] oppe, heap=210112
+[2026-09-01 10:01:53] [heartbeat] oppe, heap=210113
+[2026-09-01 10:01:54] [heartbeat] oppe, heap=210114
+[2026-09-01 10:01:55] [heartbeat] oppe, heap=210115
+[2026-09-01 10:01:56] [heartbeat] oppe, heap=210116
+[2026-09-01 10:01:57] [heartbeat] oppe, heap=210117
+[2026-09-01 10:01:58] [heartbeat] oppe, heap=210118
+[2026-09-01 10:01:59] [heartbeat] oppe, heap=210119
+[2026-09-01 10:59:59] [dash] rapport sendt, HTTP/1.1 200 OK
+[2026-09-01 11:00:00] [dose] syklus start
+[2026-09-01 11:00:00] [dose] pumpe 0: 12.5 ml -> register 12
+[2026-09-01 11:00:00] [dose] pumpe 1: 12.5 ml -> register 12
+[2026-09-01 11:00:00] [dose] pumpe 2: 7.0 ml -> register 7
+[2026-09-01 11:00:00] [dose] pumpe 3: 7.0 ml -> register 7
+[2026-09-01 11:00:01] [dose] syklus ferdig

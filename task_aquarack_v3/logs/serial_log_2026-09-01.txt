@@ -1,0 +1,2247 @@
+[2026-09-01 08:00:00] [boot] AquaRack oppe (PM-4 driver, rev D)
+[2026-09-01 08:00:00] [wifi] kobler til rack-wifi-2g ...
+[2026-09-01 08:00:45] [wifi] tilkoblet, RSSI -68 dBm
+[2026-09-01 08:00:00] [heartbeat] oppe, heap=200001
+[2026-09-01 08:00:20] [heartbeat] oppe, heap=200002
+[2026-09-01 08:00:40] [heartbeat] oppe, heap=200003
+[2026-09-01 08:01:00] [heartbeat] oppe, heap=200004
+[2026-09-01 08:01:20] [sensor] EC-pH poll ok, sample=5, ec=1.5, ph=6.2
+[2026-09-01 08:01:40] [heartbeat] oppe, heap=200006
+[2026-09-01 08:02:00] [heartbeat] oppe, heap=200007
+[2026-09-01 08:02:20] [heartbeat] oppe, heap=200008
+[2026-09-01 08:02:40] [heartbeat] oppe, heap=200009
+[2026-09-01 08:03:00] [sensor] EC-pH poll ok, sample=10, ec=1.6, ph=6.0
+[2026-09-01 08:03:20] [heartbeat] oppe, heap=200011
+[2026-09-01 08:03:40] [heartbeat] oppe, heap=200012
+[2026-09-01 08:04:00] [heartbeat] oppe, heap=200013
+[2026-09-01 08:04:20] [heartbeat] oppe, heap=200014
+[2026-09-01 08:04:40] [sensor] EC-pH poll ok, sample=15, ec=1.1, ph=6.8
+[2026-09-01 08:05:00] [heartbeat] oppe, heap=200016
+[2026-09-01 08:05:20] [heartbeat] oppe, heap=200017
+[2026-09-01 08:05:40] [heartbeat] oppe, heap=200018
+[2026-09-01 08:06:00] [heartbeat] oppe, heap=200019
+[2026-09-01 08:06:20] [sensor] EC-pH poll ok, sample=20, ec=1.1, ph=6.5
+[2026-09-01 08:06:40] [heartbeat] oppe, heap=200021
+[2026-09-01 08:07:00] [heartbeat] oppe, heap=200022
+[2026-09-01 08:07:20] [heartbeat] oppe, heap=200023
+[2026-09-01 08:07:40] [heartbeat] oppe, heap=200024
+[2026-09-01 08:08:00] [sensor] EC-pH poll ok, sample=25, ec=1.0, ph=6.8
+[2026-09-01 08:08:20] [heartbeat] oppe, heap=200026
+[2026-09-01 08:08:40] [heartbeat] oppe, heap=200027
+[2026-09-01 08:09:00] [heartbeat] oppe, heap=200028
+[2026-09-01 08:09:20] [heartbeat] oppe, heap=200029
+[2026-09-01 08:09:40] [sensor] EC-pH poll ok, sample=30, ec=1.3, ph=6.0
+[2026-09-01 08:10:00] [heartbeat] oppe, heap=200031
+[2026-09-01 08:10:20] [heartbeat] oppe, heap=200032
+[2026-09-01 08:10:40] [heartbeat] oppe, heap=200033
+[2026-09-01 08:11:00] [heartbeat] oppe, heap=200034
+[2026-09-01 08:11:20] [sensor] EC-pH poll ok, sample=35, ec=1.1, ph=6.6
+[2026-09-01 08:11:40] [heartbeat] oppe, heap=200036
+[2026-09-01 08:12:00] [heartbeat] oppe, heap=200037
+[2026-09-01 08:12:20] [heartbeat] oppe, heap=200038
+[2026-09-01 08:12:40] [heartbeat] oppe, heap=200039
+[2026-09-01 08:13:00] [sensor] EC-pH poll ok, sample=40, ec=1.6, ph=6.1
+[2026-09-01 08:13:20] [heartbeat] oppe, heap=200041
+[2026-09-01 08:13:40] [heartbeat] oppe, heap=200042
+[2026-09-01 08:14:00] [heartbeat] oppe, heap=200043
+[2026-09-01 08:14:20] [heartbeat] oppe, heap=200044
+[2026-09-01 08:14:40] [sensor] EC-pH poll ok, sample=45, ec=1.3, ph=6.1
+[2026-09-01 08:15:00] [heartbeat] oppe, heap=200046
+[2026-09-01 08:15:20] [heartbeat] oppe, heap=200047
+[2026-09-01 08:15:40] [heartbeat] oppe, heap=200048
+[2026-09-01 08:16:00] [heartbeat] oppe, heap=200049
+[2026-09-01 08:16:20] [sensor] EC-pH poll ok, sample=50, ec=1.8, ph=6.6
+[2026-09-01 08:16:40] [heartbeat] oppe, heap=200051
+[2026-09-01 08:17:00] [heartbeat] oppe, heap=200052
+[2026-09-01 08:17:20] [heartbeat] oppe, heap=200053
+[2026-09-01 08:17:40] [heartbeat] oppe, heap=200054
+[2026-09-01 08:18:00] [sensor] EC-pH poll ok, sample=55, ec=1.0, ph=6.1
+[2026-09-01 08:18:20] [heartbeat] oppe, heap=200056
+[2026-09-01 08:18:40] [heartbeat] oppe, heap=200057
+[2026-09-01 08:19:00] [heartbeat] oppe, heap=200058
+[2026-09-01 08:19:20] [heartbeat] oppe, heap=200059
+[2026-09-01 08:19:40] [sensor] EC-pH poll ok, sample=60, ec=1.3, ph=6.0
+[2026-09-01 08:20:00] [heartbeat] oppe, heap=200061
+[2026-09-01 08:20:20] [heartbeat] oppe, heap=200062
+[2026-09-01 08:20:40] [heartbeat] oppe, heap=200063
+[2026-09-01 08:21:00] [heartbeat] oppe, heap=200064
+[2026-09-01 08:21:20] [sensor] EC-pH poll ok, sample=65, ec=1.6, ph=6.0
+[2026-09-01 08:21:40] [heartbeat] oppe, heap=200066
+[2026-09-01 08:22:00] [heartbeat] oppe, heap=200067
+[2026-09-01 08:22:20] [heartbeat] oppe, heap=200068
+[2026-09-01 08:22:40] [heartbeat] oppe, heap=200069
+[2026-09-01 08:23:00] [sensor] EC-pH poll ok, sample=70, ec=1.3, ph=6.0
+[2026-09-01 08:23:20] [heartbeat] oppe, heap=200071
+[2026-09-01 08:23:40] [heartbeat] oppe, heap=200072
+[2026-09-01 08:24:00] [heartbeat] oppe, heap=200073
+[2026-09-01 08:24:20] [heartbeat] oppe, heap=200074
+[2026-09-01 08:24:40] [sensor] EC-pH poll ok, sample=75, ec=1.8, ph=6.2
+[2026-09-01 08:25:00] [heartbeat] oppe, heap=200076
+[2026-09-01 08:25:20] [heartbeat] oppe, heap=200077
+[2026-09-01 08:25:40] [heartbeat] oppe, heap=200078
+[2026-09-01 08:26:00] [heartbeat] oppe, heap=200079
+[2026-09-01 08:26:20] [sensor] EC-pH poll ok, sample=80, ec=1.4, ph=6.6
+[2026-09-01 08:26:40] [heartbeat] oppe, heap=200081
+[2026-09-01 08:27:00] [heartbeat] oppe, heap=200082
+[2026-09-01 08:27:20] [heartbeat] oppe, heap=200083
+[2026-09-01 08:27:40] [heartbeat] oppe, heap=200084
+[2026-09-01 08:28:00] [sensor] EC-pH poll ok, sample=85, ec=1.2, ph=6.8
+[2026-09-01 08:28:20] [heartbeat] oppe, heap=200086
+[2026-09-01 08:28:40] [heartbeat] oppe, heap=200087
+[2026-09-01 08:29:00] [heartbeat] oppe, heap=200088
+[2026-09-01 08:29:20] [heartbeat] oppe, heap=200089
+[2026-09-01 08:29:40] [sensor] EC-pH poll ok, sample=90, ec=1.1, ph=6.4
+[2026-09-01 08:30:00] [heartbeat] oppe, heap=200091
+[2026-09-01 08:30:20] [heartbeat] oppe, heap=200092
+[2026-09-01 08:30:40] [heartbeat] oppe, heap=200093
+[2026-09-01 08:31:00] [heartbeat] oppe, heap=200094
+[2026-09-01 08:31:20] [sensor] EC-pH poll ok, sample=95, ec=1.8, ph=6.2
+[2026-09-01 08:31:40] [heartbeat] oppe, heap=200096
+[2026-09-01 08:32:00] [heartbeat] oppe, heap=200097
+[2026-09-01 08:32:20] [heartbeat] oppe, heap=200098
+[2026-09-01 08:32:40] [heartbeat] oppe, heap=200099
+[2026-09-01 08:33:00] [sensor] EC-pH poll ok, sample=100, ec=1.1, ph=6.3
+[2026-09-01 08:33:20] [heartbeat] oppe, heap=200101
+[2026-09-01 08:33:40] [heartbeat] oppe, heap=200102
+[2026-09-01 08:34:00] [heartbeat] oppe, heap=200103
+[2026-09-01 08:34:20] [heartbeat] oppe, heap=200104
+[2026-09-01 08:34:40] [sensor] EC-pH poll ok, sample=105, ec=1.5, ph=6.1
+[2026-09-01 08:35:00] [heartbeat] oppe, heap=200106
+[2026-09-01 08:35:20] [heartbeat] oppe, heap=200107
+[2026-09-01 08:35:40] [heartbeat] oppe, heap=200108
+[2026-09-01 08:36:00] [heartbeat] oppe, heap=200109
+[2026-09-01 08:36:20] [sensor] EC-pH poll ok, sample=110, ec=1.8, ph=6.1
+[2026-09-01 08:36:40] [heartbeat] oppe, heap=200111
+[2026-09-01 08:37:00] [heartbeat] oppe, heap=200112
+[2026-09-01 08:37:20] [heartbeat] oppe, heap=200113
+[2026-09-01 08:37:40] [heartbeat] oppe, heap=200114
+[2026-09-01 08:38:00] [sensor] EC-pH poll ok, sample=115, ec=1.0, ph=6.3
+[2026-09-01 08:38:20] [heartbeat] oppe, heap=200116
+[2026-09-01 08:38:40] [heartbeat] oppe, heap=200117
+[2026-09-01 08:39:00] [heartbeat] oppe, heap=200118
+[2026-09-01 08:39:20] [heartbeat] oppe, heap=200119
+[2026-09-01 08:39:40] [sensor] EC-pH poll ok, sample=120, ec=1.7, ph=6.8
+[2026-09-01 08:40:00] [heartbeat] oppe, heap=200121
+[2026-09-01 08:40:20] [heartbeat] oppe, heap=200122
+[2026-09-01 08:40:40] [heartbeat] oppe, heap=200123
+[2026-09-01 08:41:00] [heartbeat] oppe, heap=200124
+[2026-09-01 08:41:20] [sensor] EC-pH poll ok, sample=125, ec=1.6, ph=6.5
+[2026-09-01 08:41:40] [heartbeat] oppe, heap=200126
+[2026-09-01 08:42:00] [heartbeat] oppe, heap=200127
+[2026-09-01 08:42:20] [heartbeat] oppe, heap=200128
+[2026-09-01 08:42:40] [heartbeat] oppe, heap=200129
+[2026-09-01 08:43:00] [sensor] EC-pH poll ok, sample=130, ec=1.7, ph=6.7
+[2026-09-01 08:43:20] [heartbeat] oppe, heap=200131
+[2026-09-01 08:43:40] [heartbeat] oppe, heap=200132
+[2026-09-01 08:44:00] [heartbeat] oppe, heap=200133
+[2026-09-01 08:44:20] [heartbeat] oppe, heap=200134
+[2026-09-01 08:44:40] [sensor] EC-pH poll ok, sample=135, ec=1.5, ph=6.4
+[2026-09-01 08:45:00] [heartbeat] oppe, heap=200136
+[2026-09-01 08:45:20] [heartbeat] oppe, heap=200137
+[2026-09-01 08:45:40] [heartbeat] oppe, heap=200138
+[2026-09-01 08:46:00] [heartbeat] oppe, heap=200139
+[2026-09-01 08:46:20] [sensor] EC-pH poll ok, sample=140, ec=1.3, ph=6.2
+[2026-09-01 08:46:40] [heartbeat] oppe, heap=200141
+[2026-09-01 08:47:00] [heartbeat] oppe, heap=200142
+[2026-09-01 08:47:20] [heartbeat] oppe, heap=200143
+[2026-09-01 08:47:40] [heartbeat] oppe, heap=200144
+[2026-09-01 08:48:00] [sensor] EC-pH poll ok, sample=145, ec=1.3, ph=6.1
+[2026-09-01 08:48:20] [heartbeat] oppe, heap=200146
+[2026-09-01 08:48:40] [heartbeat] oppe, heap=200147
+[2026-09-01 08:49:00] [heartbeat] oppe, heap=200148
+[2026-09-01 08:49:20] [heartbeat] oppe, heap=200149
+[2026-09-01 08:49:40] [sensor] EC-pH poll ok, sample=150, ec=1.4, ph=6.8
+[2026-09-01 08:50:00] [heartbeat] oppe, heap=200151
+[2026-09-01 08:50:20] [heartbeat] oppe, heap=200152
+[2026-09-01 08:50:40] [heartbeat] oppe, heap=200153
+[2026-09-01 08:51:00] [heartbeat] oppe, heap=200154
+[2026-09-01 08:51:20] [sensor] EC-pH poll ok, sample=155, ec=1.7, ph=6.5
+[2026-09-01 08:51:40] [heartbeat] oppe, heap=200156
+[2026-09-01 08:52:00] [heartbeat] oppe, heap=200157
+[2026-09-01 08:52:20] [heartbeat] oppe, heap=200158
+[2026-09-01 08:52:40] [heartbeat] oppe, heap=200159
+[2026-09-01 08:53:00] [sensor] EC-pH poll ok, sample=160, ec=1.7, ph=6.4
+[2026-09-01 08:53:20] [heartbeat] oppe, heap=200161
+[2026-09-01 08:53:40] [heartbeat] oppe, heap=200162
+[2026-09-01 08:54:00] [heartbeat] oppe, heap=200163
+[2026-09-01 08:54:20] [heartbeat] oppe, heap=200164
+[2026-09-01 08:54:40] [sensor] EC-pH poll ok, sample=165, ec=1.1, ph=6.1
+[2026-09-01 08:55:00] [heartbeat] oppe, heap=200166
+[2026-09-01 08:55:20] [heartbeat] oppe, heap=200167
+[2026-09-01 08:55:40] [heartbeat] oppe, heap=200168
+[2026-09-01 08:56:00] [heartbeat] oppe, heap=200169
+[2026-09-01 08:56:20] [sensor] EC-pH poll ok, sample=170, ec=1.8, ph=6.6
+[2026-09-01 08:56:40] [heartbeat] oppe, heap=200171
+[2026-09-01 08:57:00] [heartbeat] oppe, heap=200172
+[2026-09-01 08:57:20] [heartbeat] oppe, heap=200173
+[2026-09-01 08:57:40] [heartbeat] oppe, heap=200174
+[2026-09-01 08:58:00] [sensor] EC-pH poll ok, sample=175, ec=1.2, ph=6.5
+[2026-09-01 08:58:20] [heartbeat] oppe, heap=200176
+[2026-09-01 08:58:40] [heartbeat] oppe, heap=200177
+[2026-09-01 08:59:00] [heartbeat] oppe, heap=200178
+[2026-09-01 08:59:20] [heartbeat] oppe, heap=200179
+[2026-09-01 08:59:40] [sensor] EC-pH poll ok, sample=180, ec=1.2, ph=6.7
+[2026-09-01 08:00:00] [dose] syklus start
+[2026-09-01 08:00:00] [dose] pumpe 0: 12.5 ml -> register 12
+[2026-09-01 08:00:00] [dose] pumpe 1: 12.5 ml -> register 12
+[2026-09-01 08:00:00] [dose] pumpe 2: 7.0 ml -> register 7
+[2026-09-01 08:00:00] [dose] pumpe 3: 7.0 ml -> register 7
+[2026-09-01 08:00:01] [dose] syklus ferdig
+[2026-09-01 08:59:59] [dash] rapport sendt, HTTP/1.1 200 OK
+[2026-09-01 09:00:00] [heartbeat] oppe, heap=200181
+[2026-09-01 09:00:20] [heartbeat] oppe, heap=200182
+[2026-09-01 09:00:40] [heartbeat] oppe, heap=200183
+[2026-09-01 09:01:00] [heartbeat] oppe, heap=200184
+[2026-09-01 09:01:20] [sensor] EC-pH poll ok, sample=185, ec=1.6, ph=6.0
+[2026-09-01 09:01:40] [heartbeat] oppe, heap=200186
+[2026-09-01 09:02:00] [heartbeat] oppe, heap=200187
+[2026-09-01 09:02:20] [heartbeat] oppe, heap=200188
+[2026-09-01 09:02:40] [heartbeat] oppe, heap=200189
+[2026-09-01 09:03:00] [sensor] EC-pH poll ok, sample=190, ec=1.1, ph=6.8
+[2026-09-01 09:03:20] [heartbeat] oppe, heap=200191
+[2026-09-01 09:03:40] [heartbeat] oppe, heap=200192
+[2026-09-01 09:04:00] [heartbeat] oppe, heap=200193
+[2026-09-01 09:04:20] [heartbeat] oppe, heap=200194
+[2026-09-01 09:04:40] [sensor] EC-pH poll ok, sample=195, ec=1.5, ph=6.5
+[2026-09-01 09:05:00] [heartbeat] oppe, heap=200196
+[2026-09-01 09:05:20] [heartbeat] oppe, heap=200197
+[2026-09-01 09:05:40] [heartbeat] oppe, heap=200198
+[2026-09-01 09:06:00] [heartbeat] oppe, heap=200199
+[2026-09-01 09:06:20] [sensor] EC-pH poll ok, sample=200, ec=1.5, ph=6.7
+[2026-09-01 09:06:40] [heartbeat] oppe, heap=200201
+[2026-09-01 09:07:00] [heartbeat] oppe, heap=200202
+[2026-09-01 09:07:20] [heartbeat] oppe, heap=200203
+[2026-09-01 09:07:40] [heartbeat] oppe, heap=200204
+[2026-09-01 09:08:00] [sensor] EC-pH poll ok, sample=205, ec=1.7, ph=6.1
+[2026-09-01 09:08:20] [heartbeat] oppe, heap=200206
+[2026-09-01 09:08:40] [heartbeat] oppe, heap=200207
+[2026-09-01 09:09:00] [heartbeat] oppe, heap=200208
+[2026-09-01 09:09:20] [heartbeat] oppe, heap=200209
+[2026-09-01 09:09:40] [sensor] EC-pH poll ok, sample=210, ec=1.1, ph=6.4
+[2026-09-01 09:10:00] [heartbeat] oppe, heap=200211
+[2026-09-01 09:10:20] [heartbeat] oppe, heap=200212
+[2026-09-01 09:10:40] [heartbeat] oppe, heap=200213
+[2026-09-01 09:11:00] [heartbeat] oppe, heap=200214
+[2026-09-01 09:11:20] [sensor] EC-pH poll ok, sample=215, ec=1.7, ph=6.1
+[2026-09-01 09:11:40] [heartbeat] oppe, heap=200216
+[2026-09-01 09:12:00] [heartbeat] oppe, heap=200217
+[2026-09-01 09:12:20] [heartbeat] oppe, heap=200218
+[2026-09-01 09:12:40] [heartbeat] oppe, heap=200219
+[2026-09-01 09:13:00] [sensor] EC-pH poll ok, sample=220, ec=1.0, ph=6.4
+[2026-09-01 09:13:20] [heartbeat] oppe, heap=200221
+[2026-09-01 09:13:40] [heartbeat] oppe, heap=200222
+[2026-09-01 09:14:00] [heartbeat] oppe, heap=200223
+[2026-09-01 09:14:20] [heartbeat] oppe, heap=200224
+[2026-09-01 09:14:40] [sensor] EC-pH poll ok, sample=225, ec=1.7, ph=6.4
+[2026-09-01 09:15:00] [heartbeat] oppe, heap=200226
+[2026-09-01 09:15:20] [heartbeat] oppe, heap=200227
+[2026-09-01 09:15:40] [heartbeat] oppe, heap=200228
+[2026-09-01 09:16:00] [heartbeat] oppe, heap=200229
+[2026-09-01 09:16:20] [sensor] EC-pH poll ok, sample=230, ec=1.6, ph=6.5
+[2026-09-01 09:16:40] [heartbeat] oppe, heap=200231
+[2026-09-01 09:17:00] [heartbeat] oppe, heap=200232
+[2026-09-01 09:17:20] [heartbeat] oppe, heap=200233
+[2026-09-01 09:17:40] [heartbeat] oppe, heap=200234
+[2026-09-01 09:18:00] [sensor] EC-pH poll ok, sample=235, ec=1.0, ph=6.7
+[2026-09-01 09:18:20] [heartbeat] oppe, heap=200236
+[2026-09-01 09:18:40] [heartbeat] oppe, heap=200237
+[2026-09-01 09:19:00] [heartbeat] oppe, heap=200238
+[2026-09-01 09:19:20] [heartbeat] oppe, heap=200239
+[2026-09-01 09:19:40] [sensor] EC-pH poll ok, sample=240, ec=1.5, ph=6.2
+[2026-09-01 09:20:00] [heartbeat] oppe, heap=200241
+[2026-09-01 09:20:20] [heartbeat] oppe, heap=200242
+[2026-09-01 09:20:40] [heartbeat] oppe, heap=200243
+[2026-09-01 09:21:00] [heartbeat] oppe, heap=200244
+[2026-09-01 09:21:20] [sensor] EC-pH poll ok, sample=245, ec=1.1, ph=6.7
+[2026-09-01 09:21:40] [heartbeat] oppe, heap=200246
+[2026-09-01 09:22:00] [heartbeat] oppe, heap=200247
+[2026-09-01 09:22:20] [heartbeat] oppe, heap=200248
+[2026-09-01 09:22:40] [heartbeat] oppe, heap=200249
+[2026-09-01 09:23:00] [sensor] EC-pH poll ok, sample=250, ec=1.0, ph=6.3
+[2026-09-01 09:23:20] [heartbeat] oppe, heap=200251
+[2026-09-01 09:23:40] [heartbeat] oppe, heap=200252
+[2026-09-01 09:24:00] [heartbeat] oppe, heap=200253
+[2026-09-01 09:24:20] [heartbeat] oppe, heap=200254
+[2026-09-01 09:24:40] [sensor] EC-pH poll ok, sample=255, ec=1.4, ph=6.2
+[2026-09-01 09:25:00] [heartbeat] oppe, heap=200256
+[2026-09-01 09:25:20] [heartbeat] oppe, heap=200257
+[2026-09-01 09:25:40] [heartbeat] oppe, heap=200258
+[2026-09-01 09:26:00] [heartbeat] oppe, heap=200259
+[2026-09-01 09:26:20] [sensor] EC-pH poll ok, sample=260, ec=1.3, ph=6.6
+[2026-09-01 09:26:40] [heartbeat] oppe, heap=200261
+[2026-09-01 09:27:00] [heartbeat] oppe, heap=200262
+[2026-09-01 09:27:20] [heartbeat] oppe, heap=200263
+[2026-09-01 09:27:40] [heartbeat] oppe, heap=200264
+[2026-09-01 09:28:00] [sensor] EC-pH poll ok, sample=265, ec=1.6, ph=6.7
+[2026-09-01 09:28:20] [heartbeat] oppe, heap=200266
+[2026-09-01 09:28:40] [heartbeat] oppe, heap=200267
+[2026-09-01 09:29:00] [heartbeat] oppe, heap=200268
+[2026-09-01 09:29:20] [heartbeat] oppe, heap=200269
+[2026-09-01 09:29:40] [sensor] EC-pH poll ok, sample=270, ec=1.1, ph=6.2
+[2026-09-01 09:30:00] [heartbeat] oppe, heap=200271
+[2026-09-01 09:30:20] [heartbeat] oppe, heap=200272
+[2026-09-01 09:30:40] [heartbeat] oppe, heap=200273
+[2026-09-01 09:31:00] [heartbeat] oppe, heap=200274
+[2026-09-01 09:31:20] [sensor] EC-pH poll ok, sample=275, ec=1.7, ph=6.6
+[2026-09-01 09:31:40] [heartbeat] oppe, heap=200276
+[2026-09-01 09:32:00] [heartbeat] oppe, heap=200277
+[2026-09-01 09:32:20] [heartbeat] oppe, heap=200278
+[2026-09-01 09:32:40] [heartbeat] oppe, heap=200279
+[2026-09-01 09:33:00] [sensor] EC-pH poll ok, sample=280, ec=1.8, ph=6.4
+[2026-09-01 09:33:20] [heartbeat] oppe, heap=200281
+[2026-09-01 09:33:40] [heartbeat] oppe, heap=200282
+[2026-09-01 09:34:00] [heartbeat] oppe, heap=200283
+[2026-09-01 09:34:20] [heartbeat] oppe, heap=200284
+[2026-09-01 09:34:40] [sensor] EC-pH poll ok, sample=285, ec=1.2, ph=6.6
+[2026-09-01 09:35:00] [heartbeat] oppe, heap=200286
+[2026-09-01 09:35:20] [heartbeat] oppe, heap=200287
+[2026-09-01 09:35:40] [heartbeat] oppe, heap=200288
+[2026-09-01 09:36:00] [heartbeat] oppe, heap=200289
+[2026-09-01 09:36:20] [sensor] EC-pH poll ok, sample=290, ec=1.8, ph=6.4
+[2026-09-01 09:36:40] [heartbeat] oppe, heap=200291
+[2026-09-01 09:37:00] [heartbeat] oppe, heap=200292
+[2026-09-01 09:37:20] [heartbeat] oppe, heap=200293
+[2026-09-01 09:37:40] [heartbeat] oppe, heap=200294
+[2026-09-01 09:38:00] [sensor] EC-pH poll ok, sample=295, ec=1.6, ph=6.5
+[2026-09-01 09:38:20] [heartbeat] oppe, heap=200296
+[2026-09-01 09:38:40] [heartbeat] oppe, heap=200297
+[2026-09-01 09:39:00] [heartbeat] oppe, heap=200298
+[2026-09-01 09:39:20] [heartbeat] oppe, heap=200299
+[2026-09-01 09:39:40] [sensor] EC-pH poll ok, sample=300, ec=1.6, ph=6.3
+[2026-09-01 09:40:00] [heartbeat] oppe, heap=200301
+[2026-09-01 09:40:20] [heartbeat] oppe, heap=200302
+[2026-09-01 09:40:40] [heartbeat] oppe, heap=200303
+[2026-09-01 09:41:00] [heartbeat] oppe, heap=200304
+[2026-09-01 09:41:20] [sensor] EC-pH poll ok, sample=305, ec=1.2, ph=6.1
+[2026-09-01 09:41:40] [heartbeat] oppe, heap=200306
+[2026-09-01 09:42:00] [heartbeat] oppe, heap=200307
+[2026-09-01 09:42:20] [heartbeat] oppe, heap=200308
+[2026-09-01 09:42:40] [heartbeat] oppe, heap=200309
+[2026-09-01 09:43:00] [sensor] EC-pH poll ok, sample=310, ec=1.2, ph=6.2
+[2026-09-01 09:43:20] [heartbeat] oppe, heap=200311
+[2026-09-01 09:43:40] [heartbeat] oppe, heap=200312
+[2026-09-01 09:44:00] [heartbeat] oppe, heap=200313
+[2026-09-01 09:44:20] [heartbeat] oppe, heap=200314
+[2026-09-01 09:44:40] [sensor] EC-pH poll ok, sample=315, ec=1.3, ph=6.3
+[2026-09-01 09:45:00] [heartbeat] oppe, heap=200316
+[2026-09-01 09:45:20] [heartbeat] oppe, heap=200317
+[2026-09-01 09:45:40] [heartbeat] oppe, heap=200318
+[2026-09-01 09:46:00] [heartbeat] oppe, heap=200319
+[2026-09-01 09:46:20] [sensor] EC-pH poll ok, sample=320, ec=1.0, ph=6.7
+[2026-09-01 09:46:40] [heartbeat] oppe, heap=200321
+[2026-09-01 09:47:00] [heartbeat] oppe, heap=200322
+[2026-09-01 09:47:20] [heartbeat] oppe, heap=200323
+[2026-09-01 09:47:40] [heartbeat] oppe, heap=200324
+[2026-09-01 09:48:00] [sensor] EC-pH poll ok, sample=325, ec=1.2, ph=6.4
+[2026-09-01 09:48:20] [heartbeat] oppe, heap=200326
+[2026-09-01 09:48:40] [heartbeat] oppe, heap=200327
+[2026-09-01 09:49:00] [heartbeat] oppe, heap=200328
+[2026-09-01 09:49:20] [heartbeat] oppe, heap=200329
+[2026-09-01 09:49:40] [sensor] EC-pH poll ok, sample=330, ec=1.4, ph=6.0
+[2026-09-01 09:50:00] [heartbeat] oppe, heap=200331
+[2026-09-01 09:50:20] [heartbeat] oppe, heap=200332
+[2026-09-01 09:50:40] [heartbeat] oppe, heap=200333
+[2026-09-01 09:51:00] [heartbeat] oppe, heap=200334
+[2026-09-01 09:51:20] [sensor] EC-pH poll ok, sample=335, ec=1.2, ph=6.6
+[2026-09-01 09:51:40] [heartbeat] oppe, heap=200336
+[2026-09-01 09:52:00] [heartbeat] oppe, heap=200337
+[2026-09-01 09:52:20] [heartbeat] oppe, heap=200338
+[2026-09-01 09:52:40] [heartbeat] oppe, heap=200339
+[2026-09-01 09:53:00] [sensor] EC-pH poll ok, sample=340, ec=1.8, ph=6.5
+[2026-09-01 09:53:20] [heartbeat] oppe, heap=200341
+[2026-09-01 09:53:40] [heartbeat] oppe, heap=200342
+[2026-09-01 09:54:00] [heartbeat] oppe, heap=200343
+[2026-09-01 09:54:20] [heartbeat] oppe, heap=200344
+[2026-09-01 09:54:40] [sensor] EC-pH poll ok, sample=345, ec=1.5, ph=6.2
+[2026-09-01 09:55:00] [heartbeat] oppe, heap=200346
+[2026-09-01 09:55:20] [heartbeat] oppe, heap=200347
+[2026-09-01 09:55:40] [heartbeat] oppe, heap=200348
+[2026-09-01 09:56:00] [heartbeat] oppe, heap=200349
+[2026-09-01 09:56:20] [sensor] EC-pH poll ok, sample=350, ec=1.8, ph=6.0
+[2026-09-01 09:56:40] [heartbeat] oppe, heap=200351
+[2026-09-01 09:57:00] [heartbeat] oppe, heap=200352
+[2026-09-01 09:57:20] [heartbeat] oppe, heap=200353
+[2026-09-01 09:57:40] [heartbeat] oppe, heap=200354
+[2026-09-01 09:58:00] [sensor] EC-pH poll ok, sample=355, ec=1.7, ph=6.8
+[2026-09-01 09:58:20] [heartbeat] oppe, heap=200356
+[2026-09-01 09:58:40] [heartbeat] oppe, heap=200357
+[2026-09-01 09:59:00] [heartbeat] oppe, heap=200358
+[2026-09-01 09:59:20] [heartbeat] oppe, heap=200359
+[2026-09-01 09:59:40] [sensor] EC-pH poll ok, sample=360, ec=1.6, ph=6.6
+[2026-09-01 09:00:00] [dose] syklus start
+[2026-09-01 09:00:00] [dose] pumpe 0: 12.5 ml -> register 12
+[2026-09-01 09:00:00] [dose] pumpe 1: 12.5 ml -> register 12
+[2026-09-01 09:00:00] [dose] pumpe 2: 7.0 ml -> register 7
+[2026-09-01 09:00:00] [dose] pumpe 3: 7.0 ml -> register 7
+[2026-09-01 09:00:01] [dose] syklus ferdig
+[2026-09-01 09:59:59] [dash] rapport sendt, HTTP/1.1 200 OK
+[2026-09-01 10:00:00] [heartbeat] oppe, heap=200361
+[2026-09-01 10:00:20] [heartbeat] oppe, heap=200362
+[2026-09-01 10:00:40] [heartbeat] oppe, heap=200363
+[2026-09-01 10:01:00] [heartbeat] oppe, heap=200364
+[2026-09-01 10:01:20] [sensor] EC-pH poll ok, sample=365, ec=1.6, ph=6.6
+[2026-09-01 10:01:40] [heartbeat] oppe, heap=200366
+[2026-09-01 10:02:00] [heartbeat] oppe, heap=200367
+[2026-09-01 10:02:20] [heartbeat] oppe, heap=200368
+[2026-09-01 10:02:40] [heartbeat] oppe, heap=200369
+[2026-09-01 10:03:00] [sensor] EC-pH poll ok, sample=370, ec=1.1, ph=6.7
+[2026-09-01 10:03:20] [heartbeat] oppe, heap=200371
+[2026-09-01 10:03:40] [heartbeat] oppe, heap=200372
+[2026-09-01 10:04:00] [heartbeat] oppe, heap=200373
+[2026-09-01 10:04:20] [heartbeat] oppe, heap=200374
+[2026-09-01 10:04:40] [sensor] EC-pH poll ok, sample=375, ec=1.6, ph=6.0
+[2026-09-01 10:05:00] [heartbeat] oppe, heap=200376
+[2026-09-01 10:05:20] [heartbeat] oppe, heap=200377
+[2026-09-01 10:05:40] [heartbeat] oppe, heap=200378
+[2026-09-01 10:06:00] [heartbeat] oppe, heap=200379
+[2026-09-01 10:06:20] [sensor] EC-pH poll ok, sample=380, ec=1.3, ph=6.1
+[2026-09-01 10:06:40] [heartbeat] oppe, heap=200381
+[2026-09-01 10:07:00] [heartbeat] oppe, heap=200382
+[2026-09-01 10:07:20] [heartbeat] oppe, heap=200383
+[2026-09-01 10:07:40] [heartbeat] oppe, heap=200384
+[2026-09-01 10:08:00] [sensor] EC-pH poll ok, sample=385, ec=1.3, ph=6.7
+[2026-09-01 10:08:20] [heartbeat] oppe, heap=200386
+[2026-09-01 10:08:40] [heartbeat] oppe, heap=200387
+[2026-09-01 10:09:00] [heartbeat] oppe, heap=200388
+[2026-09-01 10:09:20] [heartbeat] oppe, heap=200389
+[2026-09-01 10:09:40] [sensor] EC-pH poll ok, sample=390, ec=1.2, ph=6.1
+[2026-09-01 10:10:00] [heartbeat] oppe, heap=200391
+[2026-09-01 10:10:20] [heartbeat] oppe, heap=200392
+[2026-09-01 10:10:40] [heartbeat] oppe, heap=200393
+[2026-09-01 10:11:00] [heartbeat] oppe, heap=200394
+[2026-09-01 10:11:20] [sensor] EC-pH poll ok, sample=395, ec=1.5, ph=6.0
+[2026-09-01 10:11:40] [heartbeat] oppe, heap=200396
+[2026-09-01 10:12:00] [heartbeat] oppe, heap=200397
+[2026-09-01 10:12:20] [heartbeat] oppe, heap=200398
+[2026-09-01 10:12:40] [heartbeat] oppe, heap=200399
+[2026-09-01 10:13:00] [sensor] EC-pH poll ok, sample=400, ec=1.1, ph=6.0
+[2026-09-01 10:13:20] [heartbeat] oppe, heap=200401
+[2026-09-01 10:13:40] [heartbeat] oppe, heap=200402
+[2026-09-01 10:14:00] [heartbeat] oppe, heap=200403
+[2026-09-01 10:14:20] [heartbeat] oppe, heap=200404
+[2026-09-01 10:14:40] [sensor] EC-pH poll ok, sample=405, ec=1.2, ph=6.8
+[2026-09-01 10:15:00] [heartbeat] oppe, heap=200406
+[2026-09-01 10:15:20] [heartbeat] oppe, heap=200407
+[2026-09-01 10:15:40] [heartbeat] oppe, heap=200408
+[2026-09-01 10:16:00] [heartbeat] oppe, heap=200409
+[2026-09-01 10:16:20] [sensor] EC-pH poll ok, sample=410, ec=1.1, ph=6.5
+[2026-09-01 10:16:40] [heartbeat] oppe, heap=200411
+[2026-09-01 10:17:00] [heartbeat] oppe, heap=200412
+[2026-09-01 10:17:20] [heartbeat] oppe, heap=200413
+[2026-09-01 10:17:40] [heartbeat] oppe, heap=200414
+[2026-09-01 10:18:00] [sensor] EC-pH poll ok, sample=415, ec=1.0, ph=6.1
+[2026-09-01 10:18:20] [heartbeat] oppe, heap=200416
+[2026-09-01 10:18:40] [heartbeat] oppe, heap=200417
+[2026-09-01 10:19:00] [heartbeat] oppe, heap=200418
+[2026-09-01 10:19:20] [heartbeat] oppe, heap=200419
+[2026-09-01 10:19:40] [sensor] EC-pH poll ok, sample=420, ec=1.3, ph=6.6
+[2026-09-01 10:20:00] [heartbeat] oppe, heap=200421
+[2026-09-01 10:20:20] [heartbeat] oppe, heap=200422
+[2026-09-01 10:20:40] [heartbeat] oppe, heap=200423
+[2026-09-01 10:21:00] [heartbeat] oppe, heap=200424
+[2026-09-01 10:21:20] [sensor] EC-pH poll ok, sample=425, ec=1.2, ph=6.4
+[2026-09-01 10:21:40] [heartbeat] oppe, heap=200426
+[2026-09-01 10:22:00] [heartbeat] oppe, heap=200427
+[2026-09-01 10:22:20] [heartbeat] oppe, heap=200428
+[2026-09-01 10:22:40] [heartbeat] oppe, heap=200429
+[2026-09-01 10:23:00] [sensor] EC-pH poll ok, sample=430, ec=1.5, ph=6.5
+[2026-09-01 10:23:20] [heartbeat] oppe, heap=200431
+[2026-09-01 10:23:40] [heartbeat] oppe, heap=200432
+[2026-09-01 10:24:00] [heartbeat] oppe, heap=200433
+[2026-09-01 10:24:20] [heartbeat] oppe, heap=200434
+[2026-09-01 10:24:40] [sensor] EC-pH poll ok, sample=435, ec=1.7, ph=6.1
+[2026-09-01 10:25:00] [heartbeat] oppe, heap=200436
+[2026-09-01 10:25:20] [heartbeat] oppe, heap=200437
+[2026-09-01 10:25:40] [heartbeat] oppe, heap=200438
+[2026-09-01 10:26:00] [heartbeat] oppe, heap=200439
+[2026-09-01 10:26:20] [sensor] EC-pH poll ok, sample=440, ec=1.1, ph=6.7
+[2026-09-01 10:26:40] [heartbeat] oppe, heap=200441
+[2026-09-01 10:27:00] [heartbeat] oppe, heap=200442
+[2026-09-01 10:27:20] [heartbeat] oppe, heap=200443
+[2026-09-01 10:27:40] [heartbeat] oppe, heap=200444
+[2026-09-01 10:28:00] [sensor] EC-pH poll ok, sample=445, ec=1.7, ph=6.7
+[2026-09-01 10:28:20] [heartbeat] oppe, heap=200446
+[2026-09-01 10:28:40] [heartbeat] oppe, heap=200447
+[2026-09-01 10:29:00] [heartbeat] oppe, heap=200448
+[2026-09-01 10:29:20] [heartbeat] oppe, heap=200449
+[2026-09-01 10:29:40] [sensor] EC-pH poll ok, sample=450, ec=1.7, ph=6.4
+[2026-09-01 10:30:00] [heartbeat] oppe, heap=200451
+[2026-09-01 10:30:20] [heartbeat] oppe, heap=200452
+[2026-09-01 10:30:40] [heartbeat] oppe, heap=200453
+[2026-09-01 10:31:00] [heartbeat] oppe, heap=200454
+[2026-09-01 10:31:20] [sensor] EC-pH poll ok, sample=455, ec=1.1, ph=6.2
+[2026-09-01 10:31:40] [heartbeat] oppe, heap=200456
+[2026-09-01 10:32:00] [heartbeat] oppe, heap=200457
+[2026-09-01 10:32:20] [heartbeat] oppe, heap=200458
+[2026-09-01 10:32:40] [heartbeat] oppe, heap=200459
+[2026-09-01 10:33:00] [sensor] EC-pH poll ok, sample=460, ec=1.1, ph=6.5
+[2026-09-01 10:33:20] [heartbeat] oppe, heap=200461
+[2026-09-01 10:33:40] [heartbeat] oppe, heap=200462
+[2026-09-01 10:34:00] [heartbeat] oppe, heap=200463
+[2026-09-01 10:34:20] [heartbeat] oppe, heap=200464
+[2026-09-01 10:34:40] [sensor] EC-pH poll ok, sample=465, ec=1.4, ph=6.7
+[2026-09-01 10:35:00] [heartbeat] oppe, heap=200466
+[2026-09-01 10:35:20] [heartbeat] oppe, heap=200467
+[2026-09-01 10:35:40] [heartbeat] oppe, heap=200468
+[2026-09-01 10:36:00] [heartbeat] oppe, heap=200469
+[2026-09-01 10:36:20] [sensor] EC-pH poll ok, sample=470, ec=1.2, ph=6.8
+[2026-09-01 10:36:40] [heartbeat] oppe, heap=200471
+[2026-09-01 10:37:00] [heartbeat] oppe, heap=200472
+[2026-09-01 10:37:20] [heartbeat] oppe, heap=200473
+[2026-09-01 10:37:40] [heartbeat] oppe, heap=200474
+[2026-09-01 10:38:00] [sensor] EC-pH poll ok, sample=475, ec=1.0, ph=6.3
+[2026-09-01 10:38:20] [heartbeat] oppe, heap=200476
+[2026-09-01 10:38:40] [heartbeat] oppe, heap=200477
+[2026-09-01 10:39:00] [heartbeat] oppe, heap=200478
+[2026-09-01 10:39:20] [heartbeat] oppe, heap=200479
+[2026-09-01 10:39:40] [sensor] EC-pH poll ok, sample=480, ec=1.8, ph=6.5
+[2026-09-01 10:40:00] [heartbeat] oppe, heap=200481
+[2026-09-01 10:40:20] [heartbeat] oppe, heap=200482
+[2026-09-01 10:40:40] [heartbeat] oppe, heap=200483
+[2026-09-01 10:41:00] [heartbeat] oppe, heap=200484
+[2026-09-01 10:41:20] [sensor] EC-pH poll ok, sample=485, ec=1.2, ph=6.8
+[2026-09-01 10:41:40] [heartbeat] oppe, heap=200486
+[2026-09-01 10:42:00] [heartbeat] oppe, heap=200487
+[2026-09-01 10:42:20] [heartbeat] oppe, heap=200488
+[2026-09-01 10:42:40] [heartbeat] oppe, heap=200489
+[2026-09-01 10:43:00] [sensor] EC-pH poll ok, sample=490, ec=1.0, ph=6.8
+[2026-09-01 10:43:20] [heartbeat] oppe, heap=200491
+[2026-09-01 10:43:40] [heartbeat] oppe, heap=200492
+[2026-09-01 10:44:00] [heartbeat] oppe, heap=200493
+[2026-09-01 10:44:20] [heartbeat] oppe, heap=200494
+[2026-09-01 10:44:40] [sensor] EC-pH poll ok, sample=495, ec=1.4, ph=6.1
+[2026-09-01 10:45:00] [heartbeat] oppe, heap=200496
+[2026-09-01 10:45:20] [heartbeat] oppe, heap=200497
+[2026-09-01 10:45:40] [heartbeat] oppe, heap=200498
+[2026-09-01 10:46:00] [heartbeat] oppe, heap=200499
+[2026-09-01 10:46:20] [sensor] EC-pH poll ok, sample=500, ec=1.4, ph=6.8
+[2026-09-01 10:46:40] [heartbeat] oppe, heap=200501
+[2026-09-01 10:47:00] [heartbeat] oppe, heap=200502
+[2026-09-01 10:47:20] [heartbeat] oppe, heap=200503
+[2026-09-01 10:47:40] [heartbeat] oppe, heap=200504
+[2026-09-01 10:48:00] [sensor] EC-pH poll ok, sample=505, ec=1.5, ph=6.2
+[2026-09-01 10:48:20] [heartbeat] oppe, heap=200506
+[2026-09-01 10:48:40] [heartbeat] oppe, heap=200507
+[2026-09-01 10:49:00] [heartbeat] oppe, heap=200508
+[2026-09-01 10:49:20] [heartbeat] oppe, heap=200509
+[2026-09-01 10:49:40] [sensor] EC-pH poll ok, sample=510, ec=1.5, ph=6.3
+[2026-09-01 10:50:00] [heartbeat] oppe, heap=200511
+[2026-09-01 10:50:20] [heartbeat] oppe, heap=200512
+[2026-09-01 10:50:40] [heartbeat] oppe, heap=200513
+[2026-09-01 10:51:00] [heartbeat] oppe, heap=200514
+[2026-09-01 10:51:20] [sensor] EC-pH poll ok, sample=515, ec=1.8, ph=6.8
+[2026-09-01 10:51:40] [heartbeat] oppe, heap=200516
+[2026-09-01 10:52:00] [heartbeat] oppe, heap=200517
+[2026-09-01 10:52:20] [heartbeat] oppe, heap=200518
+[2026-09-01 10:52:40] [heartbeat] oppe, heap=200519
+[2026-09-01 10:53:00] [sensor] EC-pH poll ok, sample=520, ec=1.8, ph=6.5
+[2026-09-01 10:53:20] [heartbeat] oppe, heap=200521
+[2026-09-01 10:53:40] [heartbeat] oppe, heap=200522
+[2026-09-01 10:54:00] [heartbeat] oppe, heap=200523
+[2026-09-01 10:54:20] [heartbeat] oppe, heap=200524
+[2026-09-01 10:54:40] [sensor] EC-pH poll ok, sample=525, ec=1.3, ph=6.3
+[2026-09-01 10:55:00] [heartbeat] oppe, heap=200526
+[2026-09-01 10:55:20] [heartbeat] oppe, heap=200527
+[2026-09-01 10:55:40] [heartbeat] oppe, heap=200528
+[2026-09-01 10:56:00] [heartbeat] oppe, heap=200529
+[2026-09-01 10:56:20] [sensor] EC-pH poll ok, sample=530, ec=1.3, ph=6.6
+[2026-09-01 10:56:40] [heartbeat] oppe, heap=200531
+[2026-09-01 10:57:00] [heartbeat] oppe, heap=200532
+[2026-09-01 10:57:20] [heartbeat] oppe, heap=200533
+[2026-09-01 10:57:40] [heartbeat] oppe, heap=200534
+[2026-09-01 10:58:00] [sensor] EC-pH poll ok, sample=535, ec=1.3, ph=6.3
+[2026-09-01 10:58:20] [heartbeat] oppe, heap=200536
+[2026-09-01 10:58:40] [heartbeat] oppe, heap=200537
+[2026-09-01 10:59:00] [heartbeat] oppe, heap=200538
+[2026-09-01 10:59:20] [heartbeat] oppe, heap=200539
+[2026-09-01 10:59:40] [sensor] EC-pH poll ok, sample=540, ec=1.8, ph=6.7
+[2026-09-01 10:00:00] [dose] syklus start
+[2026-09-01 10:00:00] [dose] pumpe 0: 12.5 ml -> register 12
+[2026-09-01 10:00:00] [dose] pumpe 1: 12.5 ml -> register 12
+[2026-09-01 10:00:00] [dose] pumpe 2: 7.0 ml -> register 7
+[2026-09-01 10:00:00] [dose] pumpe 3: 7.0 ml -> register 7
+[2026-09-01 10:00:01] [dose] syklus ferdig
+[2026-09-01 10:59:59] [dash] rapport sendt, HTTP/1.1 200 OK
+[2026-09-01 11:00:00] [heartbeat] oppe, heap=200541
+[2026-09-01 11:00:20] [heartbeat] oppe, heap=200542
+[2026-09-01 11:00:40] [heartbeat] oppe, heap=200543
+[2026-09-01 11:01:00] [heartbeat] oppe, heap=200544
+[2026-09-01 11:01:20] [sensor] EC-pH poll ok, sample=545, ec=1.5, ph=6.0
+[2026-09-01 11:01:40] [heartbeat] oppe, heap=200546
+[2026-09-01 11:02:00] [heartbeat] oppe, heap=200547
+[2026-09-01 11:02:20] [heartbeat] oppe, heap=200548
+[2026-09-01 11:02:40] [heartbeat] oppe, heap=200549
+[2026-09-01 11:03:00] [sensor] EC-pH poll ok, sample=550, ec=1.0, ph=6.4
+[2026-09-01 11:03:20] [heartbeat] oppe, heap=200551
+[2026-09-01 11:03:40] [heartbeat] oppe, heap=200552
+[2026-09-01 11:04:00] [heartbeat] oppe, heap=200553
+[2026-09-01 11:04:20] [heartbeat] oppe, heap=200554
+[2026-09-01 11:04:40] [sensor] EC-pH poll ok, sample=555, ec=1.7, ph=6.4
+[2026-09-01 11:05:00] [heartbeat] oppe, heap=200556
+[2026-09-01 11:05:20] [heartbeat] oppe, heap=200557
+[2026-09-01 11:05:40] [heartbeat] oppe, heap=200558
+[2026-09-01 11:06:00] [heartbeat] oppe, heap=200559
+[2026-09-01 11:06:20] [sensor] EC-pH poll ok, sample=560, ec=1.3, ph=6.5
+[2026-09-01 11:06:40] [heartbeat] oppe, heap=200561
+[2026-09-01 11:07:00] [heartbeat] oppe, heap=200562
+[2026-09-01 11:07:20] [heartbeat] oppe, heap=200563
+[2026-09-01 11:07:40] [heartbeat] oppe, heap=200564
+[2026-09-01 11:08:00] [sensor] EC-pH poll ok, sample=565, ec=1.7, ph=6.5
+[2026-09-01 11:08:20] [heartbeat] oppe, heap=200566
+[2026-09-01 11:08:40] [heartbeat] oppe, heap=200567
+[2026-09-01 11:09:00] [heartbeat] oppe, heap=200568
+[2026-09-01 11:09:20] [heartbeat] oppe, heap=200569
+[2026-09-01 11:09:40] [sensor] EC-pH poll ok, sample=570, ec=1.5, ph=6.1
+[2026-09-01 11:10:00] [heartbeat] oppe, heap=200571
+[2026-09-01 11:10:20] [heartbeat] oppe, heap=200572
+[2026-09-01 11:10:40] [heartbeat] oppe, heap=200573
+[2026-09-01 11:11:00] [heartbeat] oppe, heap=200574
+[2026-09-01 11:11:20] [sensor] EC-pH poll ok, sample=575, ec=1.3, ph=6.1
+[2026-09-01 11:11:40] [heartbeat] oppe, heap=200576
+[2026-09-01 11:12:00] [heartbeat] oppe, heap=200577
+[2026-09-01 11:12:20] [heartbeat] oppe, heap=200578
+[2026-09-01 11:12:40] [heartbeat] oppe, heap=200579
+[2026-09-01 11:13:00] [sensor] EC-pH poll ok, sample=580, ec=1.3, ph=6.7
+[2026-09-01 11:13:20] [heartbeat] oppe, heap=200581
+[2026-09-01 11:13:40] [heartbeat] oppe, heap=200582
+[2026-09-01 11:14:00] [heartbeat] oppe, heap=200583
+[2026-09-01 11:14:20] [heartbeat] oppe, heap=200584
+[2026-09-01 11:14:40] [sensor] EC-pH poll ok, sample=585, ec=1.3, ph=6.5
+[2026-09-01 11:15:00] [heartbeat] oppe, heap=200586
+[2026-09-01 11:15:20] [heartbeat] oppe, heap=200587
+[2026-09-01 11:15:40] [heartbeat] oppe, heap=200588
+[2026-09-01 11:16:00] [heartbeat] oppe, heap=200589
+[2026-09-01 11:16:20] [sensor] EC-pH poll ok, sample=590, ec=1.3, ph=6.7
+[2026-09-01 11:16:40] [heartbeat] oppe, heap=200591
+[2026-09-01 11:17:00] [heartbeat] oppe, heap=200592
+[2026-09-01 11:17:20] [heartbeat] oppe, heap=200593
+[2026-09-01 11:17:40] [heartbeat] oppe, heap=200594
+[2026-09-01 11:18:00] [sensor] EC-pH poll ok, sample=595, ec=1.0, ph=6.7
+[2026-09-01 11:18:20] [heartbeat] oppe, heap=200596
+[2026-09-01 11:18:40] [heartbeat] oppe, heap=200597
+[2026-09-01 11:19:00] [heartbeat] oppe, heap=200598
+[2026-09-01 11:19:20] [heartbeat] oppe, heap=200599
+[2026-09-01 11:19:40] [sensor] EC-pH poll ok, sample=600, ec=1.5, ph=6.1
+[2026-09-01 11:20:00] [heartbeat] oppe, heap=200601
+[2026-09-01 11:20:20] [heartbeat] oppe, heap=200602
+[2026-09-01 11:20:40] [heartbeat] oppe, heap=200603
+[2026-09-01 11:21:00] [heartbeat] oppe, heap=200604
+[2026-09-01 11:21:20] [sensor] EC-pH poll ok, sample=605, ec=1.1, ph=6.6
+[2026-09-01 11:21:40] [heartbeat] oppe, heap=200606
+[2026-09-01 11:22:00] [heartbeat] oppe, heap=200607
+[2026-09-01 11:22:20] [heartbeat] oppe, heap=200608
+[2026-09-01 11:22:40] [heartbeat] oppe, heap=200609
+[2026-09-01 11:23:00] [sensor] EC-pH poll ok, sample=610, ec=1.3, ph=6.7
+[2026-09-01 11:23:20] [heartbeat] oppe, heap=200611
+[2026-09-01 11:23:40] [heartbeat] oppe, heap=200612
+[2026-09-01 11:24:00] [heartbeat] oppe, heap=200613
+[2026-09-01 11:24:20] [heartbeat] oppe, heap=200614
+[2026-09-01 11:24:40] [sensor] EC-pH poll ok, sample=615, ec=1.2, ph=6.6
+[2026-09-01 11:25:00] [heartbeat] oppe, heap=200616
+[2026-09-01 11:25:20] [heartbeat] oppe, heap=200617
+[2026-09-01 11:25:40] [heartbeat] oppe, heap=200618
+[2026-09-01 11:26:00] [heartbeat] oppe, heap=200619
+[2026-09-01 11:26:20] [sensor] EC-pH poll ok, sample=620, ec=1.5, ph=6.1
+[2026-09-01 11:26:40] [heartbeat] oppe, heap=200621
+[2026-09-01 11:27:00] [heartbeat] oppe, heap=200622
+[2026-09-01 11:27:20] [heartbeat] oppe, heap=200623
+[2026-09-01 11:27:40] [heartbeat] oppe, heap=200624
+[2026-09-01 11:28:00] [sensor] EC-pH poll ok, sample=625, ec=1.6, ph=6.7
+[2026-09-01 11:28:20] [heartbeat] oppe, heap=200626
+[2026-09-01 11:28:40] [heartbeat] oppe, heap=200627
+[2026-09-01 11:29:00] [heartbeat] oppe, heap=200628
+[2026-09-01 11:29:20] [heartbeat] oppe, heap=200629
+[2026-09-01 11:29:40] [sensor] EC-pH poll ok, sample=630, ec=1.6, ph=6.1
+[2026-09-01 11:30:00] [heartbeat] oppe, heap=200631
+[2026-09-01 11:30:20] [heartbeat] oppe, heap=200632
+[2026-09-01 11:30:40] [heartbeat] oppe, heap=200633
+[2026-09-01 11:31:00] [heartbeat] oppe, heap=200634
+[2026-09-01 11:31:20] [sensor] EC-pH poll ok, sample=635, ec=1.2, ph=6.2
+[2026-09-01 11:31:40] [heartbeat] oppe, heap=200636
+[2026-09-01 11:32:00] [heartbeat] oppe, heap=200637
+[2026-09-01 11:32:20] [heartbeat] oppe, heap=200638
+[2026-09-01 11:32:40] [heartbeat] oppe, heap=200639
+[2026-09-01 11:33:00] [sensor] EC-pH poll ok, sample=640, ec=1.2, ph=6.0
+[2026-09-01 11:33:20] [heartbeat] oppe, heap=200641
+[2026-09-01 11:33:40] [heartbeat] oppe, heap=200642
+[2026-09-01 11:34:00] [heartbeat] oppe, heap=200643
+[2026-09-01 11:34:20] [heartbeat] oppe, heap=200644
+[2026-09-01 11:34:40] [sensor] EC-pH poll ok, sample=645, ec=1.2, ph=6.7
+[2026-09-01 11:35:00] [heartbeat] oppe, heap=200646
+[2026-09-01 11:35:20] [heartbeat] oppe, heap=200647
+[2026-09-01 11:35:40] [heartbeat] oppe, heap=200648
+[2026-09-01 11:36:00] [heartbeat] oppe, heap=200649
+[2026-09-01 11:36:20] [sensor] EC-pH poll ok, sample=650, ec=1.2, ph=6.7
+[2026-09-01 11:36:40] [heartbeat] oppe, heap=200651
+[2026-09-01 11:37:00] [heartbeat] oppe, heap=200652
+[2026-09-01 11:37:20] [heartbeat] oppe, heap=200653
+[2026-09-01 11:37:40] [heartbeat] oppe, heap=200654
+[2026-09-01 11:38:00] [sensor] EC-pH poll ok, sample=655, ec=1.5, ph=6.2
+[2026-09-01 11:38:20] [heartbeat] oppe, heap=200656
+[2026-09-01 11:38:40] [heartbeat] oppe, heap=200657
+[2026-09-01 11:39:00] [heartbeat] oppe, heap=200658
+[2026-09-01 11:39:20] [heartbeat] oppe, heap=200659
+[2026-09-01 11:39:40] [sensor] EC-pH poll ok, sample=660, ec=1.8, ph=6.8
+[2026-09-01 11:40:00] [heartbeat] oppe, heap=200661
+[2026-09-01 11:40:20] [heartbeat] oppe, heap=200662
+[2026-09-01 11:40:40] [heartbeat] oppe, heap=200663
+[2026-09-01 11:41:00] [heartbeat] oppe, heap=200664
+[2026-09-01 11:41:20] [sensor] EC-pH poll ok, sample=665, ec=1.2, ph=6.0
+[2026-09-01 11:41:40] [heartbeat] oppe, heap=200666
+[2026-09-01 11:42:00] [heartbeat] oppe, heap=200667
+[2026-09-01 11:42:20] [heartbeat] oppe, heap=200668
+[2026-09-01 11:42:40] [heartbeat] oppe, heap=200669
+[2026-09-01 11:43:00] [sensor] EC-pH poll ok, sample=670, ec=1.0, ph=6.1
+[2026-09-01 11:43:20] [heartbeat] oppe, heap=200671
+[2026-09-01 11:43:40] [heartbeat] oppe, heap=200672
+[2026-09-01 11:44:00] [heartbeat] oppe, heap=200673
+[2026-09-01 11:44:20] [heartbeat] oppe, heap=200674
+[2026-09-01 11:44:40] [sensor] EC-pH poll ok, sample=675, ec=1.8, ph=6.2
+[2026-09-01 11:45:00] [heartbeat] oppe, heap=200676
+[2026-09-01 11:45:20] [heartbeat] oppe, heap=200677
+[2026-09-01 11:45:40] [heartbeat] oppe, heap=200678
+[2026-09-01 11:46:00] [heartbeat] oppe, heap=200679
+[2026-09-01 11:46:20] [sensor] EC-pH poll ok, sample=680, ec=1.6, ph=6.3
+[2026-09-01 11:46:40] [heartbeat] oppe, heap=200681
+[2026-09-01 11:47:00] [heartbeat] oppe, heap=200682
+[2026-09-01 11:47:20] [heartbeat] oppe, heap=200683
+[2026-09-01 11:47:40] [heartbeat] oppe, heap=200684
+[2026-09-01 11:48:00] [sensor] EC-pH poll ok, sample=685, ec=1.3, ph=6.0
+[2026-09-01 11:48:20] [heartbeat] oppe, heap=200686
+[2026-09-01 11:48:40] [heartbeat] oppe, heap=200687
+[2026-09-01 11:49:00] [heartbeat] oppe, heap=200688
+[2026-09-01 11:49:20] [heartbeat] oppe, heap=200689
+[2026-09-01 11:49:40] [sensor] EC-pH poll ok, sample=690, ec=1.4, ph=6.3
+[2026-09-01 11:50:00] [heartbeat] oppe, heap=200691
+[2026-09-01 11:50:20] [heartbeat] oppe, heap=200692
+[2026-09-01 11:50:40] [heartbeat] oppe, heap=200693
+[2026-09-01 11:51:00] [heartbeat] oppe, heap=200694
+[2026-09-01 11:51:20] [sensor] EC-pH poll ok, sample=695, ec=1.4, ph=6.8
+[2026-09-01 11:51:40] [heartbeat] oppe, heap=200696
+[2026-09-01 11:52:00] [heartbeat] oppe, heap=200697
+[2026-09-01 11:52:20] [heartbeat] oppe, heap=200698
+[2026-09-01 11:52:40] [heartbeat] oppe, heap=200699
+[2026-09-01 11:53:00] [sensor] EC-pH poll ok, sample=700, ec=1.3, ph=6.5
+[2026-09-01 11:53:20] [heartbeat] oppe, heap=200701
+[2026-09-01 11:53:40] [heartbeat] oppe, heap=200702
+[2026-09-01 11:54:00] [heartbeat] oppe, heap=200703
+[2026-09-01 11:54:20] [heartbeat] oppe, heap=200704
+[2026-09-01 11:54:40] [sensor] EC-pH poll ok, sample=705, ec=1.4, ph=6.8
+[2026-09-01 11:55:00] [heartbeat] oppe, heap=200706
+[2026-09-01 11:55:20] [heartbeat] oppe, heap=200707
+[2026-09-01 11:55:40] [heartbeat] oppe, heap=200708
+[2026-09-01 11:56:00] [heartbeat] oppe, heap=200709
+[2026-09-01 11:56:20] [sensor] EC-pH poll ok, sample=710, ec=1.6, ph=6.2
+[2026-09-01 11:56:40] [heartbeat] oppe, heap=200711
+[2026-09-01 11:57:00] [heartbeat] oppe, heap=200712
+[2026-09-01 11:57:20] [heartbeat] oppe, heap=200713
+[2026-09-01 11:57:40] [heartbeat] oppe, heap=200714
+[2026-09-01 11:58:00] [sensor] EC-pH poll ok, sample=715, ec=1.0, ph=6.5
+[2026-09-01 11:58:20] [heartbeat] oppe, heap=200716
+[2026-09-01 11:58:40] [heartbeat] oppe, heap=200717
+[2026-09-01 11:59:00] [heartbeat] oppe, heap=200718
+[2026-09-01 11:59:20] [heartbeat] oppe, heap=200719
+[2026-09-01 11:59:40] [sensor] EC-pH poll ok, sample=720, ec=1.7, ph=6.8
+[2026-09-01 11:00:00] [dose] syklus start
+[2026-09-01 11:00:00] [dose] pumpe 0: 12.5 ml -> register 12
+[2026-09-01 11:00:00] [dose] pumpe 1: 12.5 ml -> register 12
+[2026-09-01 11:00:00] [dose] pumpe 2: 7.0 ml -> register 7
+[2026-09-01 11:00:00] [dose] pumpe 3: 7.0 ml -> register 7
+[2026-09-01 11:00:01] [dose] syklus ferdig
+[2026-09-01 11:59:59] [dash] rapport sendt, HTTP/1.1 200 OK
+[2026-09-01 12:00:00] [heartbeat] oppe, heap=200721
+[2026-09-01 12:00:20] [heartbeat] oppe, heap=200722
+[2026-09-01 12:00:40] [heartbeat] oppe, heap=200723
+[2026-09-01 12:01:00] [heartbeat] oppe, heap=200724
+[2026-09-01 12:01:20] [sensor] EC-pH poll ok, sample=725, ec=1.6, ph=6.8
+[2026-09-01 12:01:40] [heartbeat] oppe, heap=200726
+[2026-09-01 12:02:00] [heartbeat] oppe, heap=200727
+[2026-09-01 12:02:20] [heartbeat] oppe, heap=200728
+[2026-09-01 12:02:40] [heartbeat] oppe, heap=200729
+[2026-09-01 12:03:00] [sensor] EC-pH poll ok, sample=730, ec=1.2, ph=6.8
+[2026-09-01 12:03:20] [heartbeat] oppe, heap=200731
+[2026-09-01 12:03:40] [heartbeat] oppe, heap=200732
+[2026-09-01 12:04:00] [heartbeat] oppe, heap=200733
+[2026-09-01 12:04:20] [heartbeat] oppe, heap=200734
+[2026-09-01 12:04:40] [sensor] EC-pH poll ok, sample=735, ec=1.2, ph=6.8
+[2026-09-01 12:05:00] [heartbeat] oppe, heap=200736
+[2026-09-01 12:05:20] [heartbeat] oppe, heap=200737
+[2026-09-01 12:05:40] [heartbeat] oppe, heap=200738
+[2026-09-01 12:06:00] [heartbeat] oppe, heap=200739
+[2026-09-01 12:06:20] [sensor] EC-pH poll ok, sample=740, ec=1.8, ph=6.0
+[2026-09-01 12:06:40] [heartbeat] oppe, heap=200741
+[2026-09-01 12:07:00] [heartbeat] oppe, heap=200742
+[2026-09-01 12:07:20] [heartbeat] oppe, heap=200743
+[2026-09-01 12:07:40] [heartbeat] oppe, heap=200744
+[2026-09-01 12:08:00] [sensor] EC-pH poll ok, sample=745, ec=1.7, ph=6.2
+[2026-09-01 12:08:20] [heartbeat] oppe, heap=200746
+[2026-09-01 12:08:40] [heartbeat] oppe, heap=200747
+[2026-09-01 12:09:00] [heartbeat] oppe, heap=200748
+[2026-09-01 12:09:20] [heartbeat] oppe, heap=200749
+[2026-09-01 12:09:40] [sensor] EC-pH poll ok, sample=750, ec=1.0, ph=6.2
+[2026-09-01 12:10:00] [heartbeat] oppe, heap=200751
+[2026-09-01 12:10:20] [heartbeat] oppe, heap=200752
+[2026-09-01 12:10:40] [heartbeat] oppe, heap=200753
+[2026-09-01 12:11:00] [heartbeat] oppe, heap=200754
+[2026-09-01 12:11:20] [sensor] EC-pH poll ok, sample=755, ec=1.2, ph=6.2
+[2026-09-01 12:11:40] [heartbeat] oppe, heap=200756
+[2026-09-01 12:12:00] [heartbeat] oppe, heap=200757
+[2026-09-01 12:12:20] [heartbeat] oppe, heap=200758
+[2026-09-01 12:12:40] [heartbeat] oppe, heap=200759
+[2026-09-01 12:13:00] [sensor] EC-pH poll ok, sample=760, ec=1.7, ph=6.1
+[2026-09-01 12:13:20] [heartbeat] oppe, heap=200761
+[2026-09-01 12:13:40] [heartbeat] oppe, heap=200762
+[2026-09-01 12:14:00] [heartbeat] oppe, heap=200763
+[2026-09-01 12:14:20] [heartbeat] oppe, heap=200764
+[2026-09-01 12:14:40] [sensor] EC-pH poll ok, sample=765, ec=1.8, ph=6.0
+[2026-09-01 12:15:00] [heartbeat] oppe, heap=200766
+[2026-09-01 12:15:20] [heartbeat] oppe, heap=200767
+[2026-09-01 12:15:40] [heartbeat] oppe, heap=200768
+[2026-09-01 12:16:00] [heartbeat] oppe, heap=200769
+[2026-09-01 12:16:20] [sensor] EC-pH poll ok, sample=770, ec=1.5, ph=6.8
+[2026-09-01 12:16:40] [heartbeat] oppe, heap=200771
+[2026-09-01 12:17:00] [heartbeat] oppe, heap=200772
+[2026-09-01 12:17:20] [heartbeat] oppe, heap=200773
+[2026-09-01 12:17:40] [heartbeat] oppe, heap=200774
+[2026-09-01 12:18:00] [sensor] EC-pH poll ok, sample=775, ec=1.8, ph=6.8
+[2026-09-01 12:18:20] [heartbeat] oppe, heap=200776
+[2026-09-01 12:18:40] [heartbeat] oppe, heap=200777
+[2026-09-01 12:19:00] [heartbeat] oppe, heap=200778
+[2026-09-01 12:19:20] [heartbeat] oppe, heap=200779
+[2026-09-01 12:19:40] [sensor] EC-pH poll ok, sample=780, ec=1.7, ph=6.1
+[2026-09-01 12:20:00] [heartbeat] oppe, heap=200781
+[2026-09-01 12:20:20] [heartbeat] oppe, heap=200782
+[2026-09-01 12:20:40] [heartbeat] oppe, heap=200783
+[2026-09-01 12:21:00] [heartbeat] oppe, heap=200784
+[2026-09-01 12:21:20] [sensor] EC-pH poll ok, sample=785, ec=1.8, ph=6.0
+[2026-09-01 12:21:40] [heartbeat] oppe, heap=200786
+[2026-09-01 12:22:00] [heartbeat] oppe, heap=200787
+[2026-09-01 12:22:20] [heartbeat] oppe, heap=200788
+[2026-09-01 12:22:40] [heartbeat] oppe, heap=200789
+[2026-09-01 12:23:00] [sensor] EC-pH poll ok, sample=790, ec=1.3, ph=6.3
+[2026-09-01 12:23:20] [heartbeat] oppe, heap=200791
+[2026-09-01 12:23:40] [heartbeat] oppe, heap=200792
+[2026-09-01 12:24:00] [heartbeat] oppe, heap=200793
+[2026-09-01 12:24:20] [heartbeat] oppe, heap=200794
+[2026-09-01 12:24:40] [sensor] EC-pH poll ok, sample=795, ec=1.4, ph=6.0
+[2026-09-01 12:25:00] [heartbeat] oppe, heap=200796
+[2026-09-01 12:25:20] [heartbeat] oppe, heap=200797
+[2026-09-01 12:25:40] [heartbeat] oppe, heap=200798
+[2026-09-01 12:26:00] [heartbeat] oppe, heap=200799
+[2026-09-01 12:26:20] [sensor] EC-pH poll ok, sample=800, ec=1.1, ph=6.8
+[2026-09-01 12:26:40] [heartbeat] oppe, heap=200801
+[2026-09-01 12:27:00] [heartbeat] oppe, heap=200802
+[2026-09-01 12:27:20] [heartbeat] oppe, heap=200803
+[2026-09-01 12:27:40] [heartbeat] oppe, heap=200804
+[2026-09-01 12:28:00] [sensor] EC-pH poll ok, sample=805, ec=1.7, ph=6.8
+[2026-09-01 12:28:20] [heartbeat] oppe, heap=200806
+[2026-09-01 12:28:40] [heartbeat] oppe, heap=200807
+[2026-09-01 12:29:00] [heartbeat] oppe, heap=200808
+[2026-09-01 12:29:20] [heartbeat] oppe, heap=200809
+[2026-09-01 12:29:40] [sensor] EC-pH poll ok, sample=810, ec=1.0, ph=6.1
+[2026-09-01 12:30:00] [heartbeat] oppe, heap=200811
+[2026-09-01 12:30:20] [heartbeat] oppe, heap=200812
+[2026-09-01 12:30:40] [heartbeat] oppe, heap=200813
+[2026-09-01 12:31:00] [heartbeat] oppe, heap=200814
+[2026-09-01 12:31:20] [sensor] EC-pH poll ok, sample=815, ec=1.7, ph=6.5
+[2026-09-01 12:31:40] [heartbeat] oppe, heap=200816
+[2026-09-01 12:32:00] [heartbeat] oppe, heap=200817
+[2026-09-01 12:32:20] [heartbeat] oppe, heap=200818
+[2026-09-01 12:32:40] [heartbeat] oppe, heap=200819
+[2026-09-01 12:33:00] [sensor] EC-pH poll ok, sample=820, ec=1.8, ph=6.8
+[2026-09-01 12:33:20] [heartbeat] oppe, heap=200821
+[2026-09-01 12:33:40] [heartbeat] oppe, heap=200822
+[2026-09-01 12:34:00] [heartbeat] oppe, heap=200823
+[2026-09-01 12:34:20] [heartbeat] oppe, heap=200824
+[2026-09-01 12:34:40] [sensor] EC-pH poll ok, sample=825, ec=1.3, ph=6.4
+[2026-09-01 12:35:00] [heartbeat] oppe, heap=200826
+[2026-09-01 12:35:20] [heartbeat] oppe, heap=200827
+[2026-09-01 12:35:40] [heartbeat] oppe, heap=200828
+[2026-09-01 12:36:00] [heartbeat] oppe, heap=200829
+[2026-09-01 12:36:20] [sensor] EC-pH poll ok, sample=830, ec=1.7, ph=6.8
+[2026-09-01 12:36:40] [heartbeat] oppe, heap=200831
+[2026-09-01 12:37:00] [heartbeat] oppe, heap=200832
+[2026-09-01 12:37:20] [heartbeat] oppe, heap=200833
+[2026-09-01 12:37:40] [heartbeat] oppe, heap=200834
+[2026-09-01 12:38:00] [sensor] EC-pH poll ok, sample=835, ec=1.8, ph=6.7
+[2026-09-01 12:38:20] [heartbeat] oppe, heap=200836
+[2026-09-01 12:38:40] [heartbeat] oppe, heap=200837
+[2026-09-01 12:39:00] [heartbeat] oppe, heap=200838
+[2026-09-01 12:39:20] [heartbeat] oppe, heap=200839
+[2026-09-01 12:39:40] [sensor] EC-pH poll ok, sample=840, ec=1.8, ph=6.3
+[2026-09-01 12:40:00] [heartbeat] oppe, heap=200841
+[2026-09-01 12:40:20] [heartbeat] oppe, heap=200842
+[2026-09-01 12:40:40] [heartbeat] oppe, heap=200843
+[2026-09-01 12:41:00] [heartbeat] oppe, heap=200844
+[2026-09-01 12:41:20] [sensor] EC-pH poll ok, sample=845, ec=1.8, ph=6.4
+[2026-09-01 12:41:40] [heartbeat] oppe, heap=200846
+[2026-09-01 12:42:00] [heartbeat] oppe, heap=200847
+[2026-09-01 12:42:20] [heartbeat] oppe, heap=200848
+[2026-09-01 12:42:40] [heartbeat] oppe, heap=200849
+[2026-09-01 12:43:00] [sensor] EC-pH poll ok, sample=850, ec=1.8, ph=6.3
+[2026-09-01 12:43:20] [heartbeat] oppe, heap=200851
+[2026-09-01 12:43:40] [heartbeat] oppe, heap=200852
+[2026-09-01 12:44:00] [heartbeat] oppe, heap=200853
+[2026-09-01 12:44:20] [heartbeat] oppe, heap=200854
+[2026-09-01 12:44:40] [sensor] EC-pH poll ok, sample=855, ec=1.7, ph=6.2
+[2026-09-01 12:45:00] [heartbeat] oppe, heap=200856
+[2026-09-01 12:45:20] [heartbeat] oppe, heap=200857
+[2026-09-01 12:45:40] [heartbeat] oppe, heap=200858
+[2026-09-01 12:46:00] [heartbeat] oppe, heap=200859
+[2026-09-01 12:46:20] [sensor] EC-pH poll ok, sample=860, ec=1.6, ph=6.1
+[2026-09-01 12:46:40] [heartbeat] oppe, heap=200861
+[2026-09-01 12:47:00] [heartbeat] oppe, heap=200862
+[2026-09-01 12:47:20] [heartbeat] oppe, heap=200863
+[2026-09-01 12:47:40] [heartbeat] oppe, heap=200864
+[2026-09-01 12:48:00] [sensor] EC-pH poll ok, sample=865, ec=1.6, ph=6.7
+[2026-09-01 12:48:20] [heartbeat] oppe, heap=200866
+[2026-09-01 12:48:40] [heartbeat] oppe, heap=200867
+[2026-09-01 12:49:00] [heartbeat] oppe, heap=200868
+[2026-09-01 12:49:20] [heartbeat] oppe, heap=200869
+[2026-09-01 12:49:40] [sensor] EC-pH poll ok, sample=870, ec=1.5, ph=6.1
+[2026-09-01 12:50:00] [heartbeat] oppe, heap=200871
+[2026-09-01 12:50:20] [heartbeat] oppe, heap=200872
+[2026-09-01 12:50:40] [heartbeat] oppe, heap=200873
+[2026-09-01 12:51:00] [heartbeat] oppe, heap=200874
+[2026-09-01 12:51:20] [sensor] EC-pH poll ok, sample=875, ec=1.3, ph=6.6
+[2026-09-01 12:51:40] [heartbeat] oppe, heap=200876
+[2026-09-01 12:52:00] [heartbeat] oppe, heap=200877
+[2026-09-01 12:52:20] [heartbeat] oppe, heap=200878
+[2026-09-01 12:52:40] [heartbeat] oppe, heap=200879
+[2026-09-01 12:53:00] [sensor] EC-pH poll ok, sample=880, ec=1.1, ph=6.3
+[2026-09-01 12:53:20] [heartbeat] oppe, heap=200881
+[2026-09-01 12:53:40] [heartbeat] oppe, heap=200882
+[2026-09-01 12:54:00] [heartbeat] oppe, heap=200883
+[2026-09-01 12:54:20] [heartbeat] oppe, heap=200884
+[2026-09-01 12:54:40] [sensor] EC-pH poll ok, sample=885, ec=1.4, ph=6.1
+[2026-09-01 12:55:00] [heartbeat] oppe, heap=200886
+[2026-09-01 12:55:20] [heartbeat] oppe, heap=200887
+[2026-09-01 12:55:40] [heartbeat] oppe, heap=200888
+[2026-09-01 12:56:00] [heartbeat] oppe, heap=200889
+[2026-09-01 12:56:20] [sensor] EC-pH poll ok, sample=890, ec=1.2, ph=6.5
+[2026-09-01 12:56:40] [heartbeat] oppe, heap=200891
+[2026-09-01 12:57:00] [heartbeat] oppe, heap=200892
+[2026-09-01 12:57:20] [heartbeat] oppe, heap=200893
+[2026-09-01 12:57:40] [heartbeat] oppe, heap=200894
+[2026-09-01 12:58:00] [sensor] EC-pH poll ok, sample=895, ec=1.2, ph=6.4
+[2026-09-01 12:58:20] [heartbeat] oppe, heap=200896
+[2026-09-01 12:58:40] [heartbeat] oppe, heap=200897
+[2026-09-01 12:59:00] [heartbeat] oppe, heap=200898
+[2026-09-01 12:59:20] [heartbeat] oppe, heap=200899
+[2026-09-01 12:59:40] [sensor] EC-pH poll ok, sample=900, ec=1.2, ph=6.7
+[2026-09-01 12:00:00] [dose] syklus start
+[2026-09-01 12:00:00] [dose] pumpe 0: 12.5 ml -> register 12
+[2026-09-01 12:00:00] [dose] pumpe 1: 12.5 ml -> register 12
+[2026-09-01 12:00:00] [dose] pumpe 2: 7.0 ml -> register 7
+[2026-09-01 12:00:00] [dose] pumpe 3: 7.0 ml -> register 7
+[2026-09-01 12:00:01] [dose] syklus ferdig
+[2026-09-01 12:59:59] [dash] rapport sendt, HTTP/1.1 200 OK
+[2026-09-01 13:00:00] [heartbeat] oppe, heap=200901
+[2026-09-01 13:00:20] [heartbeat] oppe, heap=200902
+[2026-09-01 13:00:40] [heartbeat] oppe, heap=200903
+[2026-09-01 13:01:00] [heartbeat] oppe, heap=200904
+[2026-09-01 13:01:20] [sensor] EC-pH poll ok, sample=905, ec=1.3, ph=6.1
+[2026-09-01 13:01:40] [heartbeat] oppe, heap=200906
+[2026-09-01 13:02:00] [heartbeat] oppe, heap=200907
+[2026-09-01 13:02:20] [heartbeat] oppe, heap=200908
+[2026-09-01 13:02:40] [heartbeat] oppe, heap=200909
+[2026-09-01 13:03:00] [sensor] EC-pH poll ok, sample=910, ec=1.6, ph=6.7
+[2026-09-01 13:03:20] [heartbeat] oppe, heap=200911
+[2026-09-01 13:03:40] [heartbeat] oppe, heap=200912
+[2026-09-01 13:04:00] [heartbeat] oppe, heap=200913
+[2026-09-01 13:04:20] [heartbeat] oppe, heap=200914
+[2026-09-01 13:04:40] [sensor] EC-pH poll ok, sample=915, ec=1.2, ph=6.3
+[2026-09-01 13:05:00] [heartbeat] oppe, heap=200916
+[2026-09-01 13:05:20] [heartbeat] oppe, heap=200917
+[2026-09-01 13:05:40] [heartbeat] oppe, heap=200918
+[2026-09-01 13:06:00] [heartbeat] oppe, heap=200919
+[2026-09-01 13:06:20] [sensor] EC-pH poll ok, sample=920, ec=1.2, ph=6.6
+[2026-09-01 13:06:40] [heartbeat] oppe, heap=200921
+[2026-09-01 13:07:00] [heartbeat] oppe, heap=200922
+[2026-09-01 13:07:20] [heartbeat] oppe, heap=200923
+[2026-09-01 13:07:40] [heartbeat] oppe, heap=200924
+[2026-09-01 13:08:00] [sensor] EC-pH poll ok, sample=925, ec=1.8, ph=6.6
+[2026-09-01 13:08:20] [heartbeat] oppe, heap=200926
+[2026-09-01 13:08:40] [heartbeat] oppe, heap=200927
+[2026-09-01 13:09:00] [heartbeat] oppe, heap=200928
+[2026-09-01 13:09:20] [heartbeat] oppe, heap=200929
+[2026-09-01 13:09:40] [sensor] EC-pH poll ok, sample=930, ec=1.5, ph=6.6
+[2026-09-01 13:10:00] [heartbeat] oppe, heap=200931
+[2026-09-01 13:10:20] [heartbeat] oppe, heap=200932
+[2026-09-01 13:10:40] [heartbeat] oppe, heap=200933
+[2026-09-01 13:11:00] [heartbeat] oppe, heap=200934
+[2026-09-01 13:11:20] [sensor] EC-pH poll ok, sample=935, ec=1.3, ph=6.5
+[2026-09-01 13:11:40] [heartbeat] oppe, heap=200936
+[2026-09-01 13:12:00] [heartbeat] oppe, heap=200937
+[2026-09-01 13:12:20] [heartbeat] oppe, heap=200938
+[2026-09-01 13:12:40] [heartbeat] oppe, heap=200939
+[2026-09-01 13:13:00] [sensor] EC-pH poll ok, sample=940, ec=1.5, ph=6.1
+[2026-09-01 13:13:20] [heartbeat] oppe, heap=200941
+[2026-09-01 13:13:40] [heartbeat] oppe, heap=200942
+[2026-09-01 13:14:00] [heartbeat] oppe, heap=200943
+[2026-09-01 13:14:20] [heartbeat] oppe, heap=200944
+[2026-09-01 13:14:40] [sensor] EC-pH poll ok, sample=945, ec=1.5, ph=6.0
+[2026-09-01 13:15:00] [heartbeat] oppe, heap=200946
+[2026-09-01 13:15:20] [heartbeat] oppe, heap=200947
+[2026-09-01 13:15:40] [heartbeat] oppe, heap=200948
+[2026-09-01 13:16:00] [heartbeat] oppe, heap=200949
+[2026-09-01 13:16:20] [sensor] EC-pH poll ok, sample=950, ec=1.5, ph=6.8
+[2026-09-01 13:16:40] [heartbeat] oppe, heap=200951
+[2026-09-01 13:17:00] [heartbeat] oppe, heap=200952
+[2026-09-01 13:17:20] [heartbeat] oppe, heap=200953
+[2026-09-01 13:17:40] [heartbeat] oppe, heap=200954
+[2026-09-01 13:18:00] [sensor] EC-pH poll ok, sample=955, ec=1.7, ph=6.7
+[2026-09-01 13:18:20] [heartbeat] oppe, heap=200956
+[2026-09-01 13:18:40] [heartbeat] oppe, heap=200957
+[2026-09-01 13:19:00] [heartbeat] oppe, heap=200958
+[2026-09-01 13:19:20] [heartbeat] oppe, heap=200959
+[2026-09-01 13:19:40] [sensor] EC-pH poll ok, sample=960, ec=1.0, ph=6.6
+[2026-09-01 13:20:00] [heartbeat] oppe, heap=200961
+[2026-09-01 13:20:20] [heartbeat] oppe, heap=200962
+[2026-09-01 13:20:40] [heartbeat] oppe, heap=200963
+[2026-09-01 13:21:00] [heartbeat] oppe, heap=200964
+[2026-09-01 13:21:20] [sensor] EC-pH poll ok, sample=965, ec=1.5, ph=6.8
+[2026-09-01 13:21:40] [heartbeat] oppe, heap=200966
+[2026-09-01 13:22:00] [heartbeat] oppe, heap=200967
+[2026-09-01 13:22:20] [heartbeat] oppe, heap=200968
+[2026-09-01 13:22:40] [heartbeat] oppe, heap=200969
+[2026-09-01 13:23:00] [sensor] EC-pH poll ok, sample=970, ec=1.4, ph=6.8
+[2026-09-01 13:23:20] [heartbeat] oppe, heap=200971
+[2026-09-01 13:23:40] [heartbeat] oppe, heap=200972
+[2026-09-01 13:24:00] [heartbeat] oppe, heap=200973
+[2026-09-01 13:24:20] [heartbeat] oppe, heap=200974
+[2026-09-01 13:24:40] [sensor] EC-pH poll ok, sample=975, ec=1.1, ph=6.1
+[2026-09-01 13:25:00] [heartbeat] oppe, heap=200976
+[2026-09-01 13:25:20] [heartbeat] oppe, heap=200977
+[2026-09-01 13:25:40] [heartbeat] oppe, heap=200978
+[2026-09-01 13:26:00] [heartbeat] oppe, heap=200979
+[2026-09-01 13:26:20] [sensor] EC-pH poll ok, sample=980, ec=1.3, ph=6.1
+[2026-09-01 13:26:40] [heartbeat] oppe, heap=200981
+[2026-09-01 13:27:00] [heartbeat] oppe, heap=200982
+[2026-09-01 13:27:20] [heartbeat] oppe, heap=200983
+[2026-09-01 13:27:40] [heartbeat] oppe, heap=200984
+[2026-09-01 13:28:00] [sensor] EC-pH poll ok, sample=985, ec=1.1, ph=6.4
+[2026-09-01 13:28:20] [heartbeat] oppe, heap=200986
+[2026-09-01 13:28:40] [heartbeat] oppe, heap=200987
+[2026-09-01 13:29:00] [heartbeat] oppe, heap=200988
+[2026-09-01 13:29:20] [heartbeat] oppe, heap=200989
+[2026-09-01 13:29:40] [sensor] EC-pH poll ok, sample=990, ec=1.4, ph=6.0
+[2026-09-01 13:30:00] [heartbeat] oppe, heap=200991
+[2026-09-01 13:30:20] [heartbeat] oppe, heap=200992
+[2026-09-01 13:30:40] [heartbeat] oppe, heap=200993
+[2026-09-01 13:31:00] [heartbeat] oppe, heap=200994
+[2026-09-01 13:31:20] [sensor] EC-pH poll ok, sample=995, ec=1.2, ph=6.4
+[2026-09-01 13:31:40] [heartbeat] oppe, heap=200996
+[2026-09-01 13:32:00] [heartbeat] oppe, heap=200997
+[2026-09-01 13:32:20] [heartbeat] oppe, heap=200998
+[2026-09-01 13:32:40] [heartbeat] oppe, heap=200999
+[2026-09-01 13:33:00] [sensor] EC-pH poll ok, sample=1000, ec=1.2, ph=6.6
+[2026-09-01 13:33:20] [heartbeat] oppe, heap=201001
+[2026-09-01 13:33:40] [heartbeat] oppe, heap=201002
+[2026-09-01 13:34:00] [heartbeat] oppe, heap=201003
+[2026-09-01 13:34:20] [heartbeat] oppe, heap=201004
+[2026-09-01 13:34:40] [sensor] EC-pH poll ok, sample=1005, ec=1.4, ph=6.6
+[2026-09-01 13:35:00] [heartbeat] oppe, heap=201006
+[2026-09-01 13:35:20] [heartbeat] oppe, heap=201007
+[2026-09-01 13:35:40] [heartbeat] oppe, heap=201008
+[2026-09-01 13:36:00] [heartbeat] oppe, heap=201009
+[2026-09-01 13:36:20] [sensor] EC-pH poll ok, sample=1010, ec=1.2, ph=6.8
+[2026-09-01 13:36:40] [heartbeat] oppe, heap=201011
+[2026-09-01 13:37:00] [heartbeat] oppe, heap=201012
+[2026-09-01 13:37:20] [heartbeat] oppe, heap=201013
+[2026-09-01 13:37:40] [heartbeat] oppe, heap=201014
+[2026-09-01 13:38:00] [sensor] EC-pH poll ok, sample=1015, ec=1.8, ph=6.7
+[2026-09-01 13:38:20] [heartbeat] oppe, heap=201016
+[2026-09-01 13:38:40] [heartbeat] oppe, heap=201017
+[2026-09-01 13:39:00] [heartbeat] oppe, heap=201018
+[2026-09-01 13:39:20] [heartbeat] oppe, heap=201019
+[2026-09-01 13:39:40] [sensor] EC-pH poll ok, sample=1020, ec=1.5, ph=6.1
+[2026-09-01 13:40:00] [heartbeat] oppe, heap=201021
+[2026-09-01 13:40:20] [heartbeat] oppe, heap=201022
+[2026-09-01 13:40:40] [heartbeat] oppe, heap=201023
+[2026-09-01 13:41:00] [heartbeat] oppe, heap=201024
+[2026-09-01 13:41:20] [sensor] EC-pH poll ok, sample=1025, ec=1.4, ph=6.0
+[2026-09-01 13:41:40] [heartbeat] oppe, heap=201026
+[2026-09-01 13:42:00] [heartbeat] oppe, heap=201027
+[2026-09-01 13:42:20] [heartbeat] oppe, heap=201028
+[2026-09-01 13:42:40] [heartbeat] oppe, heap=201029
+[2026-09-01 13:43:00] [sensor] EC-pH poll ok, sample=1030, ec=1.2, ph=6.6
+[2026-09-01 13:43:20] [heartbeat] oppe, heap=201031
+[2026-09-01 13:43:40] [heartbeat] oppe, heap=201032
+[2026-09-01 13:44:00] [heartbeat] oppe, heap=201033
+[2026-09-01 13:44:20] [heartbeat] oppe, heap=201034
+[2026-09-01 13:44:40] [sensor] EC-pH poll ok, sample=1035, ec=1.1, ph=6.4
+[2026-09-01 13:45:00] [heartbeat] oppe, heap=201036
+[2026-09-01 13:45:20] [heartbeat] oppe, heap=201037
+[2026-09-01 13:45:40] [heartbeat] oppe, heap=201038
+[2026-09-01 13:46:00] [heartbeat] oppe, heap=201039
+[2026-09-01 13:46:20] [sensor] EC-pH poll ok, sample=1040, ec=1.0, ph=6.1
+[2026-09-01 13:46:40] [heartbeat] oppe, heap=201041
+[2026-09-01 13:47:00] [heartbeat] oppe, heap=201042
+[2026-09-01 13:47:20] [heartbeat] oppe, heap=201043
+[2026-09-01 13:47:40] [heartbeat] oppe, heap=201044
+[2026-09-01 13:48:00] [sensor] EC-pH poll ok, sample=1045, ec=1.4, ph=6.1
+[2026-09-01 13:48:20] [heartbeat] oppe, heap=201046
+[2026-09-01 13:48:40] [heartbeat] oppe, heap=201047
+[2026-09-01 13:49:00] [heartbeat] oppe, heap=201048
+[2026-09-01 13:49:20] [heartbeat] oppe, heap=201049
+[2026-09-01 13:49:40] [sensor] EC-pH poll ok, sample=1050, ec=1.3, ph=6.1
+[2026-09-01 13:50:00] [heartbeat] oppe, heap=201051
+[2026-09-01 13:50:20] [heartbeat] oppe, heap=201052
+[2026-09-01 13:50:40] [heartbeat] oppe, heap=201053
+[2026-09-01 13:51:00] [heartbeat] oppe, heap=201054
+[2026-09-01 13:51:20] [sensor] EC-pH poll ok, sample=1055, ec=1.4, ph=6.1
+[2026-09-01 13:51:40] [heartbeat] oppe, heap=201056
+[2026-09-01 13:52:00] [heartbeat] oppe, heap=201057
+[2026-09-01 13:52:20] [heartbeat] oppe, heap=201058
+[2026-09-01 13:52:40] [heartbeat] oppe, heap=201059
+[2026-09-01 13:53:00] [sensor] EC-pH poll ok, sample=1060, ec=1.7, ph=6.0
+[2026-09-01 13:53:20] [heartbeat] oppe, heap=201061
+[2026-09-01 13:53:40] [heartbeat] oppe, heap=201062
+[2026-09-01 13:54:00] [heartbeat] oppe, heap=201063
+[2026-09-01 13:54:20] [heartbeat] oppe, heap=201064
+[2026-09-01 13:54:40] [sensor] EC-pH poll ok, sample=1065, ec=1.5, ph=6.8
+[2026-09-01 13:55:00] [heartbeat] oppe, heap=201066
+[2026-09-01 13:55:20] [heartbeat] oppe, heap=201067
+[2026-09-01 13:55:40] [heartbeat] oppe, heap=201068
+[2026-09-01 13:56:00] [heartbeat] oppe, heap=201069
+[2026-09-01 13:56:20] [sensor] EC-pH poll ok, sample=1070, ec=1.6, ph=6.4
+[2026-09-01 13:56:40] [heartbeat] oppe, heap=201071
+[2026-09-01 13:57:00] [heartbeat] oppe, heap=201072
+[2026-09-01 13:57:20] [heartbeat] oppe, heap=201073
+[2026-09-01 13:57:40] [heartbeat] oppe, heap=201074
+[2026-09-01 13:58:00] [sensor] EC-pH poll ok, sample=1075, ec=1.2, ph=6.0
+[2026-09-01 13:58:20] [heartbeat] oppe, heap=201076
+[2026-09-01 13:58:40] [heartbeat] oppe, heap=201077
+[2026-09-01 13:59:00] [heartbeat] oppe, heap=201078
+[2026-09-01 13:59:20] [heartbeat] oppe, heap=201079
+[2026-09-01 13:59:40] [sensor] EC-pH poll ok, sample=1080, ec=1.8, ph=6.3
+[2026-09-01 13:00:00] [dose] syklus start
+[2026-09-01 13:00:00] [dose] pumpe 0: 12.5 ml -> register 12
+[2026-09-01 13:00:00] [dose] pumpe 1: 12.5 ml -> register 12
+[2026-09-01 13:00:00] [dose] pumpe 2: 7.0 ml -> register 7
+[2026-09-01 13:00:00] [dose] pumpe 3: 7.0 ml -> register 7
+[2026-09-01 13:00:01] [dose] syklus ferdig
+[2026-09-01 13:59:59] [dash] rapport sendt, HTTP/1.1 200 OK
+[2026-09-01 14:00:00] [heartbeat] oppe, heap=201081
+[2026-09-01 14:00:20] [heartbeat] oppe, heap=201082
+[2026-09-01 14:00:40] [heartbeat] oppe, heap=201083
+[2026-09-01 14:01:00] [heartbeat] oppe, heap=201084
+[2026-09-01 14:01:20] [sensor] EC-pH poll ok, sample=1085, ec=1.1, ph=6.2
+[2026-09-01 14:01:40] [heartbeat] oppe, heap=201086
+[2026-09-01 14:02:00] [heartbeat] oppe, heap=201087
+[2026-09-01 14:02:20] [heartbeat] oppe, heap=201088
+[2026-09-01 14:02:40] [heartbeat] oppe, heap=201089
+[2026-09-01 14:03:00] [sensor] EC-pH poll ok, sample=1090, ec=1.4, ph=6.0
+[2026-09-01 14:03:20] [heartbeat] oppe, heap=201091
+[2026-09-01 14:03:40] [heartbeat] oppe, heap=201092
+[2026-09-01 14:04:00] [heartbeat] oppe, heap=201093
+[2026-09-01 14:04:20] [heartbeat] oppe, heap=201094
+[2026-09-01 14:04:40] [sensor] EC-pH poll ok, sample=1095, ec=1.2, ph=6.3
+[2026-09-01 14:05:00] [heartbeat] oppe, heap=201096
+[2026-09-01 14:05:20] [heartbeat] oppe, heap=201097
+[2026-09-01 14:05:40] [heartbeat] oppe, heap=201098
+[2026-09-01 14:06:00] [heartbeat] oppe, heap=201099
+[2026-09-01 14:06:20] [sensor] EC-pH poll ok, sample=1100, ec=1.4, ph=6.4
+[2026-09-01 14:06:40] [heartbeat] oppe, heap=201101
+[2026-09-01 14:07:00] [heartbeat] oppe, heap=201102
+[2026-09-01 14:07:20] [heartbeat] oppe, heap=201103
+[2026-09-01 14:07:40] [heartbeat] oppe, heap=201104
+[2026-09-01 14:08:00] [sensor] EC-pH poll ok, sample=1105, ec=1.8, ph=6.3
+[2026-09-01 14:08:20] [heartbeat] oppe, heap=201106
+[2026-09-01 14:08:40] [heartbeat] oppe, heap=201107
+[2026-09-01 14:09:00] [heartbeat] oppe, heap=201108
+[2026-09-01 14:09:20] [heartbeat] oppe, heap=201109
+[2026-09-01 14:09:40] [sensor] EC-pH poll ok, sample=1110, ec=1.4, ph=6.7
+[2026-09-01 14:10:00] [heartbeat] oppe, heap=201111
+[2026-09-01 14:10:20] [heartbeat] oppe, heap=201112
+[2026-09-01 14:10:40] [heartbeat] oppe, heap=201113
+[2026-09-01 14:11:00] [heartbeat] oppe, heap=201114
+[2026-09-01 14:11:20] [sensor] EC-pH poll ok, sample=1115, ec=1.8, ph=6.2
+[2026-09-01 14:11:40] [heartbeat] oppe, heap=201116
+[2026-09-01 14:12:00] [heartbeat] oppe, heap=201117
+[2026-09-01 14:12:20] [heartbeat] oppe, heap=201118
+[2026-09-01 14:12:40] [heartbeat] oppe, heap=201119
+[2026-09-01 14:13:00] [sensor] EC-pH poll ok, sample=1120, ec=1.4, ph=6.5
+[2026-09-01 14:13:20] [heartbeat] oppe, heap=201121
+[2026-09-01 14:13:40] [heartbeat] oppe, heap=201122
+[2026-09-01 14:14:00] [heartbeat] oppe, heap=201123
+[2026-09-01 14:14:20] [heartbeat] oppe, heap=201124
+[2026-09-01 14:14:40] [sensor] EC-pH poll ok, sample=1125, ec=1.0, ph=6.4
+[2026-09-01 14:15:00] [heartbeat] oppe, heap=201126
+[2026-09-01 14:15:20] [heartbeat] oppe, heap=201127
+[2026-09-01 14:15:40] [heartbeat] oppe, heap=201128
+[2026-09-01 14:16:00] [heartbeat] oppe, heap=201129
+[2026-09-01 14:16:20] [sensor] EC-pH poll ok, sample=1130, ec=1.0, ph=6.0
+[2026-09-01 14:16:40] [heartbeat] oppe, heap=201131
+[2026-09-01 14:17:00] [heartbeat] oppe, heap=201132
+[2026-09-01 14:17:20] [heartbeat] oppe, heap=201133
+[2026-09-01 14:17:40] [heartbeat] oppe, heap=201134
+[2026-09-01 14:18:00] [sensor] EC-pH poll ok, sample=1135, ec=1.0, ph=6.8
+[2026-09-01 14:18:20] [heartbeat] oppe, heap=201136
+[2026-09-01 14:18:40] [heartbeat] oppe, heap=201137
+[2026-09-01 14:19:00] [heartbeat] oppe, heap=201138
+[2026-09-01 14:19:20] [heartbeat] oppe, heap=201139
+[2026-09-01 14:19:40] [sensor] EC-pH poll ok, sample=1140, ec=1.8, ph=6.3
+[2026-09-01 14:20:00] [heartbeat] oppe, heap=201141
+[2026-09-01 14:20:20] [heartbeat] oppe, heap=201142
+[2026-09-01 14:20:40] [heartbeat] oppe, heap=201143
+[2026-09-01 14:21:00] [heartbeat] oppe, heap=201144
+[2026-09-01 14:21:20] [sensor] EC-pH poll ok, sample=1145, ec=1.8, ph=6.7
+[2026-09-01 14:21:40] [heartbeat] oppe, heap=201146
+[2026-09-01 14:22:00] [heartbeat] oppe, heap=201147
+[2026-09-01 14:22:20] [heartbeat] oppe, heap=201148
+[2026-09-01 14:22:40] [heartbeat] oppe, heap=201149
+[2026-09-01 14:23:00] [sensor] EC-pH poll ok, sample=1150, ec=1.3, ph=6.7
+[2026-09-01 14:23:20] [heartbeat] oppe, heap=201151
+[2026-09-01 14:23:40] [heartbeat] oppe, heap=201152
+[2026-09-01 14:24:00] [heartbeat] oppe, heap=201153
+[2026-09-01 14:24:20] [heartbeat] oppe, heap=201154
+[2026-09-01 14:24:40] [sensor] EC-pH poll ok, sample=1155, ec=1.1, ph=6.6
+[2026-09-01 14:25:00] [heartbeat] oppe, heap=201156
+[2026-09-01 14:25:20] [heartbeat] oppe, heap=201157
+[2026-09-01 14:25:40] [heartbeat] oppe, heap=201158
+[2026-09-01 14:26:00] [heartbeat] oppe, heap=201159
+[2026-09-01 14:26:20] [sensor] EC-pH poll ok, sample=1160, ec=1.7, ph=6.8
+[2026-09-01 14:26:40] [heartbeat] oppe, heap=201161
+[2026-09-01 14:27:00] [heartbeat] oppe, heap=201162
+[2026-09-01 14:27:20] [heartbeat] oppe, heap=201163
+[2026-09-01 14:27:40] [heartbeat] oppe, heap=201164
+[2026-09-01 14:28:00] [sensor] EC-pH poll ok, sample=1165, ec=1.6, ph=6.8
+[2026-09-01 14:28:20] [heartbeat] oppe, heap=201166
+[2026-09-01 14:28:40] [heartbeat] oppe, heap=201167
+[2026-09-01 14:29:00] [heartbeat] oppe, heap=201168
+[2026-09-01 14:29:20] [heartbeat] oppe, heap=201169
+[2026-09-01 14:29:40] [sensor] EC-pH poll ok, sample=1170, ec=1.4, ph=6.3
+[2026-09-01 14:30:00] [heartbeat] oppe, heap=201171
+[2026-09-01 14:30:20] [heartbeat] oppe, heap=201172
+[2026-09-01 14:30:40] [heartbeat] oppe, heap=201173
+[2026-09-01 14:31:00] [heartbeat] oppe, heap=201174
+[2026-09-01 14:31:20] [sensor] EC-pH poll ok, sample=1175, ec=1.3, ph=6.5
+[2026-09-01 14:31:40] [heartbeat] oppe, heap=201176
+[2026-09-01 14:32:00] [heartbeat] oppe, heap=201177
+[2026-09-01 14:32:20] [heartbeat] oppe, heap=201178
+[2026-09-01 14:32:40] [heartbeat] oppe, heap=201179
+[2026-09-01 14:33:00] [sensor] EC-pH poll ok, sample=1180, ec=1.3, ph=6.2
+[2026-09-01 14:33:20] [heartbeat] oppe, heap=201181
+[2026-09-01 14:33:40] [heartbeat] oppe, heap=201182
+[2026-09-01 14:34:00] [heartbeat] oppe, heap=201183
+[2026-09-01 14:34:20] [heartbeat] oppe, heap=201184
+[2026-09-01 14:34:40] [sensor] EC-pH poll ok, sample=1185, ec=1.6, ph=6.5
+[2026-09-01 14:35:00] [heartbeat] oppe, heap=201186
+[2026-09-01 14:35:20] [heartbeat] oppe, heap=201187
+[2026-09-01 14:35:40] [heartbeat] oppe, heap=201188
+[2026-09-01 14:36:00] [heartbeat] oppe, heap=201189
+[2026-09-01 14:36:20] [sensor] EC-pH poll ok, sample=1190, ec=1.0, ph=6.2
+[2026-09-01 14:36:40] [heartbeat] oppe, heap=201191
+[2026-09-01 14:37:00] [heartbeat] oppe, heap=201192
+[2026-09-01 14:37:20] [heartbeat] oppe, heap=201193
+[2026-09-01 14:37:40] [heartbeat] oppe, heap=201194
+[2026-09-01 14:38:00] [sensor] EC-pH poll ok, sample=1195, ec=1.0, ph=6.1
+[2026-09-01 14:38:20] [heartbeat] oppe, heap=201196
+[2026-09-01 14:38:40] [heartbeat] oppe, heap=201197
+[2026-09-01 14:39:00] [heartbeat] oppe, heap=201198
+[2026-09-01 14:39:20] [heartbeat] oppe, heap=201199
+[2026-09-01 14:39:40] [sensor] EC-pH poll ok, sample=1200, ec=1.4, ph=6.6
+[2026-09-01 14:40:00] [heartbeat] oppe, heap=201201
+[2026-09-01 14:40:20] [heartbeat] oppe, heap=201202
+[2026-09-01 14:40:40] [heartbeat] oppe, heap=201203
+[2026-09-01 14:41:00] [heartbeat] oppe, heap=201204
+[2026-09-01 14:41:20] [sensor] EC-pH poll ok, sample=1205, ec=1.2, ph=6.0
+[2026-09-01 14:41:40] [heartbeat] oppe, heap=201206
+[2026-09-01 14:42:00] [heartbeat] oppe, heap=201207
+[2026-09-01 14:42:20] [heartbeat] oppe, heap=201208
+[2026-09-01 14:42:40] [heartbeat] oppe, heap=201209
+[2026-09-01 14:43:00] [sensor] EC-pH poll ok, sample=1210, ec=1.1, ph=6.6
+[2026-09-01 14:43:20] [heartbeat] oppe, heap=201211
+[2026-09-01 14:43:40] [heartbeat] oppe, heap=201212
+[2026-09-01 14:44:00] [heartbeat] oppe, heap=201213
+[2026-09-01 14:44:20] [heartbeat] oppe, heap=201214
+[2026-09-01 14:44:40] [sensor] EC-pH poll ok, sample=1215, ec=1.8, ph=6.4
+[2026-09-01 14:45:00] [heartbeat] oppe, heap=201216
+[2026-09-01 14:45:20] [heartbeat] oppe, heap=201217
+[2026-09-01 14:45:40] [heartbeat] oppe, heap=201218
+[2026-09-01 14:46:00] [heartbeat] oppe, heap=201219
+[2026-09-01 14:46:20] [sensor] EC-pH poll ok, sample=1220, ec=1.3, ph=6.4
+[2026-09-01 14:46:40] [heartbeat] oppe, heap=201221
+[2026-09-01 14:47:00] [heartbeat] oppe, heap=201222
+[2026-09-01 14:47:20] [heartbeat] oppe, heap=201223
+[2026-09-01 14:47:40] [heartbeat] oppe, heap=201224
+[2026-09-01 14:48:00] [sensor] EC-pH poll ok, sample=1225, ec=1.0, ph=6.7
+[2026-09-01 14:48:20] [heartbeat] oppe, heap=201226
+[2026-09-01 14:48:40] [heartbeat] oppe, heap=201227
+[2026-09-01 14:49:00] [heartbeat] oppe, heap=201228
+[2026-09-01 14:49:20] [heartbeat] oppe, heap=201229
+[2026-09-01 14:49:40] [sensor] EC-pH poll ok, sample=1230, ec=1.2, ph=6.2
+[2026-09-01 14:50:00] [heartbeat] oppe, heap=201231
+[2026-09-01 14:50:20] [heartbeat] oppe, heap=201232
+[2026-09-01 14:50:40] [heartbeat] oppe, heap=201233
+[2026-09-01 14:51:00] [heartbeat] oppe, heap=201234
+[2026-09-01 14:51:20] [sensor] EC-pH poll ok, sample=1235, ec=1.4, ph=6.7
+[2026-09-01 14:51:40] [heartbeat] oppe, heap=201236
+[2026-09-01 14:52:00] [heartbeat] oppe, heap=201237
+[2026-09-01 14:52:20] [heartbeat] oppe, heap=201238
+[2026-09-01 14:52:40] [heartbeat] oppe, heap=201239
+[2026-09-01 14:53:00] [sensor] EC-pH poll ok, sample=1240, ec=1.0, ph=6.4
+[2026-09-01 14:53:20] [heartbeat] oppe, heap=201241
+[2026-09-01 14:53:40] [heartbeat] oppe, heap=201242
+[2026-09-01 14:54:00] [heartbeat] oppe, heap=201243
+[2026-09-01 14:54:20] [heartbeat] oppe, heap=201244
+[2026-09-01 14:54:40] [sensor] EC-pH poll ok, sample=1245, ec=1.5, ph=6.5
+[2026-09-01 14:55:00] [heartbeat] oppe, heap=201246
+[2026-09-01 14:55:20] [heartbeat] oppe, heap=201247
+[2026-09-01 14:55:40] [heartbeat] oppe, heap=201248
+[2026-09-01 14:56:00] [heartbeat] oppe, heap=201249
+[2026-09-01 14:56:20] [sensor] EC-pH poll ok, sample=1250, ec=1.8, ph=6.5
+[2026-09-01 14:56:40] [heartbeat] oppe, heap=201251
+[2026-09-01 14:57:00] [heartbeat] oppe, heap=201252
+[2026-09-01 14:57:20] [heartbeat] oppe, heap=201253
+[2026-09-01 14:57:40] [heartbeat] oppe, heap=201254
+[2026-09-01 14:58:00] [sensor] EC-pH poll ok, sample=1255, ec=1.3, ph=6.0
+[2026-09-01 14:58:20] [heartbeat] oppe, heap=201256
+[2026-09-01 14:58:40] [heartbeat] oppe, heap=201257
+[2026-09-01 14:59:00] [heartbeat] oppe, heap=201258
+[2026-09-01 14:59:20] [heartbeat] oppe, heap=201259
+[2026-09-01 14:59:40] [sensor] EC-pH poll ok, sample=1260, ec=1.4, ph=6.3
+[2026-09-01 14:00:00] [dose] syklus start
+[2026-09-01 14:00:00] [dose] pumpe 0: 12.5 ml -> register 12
+[2026-09-01 14:00:00] [dose] pumpe 1: 12.5 ml -> register 12
+[2026-09-01 14:00:00] [dose] pumpe 2: 7.0 ml -> register 7
+[2026-09-01 14:00:00] [dose] pumpe 3: 7.0 ml -> register 7
+[2026-09-01 14:00:01] [dose] syklus ferdig
+[2026-09-01 14:59:59] [dash] rapport sendt, HTTP/1.1 200 OK
+[2026-09-01 15:00:00] [heartbeat] oppe, heap=201261
+[2026-09-01 15:00:20] [heartbeat] oppe, heap=201262
+[2026-09-01 15:00:40] [heartbeat] oppe, heap=201263
+[2026-09-01 15:01:00] [heartbeat] oppe, heap=201264
+[2026-09-01 15:01:20] [sensor] EC-pH poll ok, sample=1265, ec=1.5, ph=6.2
+[2026-09-01 15:01:40] [heartbeat] oppe, heap=201266
+[2026-09-01 15:02:00] [heartbeat] oppe, heap=201267
+[2026-09-01 15:02:20] [heartbeat] oppe, heap=201268
+[2026-09-01 15:02:40] [heartbeat] oppe, heap=201269
+[2026-09-01 15:03:00] [sensor] EC-pH poll ok, sample=1270, ec=1.0, ph=6.5
+[2026-09-01 15:03:20] [heartbeat] oppe, heap=201271
+[2026-09-01 15:03:40] [heartbeat] oppe, heap=201272
+[2026-09-01 15:04:00] [heartbeat] oppe, heap=201273
+[2026-09-01 15:04:20] [heartbeat] oppe, heap=201274
+[2026-09-01 15:04:40] [sensor] EC-pH poll ok, sample=1275, ec=1.6, ph=6.1
+[2026-09-01 15:05:00] [heartbeat] oppe, heap=201276
+[2026-09-01 15:05:20] [heartbeat] oppe, heap=201277
+[2026-09-01 15:05:40] [heartbeat] oppe, heap=201278
+[2026-09-01 15:06:00] [heartbeat] oppe, heap=201279
+[2026-09-01 15:06:20] [sensor] EC-pH poll ok, sample=1280, ec=1.7, ph=6.4
+[2026-09-01 15:06:40] [heartbeat] oppe, heap=201281
+[2026-09-01 15:07:00] [heartbeat] oppe, heap=201282
+[2026-09-01 15:07:20] [heartbeat] oppe, heap=201283
+[2026-09-01 15:07:40] [heartbeat] oppe, heap=201284
+[2026-09-01 15:08:00] [sensor] EC-pH poll ok, sample=1285, ec=1.8, ph=6.3
+[2026-09-01 15:08:20] [heartbeat] oppe, heap=201286
+[2026-09-01 15:08:40] [heartbeat] oppe, heap=201287
+[2026-09-01 15:09:00] [heartbeat] oppe, heap=201288
+[2026-09-01 15:09:20] [heartbeat] oppe, heap=201289
+[2026-09-01 15:09:40] [sensor] EC-pH poll ok, sample=1290, ec=1.3, ph=6.8
+[2026-09-01 15:10:00] [heartbeat] oppe, heap=201291
+[2026-09-01 15:10:20] [heartbeat] oppe, heap=201292
+[2026-09-01 15:10:40] [heartbeat] oppe, heap=201293
+[2026-09-01 15:11:00] [heartbeat] oppe, heap=201294
+[2026-09-01 15:11:20] [sensor] EC-pH poll ok, sample=1295, ec=1.0, ph=6.1
+[2026-09-01 15:11:40] [heartbeat] oppe, heap=201296
+[2026-09-01 15:12:00] [heartbeat] oppe, heap=201297
+[2026-09-01 15:12:20] [heartbeat] oppe, heap=201298
+[2026-09-01 15:12:40] [heartbeat] oppe, heap=201299
+[2026-09-01 15:13:00] [sensor] EC-pH poll ok, sample=1300, ec=1.4, ph=6.1
+[2026-09-01 15:13:20] [heartbeat] oppe, heap=201301
+[2026-09-01 15:13:40] [heartbeat] oppe, heap=201302
+[2026-09-01 15:14:00] [heartbeat] oppe, heap=201303
+[2026-09-01 15:14:20] [heartbeat] oppe, heap=201304
+[2026-09-01 15:14:40] [sensor] EC-pH poll ok, sample=1305, ec=1.2, ph=6.6
+[2026-09-01 15:15:00] [heartbeat] oppe, heap=201306
+[2026-09-01 15:15:20] [heartbeat] oppe, heap=201307
+[2026-09-01 15:15:40] [heartbeat] oppe, heap=201308
+[2026-09-01 15:16:00] [heartbeat] oppe, heap=201309
+[2026-09-01 15:16:20] [sensor] EC-pH poll ok, sample=1310, ec=1.0, ph=6.6
+[2026-09-01 15:16:40] [heartbeat] oppe, heap=201311
+[2026-09-01 15:17:00] [heartbeat] oppe, heap=201312
+[2026-09-01 15:17:20] [heartbeat] oppe, heap=201313
+[2026-09-01 15:17:40] [heartbeat] oppe, heap=201314
+[2026-09-01 15:18:00] [sensor] EC-pH poll ok, sample=1315, ec=1.0, ph=6.4
+[2026-09-01 15:18:20] [heartbeat] oppe, heap=201316
+[2026-09-01 15:18:40] [heartbeat] oppe, heap=201317
+[2026-09-01 15:19:00] [heartbeat] oppe, heap=201318
+[2026-09-01 15:19:20] [heartbeat] oppe, heap=201319
+[2026-09-01 15:19:40] [sensor] EC-pH poll ok, sample=1320, ec=1.4, ph=6.3
+[2026-09-01 15:20:00] [heartbeat] oppe, heap=201321
+[2026-09-01 15:20:20] [heartbeat] oppe, heap=201322
+[2026-09-01 15:20:40] [heartbeat] oppe, heap=201323
+[2026-09-01 15:21:00] [heartbeat] oppe, heap=201324
+[2026-09-01 15:21:20] [sensor] EC-pH poll ok, sample=1325, ec=1.1, ph=6.8
+[2026-09-01 15:21:40] [heartbeat] oppe, heap=201326
+[2026-09-01 15:22:00] [heartbeat] oppe, heap=201327
+[2026-09-01 15:22:20] [heartbeat] oppe, heap=201328
+[2026-09-01 15:22:40] [heartbeat] oppe, heap=201329
+[2026-09-01 15:23:00] [sensor] EC-pH poll ok, sample=1330, ec=1.2, ph=6.6
+[2026-09-01 15:23:20] [heartbeat] oppe, heap=201331
+[2026-09-01 15:23:40] [heartbeat] oppe, heap=201332
+[2026-09-01 15:24:00] [heartbeat] oppe, heap=201333
+[2026-09-01 15:24:20] [heartbeat] oppe, heap=201334
+[2026-09-01 15:24:40] [sensor] EC-pH poll ok, sample=1335, ec=1.5, ph=6.7
+[2026-09-01 15:25:00] [heartbeat] oppe, heap=201336
+[2026-09-01 15:25:20] [heartbeat] oppe, heap=201337
+[2026-09-01 15:25:40] [heartbeat] oppe, heap=201338
+[2026-09-01 15:26:00] [heartbeat] oppe, heap=201339
+[2026-09-01 15:26:20] [sensor] EC-pH poll ok, sample=1340, ec=1.2, ph=6.4
+[2026-09-01 15:26:40] [heartbeat] oppe, heap=201341
+[2026-09-01 15:27:00] [heartbeat] oppe, heap=201342
+[2026-09-01 15:27:20] [heartbeat] oppe, heap=201343
+[2026-09-01 15:27:40] [heartbeat] oppe, heap=201344
+[2026-09-01 15:28:00] [sensor] EC-pH poll ok, sample=1345, ec=1.2, ph=6.0
+[2026-09-01 15:28:20] [heartbeat] oppe, heap=201346
+[2026-09-01 15:28:40] [heartbeat] oppe, heap=201347
+[2026-09-01 15:29:00] [heartbeat] oppe, heap=201348
+[2026-09-01 15:29:20] [heartbeat] oppe, heap=201349
+[2026-09-01 15:29:40] [sensor] EC-pH poll ok, sample=1350, ec=1.8, ph=6.6
+[2026-09-01 15:30:00] [heartbeat] oppe, heap=201351
+[2026-09-01 15:30:20] [heartbeat] oppe, heap=201352
+[2026-09-01 15:30:40] [heartbeat] oppe, heap=201353
+[2026-09-01 15:31:00] [heartbeat] oppe, heap=201354
+[2026-09-01 15:31:20] [sensor] EC-pH poll ok, sample=1355, ec=1.8, ph=6.2
+[2026-09-01 15:31:40] [heartbeat] oppe, heap=201356
+[2026-09-01 15:32:00] [heartbeat] oppe, heap=201357
+[2026-09-01 15:32:20] [heartbeat] oppe, heap=201358
+[2026-09-01 15:32:40] [heartbeat] oppe, heap=201359
+[2026-09-01 15:33:00] [sensor] EC-pH poll ok, sample=1360, ec=1.8, ph=6.8
+[2026-09-01 15:33:20] [heartbeat] oppe, heap=201361
+[2026-09-01 15:33:40] [heartbeat] oppe, heap=201362
+[2026-09-01 15:34:00] [heartbeat] oppe, heap=201363
+[2026-09-01 15:34:20] [heartbeat] oppe, heap=201364
+[2026-09-01 15:34:40] [sensor] EC-pH poll ok, sample=1365, ec=1.0, ph=6.3
+[2026-09-01 15:35:00] [heartbeat] oppe, heap=201366
+[2026-09-01 15:35:20] [heartbeat] oppe, heap=201367
+[2026-09-01 15:35:40] [heartbeat] oppe, heap=201368
+[2026-09-01 15:36:00] [heartbeat] oppe, heap=201369
+[2026-09-01 15:36:20] [sensor] EC-pH poll ok, sample=1370, ec=1.1, ph=6.0
+[2026-09-01 15:36:40] [heartbeat] oppe, heap=201371
+[2026-09-01 15:37:00] [heartbeat] oppe, heap=201372
+[2026-09-01 15:37:20] [heartbeat] oppe, heap=201373
+[2026-09-01 15:37:40] [heartbeat] oppe, heap=201374
+[2026-09-01 15:38:00] [sensor] EC-pH poll ok, sample=1375, ec=1.0, ph=6.2
+[2026-09-01 15:38:20] [heartbeat] oppe, heap=201376
+[2026-09-01 15:38:40] [heartbeat] oppe, heap=201377
+[2026-09-01 15:39:00] [heartbeat] oppe, heap=201378
+[2026-09-01 15:39:20] [heartbeat] oppe, heap=201379
+[2026-09-01 15:39:40] [sensor] EC-pH poll ok, sample=1380, ec=1.5, ph=6.1
+[2026-09-01 15:40:00] [heartbeat] oppe, heap=201381
+[2026-09-01 15:40:20] [heartbeat] oppe, heap=201382
+[2026-09-01 15:40:40] [heartbeat] oppe, heap=201383
+[2026-09-01 15:41:00] [heartbeat] oppe, heap=201384
+[2026-09-01 15:41:20] [sensor] EC-pH poll ok, sample=1385, ec=1.6, ph=6.7
+[2026-09-01 15:41:40] [heartbeat] oppe, heap=201386
+[2026-09-01 15:42:00] [heartbeat] oppe, heap=201387
+[2026-09-01 15:42:20] [heartbeat] oppe, heap=201388
+[2026-09-01 15:42:40] [heartbeat] oppe, heap=201389
+[2026-09-01 15:43:00] [sensor] EC-pH poll ok, sample=1390, ec=1.8, ph=6.0
+[2026-09-01 15:43:20] [heartbeat] oppe, heap=201391
+[2026-09-01 15:43:40] [heartbeat] oppe, heap=201392
+[2026-09-01 15:44:00] [heartbeat] oppe, heap=201393
+[2026-09-01 15:44:20] [heartbeat] oppe, heap=201394
+[2026-09-01 15:44:40] [sensor] EC-pH poll ok, sample=1395, ec=1.0, ph=6.8
+[2026-09-01 15:45:00] [heartbeat] oppe, heap=201396
+[2026-09-01 15:45:20] [heartbeat] oppe, heap=201397
+[2026-09-01 15:45:40] [heartbeat] oppe, heap=201398
+[2026-09-01 15:46:00] [heartbeat] oppe, heap=201399
+[2026-09-01 15:46:20] [sensor] EC-pH poll ok, sample=1400, ec=1.3, ph=6.7
+[2026-09-01 15:46:40] [heartbeat] oppe, heap=201401
+[2026-09-01 15:47:00] [heartbeat] oppe, heap=201402
+[2026-09-01 15:47:20] [heartbeat] oppe, heap=201403
+[2026-09-01 15:47:40] [heartbeat] oppe, heap=201404
+[2026-09-01 15:48:00] [sensor] EC-pH poll ok, sample=1405, ec=1.4, ph=6.0
+[2026-09-01 15:48:20] [heartbeat] oppe, heap=201406
+[2026-09-01 15:48:40] [heartbeat] oppe, heap=201407
+[2026-09-01 15:49:00] [heartbeat] oppe, heap=201408
+[2026-09-01 15:49:20] [heartbeat] oppe, heap=201409
+[2026-09-01 15:49:40] [sensor] EC-pH poll ok, sample=1410, ec=1.7, ph=6.1
+[2026-09-01 15:50:00] [heartbeat] oppe, heap=201411
+[2026-09-01 15:50:20] [heartbeat] oppe, heap=201412
+[2026-09-01 15:50:40] [heartbeat] oppe, heap=201413
+[2026-09-01 15:51:00] [heartbeat] oppe, heap=201414
+[2026-09-01 15:51:20] [sensor] EC-pH poll ok, sample=1415, ec=1.8, ph=6.8
+[2026-09-01 15:51:40] [heartbeat] oppe, heap=201416
+[2026-09-01 15:52:00] [heartbeat] oppe, heap=201417
+[2026-09-01 15:52:20] [heartbeat] oppe, heap=201418
+[2026-09-01 15:52:40] [heartbeat] oppe, heap=201419
+[2026-09-01 15:53:00] [sensor] EC-pH poll ok, sample=1420, ec=1.1, ph=6.8
+[2026-09-01 15:53:20] [heartbeat] oppe, heap=201421
+[2026-09-01 15:53:40] [heartbeat] oppe, heap=201422
+[2026-09-01 15:54:00] [heartbeat] oppe, heap=201423
+[2026-09-01 15:54:20] [heartbeat] oppe, heap=201424
+[2026-09-01 15:54:40] [sensor] EC-pH poll ok, sample=1425, ec=1.1, ph=6.7
+[2026-09-01 15:55:00] [heartbeat] oppe, heap=201426
+[2026-09-01 15:55:20] [heartbeat] oppe, heap=201427
+[2026-09-01 15:55:40] [heartbeat] oppe, heap=201428
+[2026-09-01 15:56:00] [heartbeat] oppe, heap=201429
+[2026-09-01 15:56:20] [sensor] EC-pH poll ok, sample=1430, ec=1.4, ph=6.1
+[2026-09-01 15:56:40] [heartbeat] oppe, heap=201431
+[2026-09-01 15:57:00] [heartbeat] oppe, heap=201432
+[2026-09-01 15:57:20] [heartbeat] oppe, heap=201433
+[2026-09-01 15:57:40] [heartbeat] oppe, heap=201434
+[2026-09-01 15:58:00] [sensor] EC-pH poll ok, sample=1435, ec=1.4, ph=6.3
+[2026-09-01 15:58:20] [heartbeat] oppe, heap=201436
+[2026-09-01 15:58:40] [heartbeat] oppe, heap=201437
+[2026-09-01 15:59:00] [heartbeat] oppe, heap=201438
+[2026-09-01 15:59:20] [heartbeat] oppe, heap=201439
+[2026-09-01 15:59:40] [sensor] EC-pH poll ok, sample=1440, ec=1.3, ph=6.3
+[2026-09-01 15:00:00] [dose] syklus start
+[2026-09-01 15:00:00] [dose] pumpe 0: 12.5 ml -> register 12
+[2026-09-01 15:00:00] [dose] pumpe 1: 12.5 ml -> register 12
+[2026-09-01 15:00:00] [dose] pumpe 2: 7.0 ml -> register 7
+[2026-09-01 15:00:00] [dose] pumpe 3: 7.0 ml -> register 7
+[2026-09-01 15:00:01] [dose] syklus ferdig
+[2026-09-01 15:59:59] [dash] rapport sendt, HTTP/1.1 200 OK
+[2026-09-01 16:00:00] [heartbeat] oppe, heap=201441
+[2026-09-01 16:00:20] [heartbeat] oppe, heap=201442
+[2026-09-01 16:00:40] [heartbeat] oppe, heap=201443
+[2026-09-01 16:01:00] [heartbeat] oppe, heap=201444
+[2026-09-01 16:01:20] [sensor] EC-pH poll ok, sample=1445, ec=1.7, ph=6.7
+[2026-09-01 16:01:40] [heartbeat] oppe, heap=201446
+[2026-09-01 16:02:00] [heartbeat] oppe, heap=201447
+[2026-09-01 16:02:20] [heartbeat] oppe, heap=201448
+[2026-09-01 16:02:40] [heartbeat] oppe, heap=201449
+[2026-09-01 16:03:00] [sensor] EC-pH poll ok, sample=1450, ec=1.6, ph=6.1
+[2026-09-01 16:03:20] [heartbeat] oppe, heap=201451
+[2026-09-01 16:03:40] [heartbeat] oppe, heap=201452
+[2026-09-01 16:04:00] [heartbeat] oppe, heap=201453
+[2026-09-01 16:04:20] [heartbeat] oppe, heap=201454
+[2026-09-01 16:04:40] [sensor] EC-pH poll ok, sample=1455, ec=1.7, ph=6.4
+[2026-09-01 16:05:00] [heartbeat] oppe, heap=201456
+[2026-09-01 16:05:20] [heartbeat] oppe, heap=201457
+[2026-09-01 16:05:40] [heartbeat] oppe, heap=201458
+[2026-09-01 16:06:00] [heartbeat] oppe, heap=201459
+[2026-09-01 16:06:20] [sensor] EC-pH poll ok, sample=1460, ec=1.0, ph=6.3
+[2026-09-01 16:06:40] [heartbeat] oppe, heap=201461
+[2026-09-01 16:07:00] [heartbeat] oppe, heap=201462
+[2026-09-01 16:07:20] [heartbeat] oppe, heap=201463
+[2026-09-01 16:07:40] [heartbeat] oppe, heap=201464
+[2026-09-01 16:08:00] [sensor] EC-pH poll ok, sample=1465, ec=1.1, ph=6.2
+[2026-09-01 16:08:20] [heartbeat] oppe, heap=201466
+[2026-09-01 16:08:40] [heartbeat] oppe, heap=201467
+[2026-09-01 16:09:00] [heartbeat] oppe, heap=201468
+[2026-09-01 16:09:20] [heartbeat] oppe, heap=201469
+[2026-09-01 16:09:40] [sensor] EC-pH poll ok, sample=1470, ec=1.5, ph=6.4
+[2026-09-01 16:10:00] [heartbeat] oppe, heap=201471
+[2026-09-01 16:10:20] [heartbeat] oppe, heap=201472
+[2026-09-01 16:10:40] [heartbeat] oppe, heap=201473
+[2026-09-01 16:11:00] [heartbeat] oppe, heap=201474
+[2026-09-01 16:11:20] [sensor] EC-pH poll ok, sample=1475, ec=1.4, ph=6.2
+[2026-09-01 16:11:40] [heartbeat] oppe, heap=201476
+[2026-09-01 16:12:00] [heartbeat] oppe, heap=201477
+[2026-09-01 16:12:20] [heartbeat] oppe, heap=201478
+[2026-09-01 16:12:40] [heartbeat] oppe, heap=201479
+[2026-09-01 16:13:00] [sensor] EC-pH poll ok, sample=1480, ec=1.0, ph=6.7
+[2026-09-01 16:13:20] [heartbeat] oppe, heap=201481
+[2026-09-01 16:13:40] [heartbeat] oppe, heap=201482
+[2026-09-01 16:14:00] [heartbeat] oppe, heap=201483
+[2026-09-01 16:14:20] [heartbeat] oppe, heap=201484
+[2026-09-01 16:14:40] [sensor] EC-pH poll ok, sample=1485, ec=1.0, ph=6.7
+[2026-09-01 16:15:00] [heartbeat] oppe, heap=201486
+[2026-09-01 16:15:20] [heartbeat] oppe, heap=201487
+[2026-09-01 16:15:40] [heartbeat] oppe, heap=201488
+[2026-09-01 16:16:00] [heartbeat] oppe, heap=201489
+[2026-09-01 16:16:20] [sensor] EC-pH poll ok, sample=1490, ec=1.4, ph=6.1
+[2026-09-01 16:16:40] [heartbeat] oppe, heap=201491
+[2026-09-01 16:17:00] [heartbeat] oppe, heap=201492
+[2026-09-01 16:17:20] [heartbeat] oppe, heap=201493
+[2026-09-01 16:17:40] [heartbeat] oppe, heap=201494
+[2026-09-01 16:18:00] [sensor] EC-pH poll ok, sample=1495, ec=1.3, ph=6.7
+[2026-09-01 16:18:20] [heartbeat] oppe, heap=201496
+[2026-09-01 16:18:40] [heartbeat] oppe, heap=201497
+[2026-09-01 16:19:00] [heartbeat] oppe, heap=201498
+[2026-09-01 16:19:20] [heartbeat] oppe, heap=201499
+[2026-09-01 16:19:40] [sensor] EC-pH poll ok, sample=1500, ec=1.4, ph=6.8
+[2026-09-01 16:20:00] [heartbeat] oppe, heap=201501
+[2026-09-01 16:20:20] [heartbeat] oppe, heap=201502
+[2026-09-01 16:20:40] [heartbeat] oppe, heap=201503
+[2026-09-01 16:21:00] [heartbeat] oppe, heap=201504
+[2026-09-01 16:21:20] [sensor] EC-pH poll ok, sample=1505, ec=1.4, ph=6.7
+[2026-09-01 16:21:40] [heartbeat] oppe, heap=201506
+[2026-09-01 16:22:00] [heartbeat] oppe, heap=201507
+[2026-09-01 16:22:20] [heartbeat] oppe, heap=201508
+[2026-09-01 16:22:40] [heartbeat] oppe, heap=201509
+[2026-09-01 16:23:00] [sensor] EC-pH poll ok, sample=1510, ec=1.7, ph=6.7
+[2026-09-01 16:23:20] [heartbeat] oppe, heap=201511
+[2026-09-01 16:23:40] [heartbeat] oppe, heap=201512
+[2026-09-01 16:24:00] [heartbeat] oppe, heap=201513
+[2026-09-01 16:24:20] [heartbeat] oppe, heap=201514
+[2026-09-01 16:24:40] [sensor] EC-pH poll ok, sample=1515, ec=1.1, ph=6.8
+[2026-09-01 16:25:00] [heartbeat] oppe, heap=201516
+[2026-09-01 16:25:20] [heartbeat] oppe, heap=201517
+[2026-09-01 16:25:40] [heartbeat] oppe, heap=201518
+[2026-09-01 16:26:00] [heartbeat] oppe, heap=201519
+[2026-09-01 16:26:20] [sensor] EC-pH poll ok, sample=1520, ec=1.3, ph=6.4
+[2026-09-01 16:26:40] [heartbeat] oppe, heap=201521
+[2026-09-01 16:27:00] [heartbeat] oppe, heap=201522
+[2026-09-01 16:27:20] [heartbeat] oppe, heap=201523
+[2026-09-01 16:27:40] [heartbeat] oppe, heap=201524
+[2026-09-01 16:28:00] [sensor] EC-pH poll ok, sample=1525, ec=1.1, ph=6.7
+[2026-09-01 16:28:20] [heartbeat] oppe, heap=201526
+[2026-09-01 16:28:40] [heartbeat] oppe, heap=201527
+[2026-09-01 16:29:00] [heartbeat] oppe, heap=201528
+[2026-09-01 16:29:20] [heartbeat] oppe, heap=201529
+[2026-09-01 16:29:40] [sensor] EC-pH poll ok, sample=1530, ec=1.0, ph=6.4
+[2026-09-01 16:30:00] [heartbeat] oppe, heap=201531
+[2026-09-01 16:30:20] [heartbeat] oppe, heap=201532
+[2026-09-01 16:30:40] [heartbeat] oppe, heap=201533
+[2026-09-01 16:31:00] [heartbeat] oppe, heap=201534
+[2026-09-01 16:31:20] [sensor] EC-pH poll ok, sample=1535, ec=1.7, ph=6.1
+[2026-09-01 16:31:40] [heartbeat] oppe, heap=201536
+[2026-09-01 16:32:00] [heartbeat] oppe, heap=201537
+[2026-09-01 16:32:20] [heartbeat] oppe, heap=201538
+[2026-09-01 16:32:40] [heartbeat] oppe, heap=201539
+[2026-09-01 16:33:00] [sensor] EC-pH poll ok, sample=1540, ec=1.8, ph=6.7
+[2026-09-01 16:33:20] [heartbeat] oppe, heap=201541
+[2026-09-01 16:33:40] [heartbeat] oppe, heap=201542
+[2026-09-01 16:34:00] [heartbeat] oppe, heap=201543
+[2026-09-01 16:34:20] [heartbeat] oppe, heap=201544
+[2026-09-01 16:34:40] [sensor] EC-pH poll ok, sample=1545, ec=1.4, ph=6.6
+[2026-09-01 16:35:00] [heartbeat] oppe, heap=201546
+[2026-09-01 16:35:20] [heartbeat] oppe, heap=201547
+[2026-09-01 16:35:40] [heartbeat] oppe, heap=201548
+[2026-09-01 16:36:00] [heartbeat] oppe, heap=201549
+[2026-09-01 16:36:20] [sensor] EC-pH poll ok, sample=1550, ec=1.3, ph=6.3
+[2026-09-01 16:36:40] [heartbeat] oppe, heap=201551
+[2026-09-01 16:37:00] [heartbeat] oppe, heap=201552
+[2026-09-01 16:37:20] [heartbeat] oppe, heap=201553
+[2026-09-01 16:37:40] [heartbeat] oppe, heap=201554
+[2026-09-01 16:38:00] [sensor] EC-pH poll ok, sample=1555, ec=1.1, ph=6.1
+[2026-09-01 16:38:20] [heartbeat] oppe, heap=201556
+[2026-09-01 16:38:40] [heartbeat] oppe, heap=201557
+[2026-09-01 16:39:00] [heartbeat] oppe, heap=201558
+[2026-09-01 16:39:20] [heartbeat] oppe, heap=201559
+[2026-09-01 16:39:40] [sensor] EC-pH poll ok, sample=1560, ec=1.2, ph=6.8
+[2026-09-01 16:40:00] [heartbeat] oppe, heap=201561
+[2026-09-01 16:40:20] [heartbeat] oppe, heap=201562
+[2026-09-01 16:40:40] [heartbeat] oppe, heap=201563
+[2026-09-01 16:41:00] [heartbeat] oppe, heap=201564
+[2026-09-01 16:41:20] [sensor] EC-pH poll ok, sample=1565, ec=1.4, ph=6.5
+[2026-09-01 16:41:40] [heartbeat] oppe, heap=201566
+[2026-09-01 16:42:00] [heartbeat] oppe, heap=201567
+[2026-09-01 16:42:20] [heartbeat] oppe, heap=201568
+[2026-09-01 16:42:40] [heartbeat] oppe, heap=201569
+[2026-09-01 16:43:00] [sensor] EC-pH poll ok, sample=1570, ec=1.2, ph=6.8
+[2026-09-01 16:43:20] [heartbeat] oppe, heap=201571
+[2026-09-01 16:43:40] [heartbeat] oppe, heap=201572
+[2026-09-01 16:44:00] [heartbeat] oppe, heap=201573
+[2026-09-01 16:44:20] [heartbeat] oppe, heap=201574
+[2026-09-01 16:44:40] [sensor] EC-pH poll ok, sample=1575, ec=1.4, ph=6.1
+[2026-09-01 16:45:00] [heartbeat] oppe, heap=201576
+[2026-09-01 16:45:20] [heartbeat] oppe, heap=201577
+[2026-09-01 16:45:40] [heartbeat] oppe, heap=201578
+[2026-09-01 16:46:00] [heartbeat] oppe, heap=201579
+[2026-09-01 16:46:20] [sensor] EC-pH poll ok, sample=1580, ec=1.5, ph=6.3
+[2026-09-01 16:46:40] [heartbeat] oppe, heap=201581
+[2026-09-01 16:47:00] [heartbeat] oppe, heap=201582
+[2026-09-01 16:47:20] [heartbeat] oppe, heap=201583
+[2026-09-01 16:47:40] [heartbeat] oppe, heap=201584
+[2026-09-01 16:48:00] [sensor] EC-pH poll ok, sample=1585, ec=1.7, ph=6.7
+[2026-09-01 16:48:20] [heartbeat] oppe, heap=201586
+[2026-09-01 16:48:40] [heartbeat] oppe, heap=201587
+[2026-09-01 16:49:00] [heartbeat] oppe, heap=201588
+[2026-09-01 16:49:20] [heartbeat] oppe, heap=201589
+[2026-09-01 16:49:40] [sensor] EC-pH poll ok, sample=1590, ec=1.6, ph=6.0
+[2026-09-01 16:50:00] [heartbeat] oppe, heap=201591
+[2026-09-01 16:50:20] [heartbeat] oppe, heap=201592
+[2026-09-01 16:50:40] [heartbeat] oppe, heap=201593
+[2026-09-01 16:51:00] [heartbeat] oppe, heap=201594
+[2026-09-01 16:51:20] [sensor] EC-pH poll ok, sample=1595, ec=1.2, ph=6.0
+[2026-09-01 16:51:40] [heartbeat] oppe, heap=201596
+[2026-09-01 16:52:00] [heartbeat] oppe, heap=201597
+[2026-09-01 16:52:20] [heartbeat] oppe, heap=201598
+[2026-09-01 16:52:40] [heartbeat] oppe, heap=201599
+[2026-09-01 16:53:00] [sensor] EC-pH poll ok, sample=1600, ec=1.7, ph=6.7
+[2026-09-01 16:53:20] [heartbeat] oppe, heap=201601
+[2026-09-01 16:53:40] [heartbeat] oppe, heap=201602
+[2026-09-01 16:54:00] [heartbeat] oppe, heap=201603
+[2026-09-01 16:54:20] [heartbeat] oppe, heap=201604
+[2026-09-01 16:54:40] [sensor] EC-pH poll ok, sample=1605, ec=1.6, ph=6.4
+[2026-09-01 16:55:00] [heartbeat] oppe, heap=201606
+[2026-09-01 16:55:20] [heartbeat] oppe, heap=201607
+[2026-09-01 16:55:40] [heartbeat] oppe, heap=201608
+[2026-09-01 16:56:00] [heartbeat] oppe, heap=201609
+[2026-09-01 16:56:20] [sensor] EC-pH poll ok, sample=1610, ec=1.2, ph=6.6
+[2026-09-01 16:56:40] [heartbeat] oppe, heap=201611
+[2026-09-01 16:57:00] [heartbeat] oppe, heap=201612
+[2026-09-01 16:57:20] [heartbeat] oppe, heap=201613
+[2026-09-01 16:57:40] [heartbeat] oppe, heap=201614
+[2026-09-01 16:58:00] [sensor] EC-pH poll ok, sample=1615, ec=1.5, ph=6.6
+[2026-09-01 16:58:20] [heartbeat] oppe, heap=201616
+[2026-09-01 16:58:40] [heartbeat] oppe, heap=201617
+[2026-09-01 16:59:00] [heartbeat] oppe, heap=201618
+[2026-09-01 16:59:20] [heartbeat] oppe, heap=201619
+[2026-09-01 16:59:40] [sensor] EC-pH poll ok, sample=1620, ec=1.5, ph=6.1
+[2026-09-01 16:00:00] [dose] syklus start
+[2026-09-01 16:00:00] [dose] pumpe 0: 12.5 ml -> register 12
+[2026-09-01 16:00:00] [dose] pumpe 1: 12.5 ml -> register 12
+[2026-09-01 16:00:00] [dose] pumpe 2: 7.0 ml -> register 7
+[2026-09-01 16:00:00] [dose] pumpe 3: 7.0 ml -> register 7
+[2026-09-01 16:00:01] [dose] syklus ferdig
+[2026-09-01 16:59:59] [dash] rapport sendt, HTTP/1.1 200 OK
+[2026-09-01 17:00:00] [heartbeat] oppe, heap=201621
+[2026-09-01 17:00:20] [heartbeat] oppe, heap=201622
+[2026-09-01 17:00:40] [heartbeat] oppe, heap=201623
+[2026-09-01 17:01:00] [heartbeat] oppe, heap=201624
+[2026-09-01 17:01:20] [sensor] EC-pH poll ok, sample=1625, ec=1.5, ph=6.0
+[2026-09-01 17:01:40] [heartbeat] oppe, heap=201626
+[2026-09-01 17:02:00] [heartbeat] oppe, heap=201627
+[2026-09-01 17:02:20] [heartbeat] oppe, heap=201628
+[2026-09-01 17:02:40] [heartbeat] oppe, heap=201629
+[2026-09-01 17:03:00] [sensor] EC-pH poll ok, sample=1630, ec=1.5, ph=6.5
+[2026-09-01 17:03:20] [heartbeat] oppe, heap=201631
+[2026-09-01 17:03:40] [heartbeat] oppe, heap=201632
+[2026-09-01 17:04:00] [heartbeat] oppe, heap=201633
+[2026-09-01 17:04:20] [heartbeat] oppe, heap=201634
+[2026-09-01 17:04:40] [sensor] EC-pH poll ok, sample=1635, ec=1.6, ph=6.1
+[2026-09-01 17:05:00] [heartbeat] oppe, heap=201636
+[2026-09-01 17:05:20] [heartbeat] oppe, heap=201637
+[2026-09-01 17:05:40] [heartbeat] oppe, heap=201638
+[2026-09-01 17:06:00] [heartbeat] oppe, heap=201639
+[2026-09-01 17:06:20] [sensor] EC-pH poll ok, sample=1640, ec=1.3, ph=6.0
+[2026-09-01 17:06:40] [heartbeat] oppe, heap=201641
+[2026-09-01 17:07:00] [heartbeat] oppe, heap=201642
+[2026-09-01 17:07:20] [heartbeat] oppe, heap=201643
+[2026-09-01 17:07:40] [heartbeat] oppe, heap=201644
+[2026-09-01 17:08:00] [sensor] EC-pH poll ok, sample=1645, ec=1.4, ph=6.4
+[2026-09-01 17:08:20] [heartbeat] oppe, heap=201646
+[2026-09-01 17:08:40] [heartbeat] oppe, heap=201647
+[2026-09-01 17:09:00] [heartbeat] oppe, heap=201648
+[2026-09-01 17:09:20] [heartbeat] oppe, heap=201649
+[2026-09-01 17:09:40] [sensor] EC-pH poll ok, sample=1650, ec=1.5, ph=6.1
+[2026-09-01 17:10:00] [heartbeat] oppe, heap=201651
+[2026-09-01 17:10:20] [heartbeat] oppe, heap=201652
+[2026-09-01 17:10:40] [heartbeat] oppe, heap=201653
+[2026-09-01 17:11:00] [heartbeat] oppe, heap=201654
+[2026-09-01 17:11:20] [sensor] EC-pH poll ok, sample=1655, ec=1.6, ph=6.6
+[2026-09-01 17:11:40] [heartbeat] oppe, heap=201656
+[2026-09-01 17:12:00] [heartbeat] oppe, heap=201657
+[2026-09-01 17:12:20] [heartbeat] oppe, heap=201658
+[2026-09-01 17:12:40] [heartbeat] oppe, heap=201659
+[2026-09-01 17:13:00] [sensor] EC-pH poll ok, sample=1660, ec=1.1, ph=6.5
+[2026-09-01 17:13:20] [heartbeat] oppe, heap=201661
+[2026-09-01 17:13:40] [heartbeat] oppe, heap=201662
+[2026-09-01 17:14:00] [heartbeat] oppe, heap=201663
+[2026-09-01 17:14:20] [heartbeat] oppe, heap=201664
+[2026-09-01 17:14:40] [sensor] EC-pH poll ok, sample=1665, ec=1.6, ph=6.4
+[2026-09-01 17:15:00] [heartbeat] oppe, heap=201666
+[2026-09-01 17:15:20] [heartbeat] oppe, heap=201667
+[2026-09-01 17:15:40] [heartbeat] oppe, heap=201668
+[2026-09-01 17:16:00] [heartbeat] oppe, heap=201669
+[2026-09-01 17:16:20] [sensor] EC-pH poll ok, sample=1670, ec=1.0, ph=6.4
+[2026-09-01 17:16:40] [heartbeat] oppe, heap=201671
+[2026-09-01 17:17:00] [heartbeat] oppe, heap=201672
+[2026-09-01 17:17:20] [heartbeat] oppe, heap=201673
+[2026-09-01 17:17:40] [heartbeat] oppe, heap=201674
+[2026-09-01 17:18:00] [sensor] EC-pH poll ok, sample=1675, ec=1.1, ph=6.0
+[2026-09-01 17:18:20] [heartbeat] oppe, heap=201676
+[2026-09-01 17:18:40] [heartbeat] oppe, heap=201677
+[2026-09-01 17:19:00] [heartbeat] oppe, heap=201678
+[2026-09-01 17:19:20] [heartbeat] oppe, heap=201679
+[2026-09-01 17:19:40] [sensor] EC-pH poll ok, sample=1680, ec=1.4, ph=6.2
+[2026-09-01 17:20:00] [heartbeat] oppe, heap=201681
+[2026-09-01 17:20:20] [heartbeat] oppe, heap=201682
+[2026-09-01 17:20:40] [heartbeat] oppe, heap=201683
+[2026-09-01 17:21:00] [heartbeat] oppe, heap=201684
+[2026-09-01 17:21:20] [sensor] EC-pH poll ok, sample=1685, ec=1.3, ph=6.4
+[2026-09-01 17:21:40] [heartbeat] oppe, heap=201686
+[2026-09-01 17:22:00] [heartbeat] oppe, heap=201687
+[2026-09-01 17:22:20] [heartbeat] oppe, heap=201688
+[2026-09-01 17:22:40] [heartbeat] oppe, heap=201689
+[2026-09-01 17:23:00] [sensor] EC-pH poll ok, sample=1690, ec=1.6, ph=6.8
+[2026-09-01 17:23:20] [heartbeat] oppe, heap=201691
+[2026-09-01 17:23:40] [heartbeat] oppe, heap=201692
+[2026-09-01 17:24:00] [heartbeat] oppe, heap=201693
+[2026-09-01 17:24:20] [heartbeat] oppe, heap=201694
+[2026-09-01 17:24:40] [sensor] EC-pH poll ok, sample=1695, ec=1.5, ph=6.3
+[2026-09-01 17:25:00] [heartbeat] oppe, heap=201696
+[2026-09-01 17:25:20] [heartbeat] oppe, heap=201697
+[2026-09-01 17:25:40] [heartbeat] oppe, heap=201698
+[2026-09-01 17:26:00] [heartbeat] oppe, heap=201699
+[2026-09-01 17:26:20] [sensor] EC-pH poll ok, sample=1700, ec=1.5, ph=6.6
+[2026-09-01 17:26:40] [heartbeat] oppe, heap=201701
+[2026-09-01 17:27:00] [heartbeat] oppe, heap=201702
+[2026-09-01 17:27:20] [heartbeat] oppe, heap=201703
+[2026-09-01 17:27:40] [heartbeat] oppe, heap=201704
+[2026-09-01 17:28:00] [sensor] EC-pH poll ok, sample=1705, ec=1.0, ph=6.6
+[2026-09-01 17:28:20] [heartbeat] oppe, heap=201706
+[2026-09-01 17:28:40] [heartbeat] oppe, heap=201707
+[2026-09-01 17:29:00] [heartbeat] oppe, heap=201708
+[2026-09-01 17:29:20] [heartbeat] oppe, heap=201709
+[2026-09-01 17:29:40] [sensor] EC-pH poll ok, sample=1710, ec=1.8, ph=6.8
+[2026-09-01 17:30:00] [heartbeat] oppe, heap=201711
+[2026-09-01 17:30:20] [heartbeat] oppe, heap=201712
+[2026-09-01 17:30:40] [heartbeat] oppe, heap=201713
+[2026-09-01 17:31:00] [heartbeat] oppe, heap=201714
+[2026-09-01 17:31:20] [sensor] EC-pH poll ok, sample=1715, ec=1.3, ph=6.1
+[2026-09-01 17:31:40] [heartbeat] oppe, heap=201716
+[2026-09-01 17:32:00] [heartbeat] oppe, heap=201717
+[2026-09-01 17:32:20] [heartbeat] oppe, heap=201718
+[2026-09-01 17:32:40] [heartbeat] oppe, heap=201719
+[2026-09-01 17:33:00] [sensor] EC-pH poll ok, sample=1720, ec=1.0, ph=6.6
+[2026-09-01 17:33:20] [heartbeat] oppe, heap=201721
+[2026-09-01 17:33:40] [heartbeat] oppe, heap=201722
+[2026-09-01 17:34:00] [heartbeat] oppe, heap=201723
+[2026-09-01 17:34:20] [heartbeat] oppe, heap=201724
+[2026-09-01 17:34:40] [sensor] EC-pH poll ok, sample=1725, ec=1.7, ph=6.2
+[2026-09-01 17:35:00] [heartbeat] oppe, heap=201726
+[2026-09-01 17:35:20] [heartbeat] oppe, heap=201727
+[2026-09-01 17:35:40] [heartbeat] oppe, heap=201728
+[2026-09-01 17:36:00] [heartbeat] oppe, heap=201729
+[2026-09-01 17:36:20] [sensor] EC-pH poll ok, sample=1730, ec=1.4, ph=6.7
+[2026-09-01 17:36:40] [heartbeat] oppe, heap=201731
+[2026-09-01 17:37:00] [heartbeat] oppe, heap=201732
+[2026-09-01 17:37:20] [heartbeat] oppe, heap=201733
+[2026-09-01 17:37:40] [heartbeat] oppe, heap=201734
+[2026-09-01 17:38:00] [sensor] EC-pH poll ok, sample=1735, ec=1.0, ph=6.8
+[2026-09-01 17:38:20] [heartbeat] oppe, heap=201736
+[2026-09-01 17:38:40] [heartbeat] oppe, heap=201737
+[2026-09-01 17:39:00] [heartbeat] oppe, heap=201738
+[2026-09-01 17:39:20] [heartbeat] oppe, heap=201739
+[2026-09-01 17:39:40] [sensor] EC-pH poll ok, sample=1740, ec=1.2, ph=6.2
+[2026-09-01 17:40:00] [heartbeat] oppe, heap=201741
+[2026-09-01 17:40:20] [heartbeat] oppe, heap=201742
+[2026-09-01 17:40:40] [heartbeat] oppe, heap=201743
+[2026-09-01 17:41:00] [heartbeat] oppe, heap=201744
+[2026-09-01 17:41:20] [sensor] EC-pH poll ok, sample=1745, ec=1.7, ph=6.6
+[2026-09-01 17:41:40] [heartbeat] oppe, heap=201746
+[2026-09-01 17:42:00] [heartbeat] oppe, heap=201747
+[2026-09-01 17:42:20] [heartbeat] oppe, heap=201748
+[2026-09-01 17:42:40] [heartbeat] oppe, heap=201749
+[2026-09-01 17:43:00] [sensor] EC-pH poll ok, sample=1750, ec=1.5, ph=6.4
+[2026-09-01 17:43:20] [heartbeat] oppe, heap=201751
+[2026-09-01 17:43:40] [heartbeat] oppe, heap=201752
+[2026-09-01 17:44:00] [heartbeat] oppe, heap=201753
+[2026-09-01 17:44:20] [heartbeat] oppe, heap=201754
+[2026-09-01 17:44:40] [sensor] EC-pH poll ok, sample=1755, ec=1.4, ph=6.4
+[2026-09-01 17:45:00] [heartbeat] oppe, heap=201756
+[2026-09-01 17:45:20] [heartbeat] oppe, heap=201757
+[2026-09-01 17:45:40] [heartbeat] oppe, heap=201758
+[2026-09-01 17:46:00] [heartbeat] oppe, heap=201759
+[2026-09-01 17:46:20] [sensor] EC-pH poll ok, sample=1760, ec=1.4, ph=6.6
+[2026-09-01 17:46:40] [heartbeat] oppe, heap=201761
+[2026-09-01 17:47:00] [heartbeat] oppe, heap=201762
+[2026-09-01 17:47:20] [heartbeat] oppe, heap=201763
+[2026-09-01 17:47:40] [heartbeat] oppe, heap=201764
+[2026-09-01 17:48:00] [sensor] EC-pH poll ok, sample=1765, ec=1.3, ph=6.4
+[2026-09-01 17:48:20] [heartbeat] oppe, heap=201766
+[2026-09-01 17:48:40] [heartbeat] oppe, heap=201767
+[2026-09-01 17:49:00] [heartbeat] oppe, heap=201768
+[2026-09-01 17:49:20] [heartbeat] oppe, heap=201769
+[2026-09-01 17:49:40] [sensor] EC-pH poll ok, sample=1770, ec=1.7, ph=6.8
+[2026-09-01 17:50:00] [heartbeat] oppe, heap=201771
+[2026-09-01 17:50:20] [heartbeat] oppe, heap=201772
+[2026-09-01 17:50:40] [heartbeat] oppe, heap=201773
+[2026-09-01 17:51:00] [heartbeat] oppe, heap=201774
+[2026-09-01 17:51:20] [sensor] EC-pH poll ok, sample=1775, ec=1.6, ph=6.1
+[2026-09-01 17:51:40] [heartbeat] oppe, heap=201776
+[2026-09-01 17:52:00] [heartbeat] oppe, heap=201777
+[2026-09-01 17:52:20] [heartbeat] oppe, heap=201778
+[2026-09-01 17:52:40] [heartbeat] oppe, heap=201779
+[2026-09-01 17:53:00] [sensor] EC-pH poll ok, sample=1780, ec=1.2, ph=6.2
+[2026-09-01 17:53:20] [heartbeat] oppe, heap=201781
+[2026-09-01 17:53:40] [heartbeat] oppe, heap=201782
+[2026-09-01 17:54:00] [heartbeat] oppe, heap=201783
+[2026-09-01 17:54:20] [heartbeat] oppe, heap=201784
+[2026-09-01 17:54:40] [sensor] EC-pH poll ok, sample=1785, ec=1.1, ph=6.3
+[2026-09-01 17:55:00] [heartbeat] oppe, heap=201786
+[2026-09-01 17:55:20] [heartbeat] oppe, heap=201787
+[2026-09-01 17:55:40] [heartbeat] oppe, heap=201788
+[2026-09-01 17:56:00] [heartbeat] oppe, heap=201789
+[2026-09-01 17:56:20] [sensor] EC-pH poll ok, sample=1790, ec=1.8, ph=6.7
+[2026-09-01 17:56:40] [heartbeat] oppe, heap=201791
+[2026-09-01 17:57:00] [heartbeat] oppe, heap=201792
+[2026-09-01 17:57:20] [heartbeat] oppe, heap=201793
+[2026-09-01 17:57:40] [heartbeat] oppe, heap=201794
+[2026-09-01 17:58:00] [sensor] EC-pH poll ok, sample=1795, ec=1.8, ph=6.3
+[2026-09-01 17:58:20] [heartbeat] oppe, heap=201796
+[2026-09-01 17:58:40] [heartbeat] oppe, heap=201797
+[2026-09-01 17:59:00] [heartbeat] oppe, heap=201798
+[2026-09-01 17:59:20] [heartbeat] oppe, heap=201799
+[2026-09-01 17:59:40] [sensor] EC-pH poll ok, sample=1800, ec=1.7, ph=6.5
+[2026-09-01 17:00:00] [dose] syklus start
+[2026-09-01 17:00:00] [dose] pumpe 0: 12.5 ml -> register 12
+[2026-09-01 17:00:00] [dose] pumpe 1: 12.5 ml -> register 12
+[2026-09-01 17:00:00] [dose] pumpe 2: 7.0 ml -> register 7
+[2026-09-01 17:00:00] [dose] pumpe 3: 7.0 ml -> register 7
+[2026-09-01 17:00:01] [dose] syklus ferdig
+[2026-09-01 17:59:59] [dash] rapport sendt, HTTP/1.1 200 OK
+[2026-09-01 18:00:00] [heartbeat] oppe, heap=201801
+[2026-09-01 18:00:20] [heartbeat] oppe, heap=201802
+[2026-09-01 18:00:40] [heartbeat] oppe, heap=201803
+[2026-09-01 18:01:00] [heartbeat] oppe, heap=201804
+[2026-09-01 18:01:20] [sensor] EC-pH poll ok, sample=1805, ec=1.7, ph=6.6
+[2026-09-01 18:01:40] [heartbeat] oppe, heap=201806
+[2026-09-01 18:02:00] [heartbeat] oppe, heap=201807
+[2026-09-01 18:02:20] [heartbeat] oppe, heap=201808
+[2026-09-01 18:02:40] [heartbeat] oppe, heap=201809
+[2026-09-01 18:03:00] [sensor] EC-pH poll ok, sample=1810, ec=1.2, ph=6.8
+[2026-09-01 18:03:20] [heartbeat] oppe, heap=201811
+[2026-09-01 18:03:40] [heartbeat] oppe, heap=201812
+[2026-09-01 18:04:00] [heartbeat] oppe, heap=201813
+[2026-09-01 18:04:20] [heartbeat] oppe, heap=201814
+[2026-09-01 18:04:40] [sensor] EC-pH poll ok, sample=1815, ec=1.3, ph=6.3
+[2026-09-01 18:05:00] [heartbeat] oppe, heap=201816
+[2026-09-01 18:05:20] [heartbeat] oppe, heap=201817
+[2026-09-01 18:05:40] [heartbeat] oppe, heap=201818
+[2026-09-01 18:06:00] [heartbeat] oppe, heap=201819
+[2026-09-01 18:06:20] [sensor] EC-pH poll ok, sample=1820, ec=1.1, ph=6.2
+[2026-09-01 18:06:40] [heartbeat] oppe, heap=201821
+[2026-09-01 18:07:00] [heartbeat] oppe, heap=201822
+[2026-09-01 18:07:20] [heartbeat] oppe, heap=201823
+[2026-09-01 18:07:40] [heartbeat] oppe, heap=201824
+[2026-09-01 18:08:00] [sensor] EC-pH poll ok, sample=1825, ec=1.5, ph=6.8
+[2026-09-01 18:08:20] [heartbeat] oppe, heap=201826
+[2026-09-01 18:08:40] [heartbeat] oppe, heap=201827
+[2026-09-01 18:09:00] [heartbeat] oppe, heap=201828
+[2026-09-01 18:09:20] [heartbeat] oppe, heap=201829
+[2026-09-01 18:09:40] [sensor] EC-pH poll ok, sample=1830, ec=1.1, ph=6.5
+[2026-09-01 18:10:00] [heartbeat] oppe, heap=201831
+[2026-09-01 18:10:20] [heartbeat] oppe, heap=201832
+[2026-09-01 18:10:40] [heartbeat] oppe, heap=201833
+[2026-09-01 18:11:00] [heartbeat] oppe, heap=201834
+[2026-09-01 18:11:20] [sensor] EC-pH poll ok, sample=1835, ec=1.3, ph=6.5
+[2026-09-01 18:11:40] [heartbeat] oppe, heap=201836
+[2026-09-01 18:12:00] [heartbeat] oppe, heap=201837
+[2026-09-01 18:12:20] [heartbeat] oppe, heap=201838
+[2026-09-01 18:12:40] [heartbeat] oppe, heap=201839
+[2026-09-01 18:13:00] [sensor] EC-pH poll ok, sample=1840, ec=1.4, ph=6.3
+[2026-09-01 18:13:20] [heartbeat] oppe, heap=201841
+[2026-09-01 18:13:40] [heartbeat] oppe, heap=201842
+[2026-09-01 18:14:00] [heartbeat] oppe, heap=201843
+[2026-09-01 18:14:20] [heartbeat] oppe, heap=201844
+[2026-09-01 18:14:40] [sensor] EC-pH poll ok, sample=1845, ec=1.0, ph=6.6
+[2026-09-01 18:15:00] [heartbeat] oppe, heap=201846
+[2026-09-01 18:15:20] [heartbeat] oppe, heap=201847
+[2026-09-01 18:15:40] [heartbeat] oppe, heap=201848
+[2026-09-01 18:16:00] [heartbeat] oppe, heap=201849
+[2026-09-01 18:16:20] [sensor] EC-pH poll ok, sample=1850, ec=1.6, ph=6.6
+[2026-09-01 18:16:40] [heartbeat] oppe, heap=201851
+[2026-09-01 18:17:00] [heartbeat] oppe, heap=201852
+[2026-09-01 18:17:20] [heartbeat] oppe, heap=201853
+[2026-09-01 18:17:40] [heartbeat] oppe, heap=201854
+[2026-09-01 18:18:00] [sensor] EC-pH poll ok, sample=1855, ec=1.8, ph=6.3
+[2026-09-01 18:18:20] [heartbeat] oppe, heap=201856
+[2026-09-01 18:18:40] [heartbeat] oppe, heap=201857
+[2026-09-01 18:19:00] [heartbeat] oppe, heap=201858
+[2026-09-01 18:19:20] [heartbeat] oppe, heap=201859
+[2026-09-01 18:19:40] [sensor] EC-pH poll ok, sample=1860, ec=1.6, ph=6.4
+[2026-09-01 18:20:00] [heartbeat] oppe, heap=201861
+[2026-09-01 18:20:20] [heartbeat] oppe, heap=201862
+[2026-09-01 18:20:40] [heartbeat] oppe, heap=201863
+[2026-09-01 18:21:00] [heartbeat] oppe, heap=201864
+[2026-09-01 18:21:20] [sensor] EC-pH poll ok, sample=1865, ec=1.5, ph=6.0
+[2026-09-01 18:21:40] [heartbeat] oppe, heap=201866
+[2026-09-01 18:22:00] [heartbeat] oppe, heap=201867
+[2026-09-01 18:22:20] [heartbeat] oppe, heap=201868
+[2026-09-01 18:22:40] [heartbeat] oppe, heap=201869
+[2026-09-01 18:23:00] [sensor] EC-pH poll ok, sample=1870, ec=1.7, ph=6.4
+[2026-09-01 18:23:20] [heartbeat] oppe, heap=201871
+[2026-09-01 18:23:40] [heartbeat] oppe, heap=201872
+[2026-09-01 18:24:00] [heartbeat] oppe, heap=201873
+[2026-09-01 18:24:20] [heartbeat] oppe, heap=201874
+[2026-09-01 18:24:40] [sensor] EC-pH poll ok, sample=1875, ec=1.5, ph=6.2
+[2026-09-01 18:25:00] [heartbeat] oppe, heap=201876
+[2026-09-01 18:25:20] [heartbeat] oppe, heap=201877
+[2026-09-01 18:25:40] [heartbeat] oppe, heap=201878
+[2026-09-01 18:26:00] [heartbeat] oppe, heap=201879
+[2026-09-01 18:26:20] [sensor] EC-pH poll ok, sample=1880, ec=1.8, ph=6.8
+[2026-09-01 18:26:40] [heartbeat] oppe, heap=201881
+[2026-09-01 18:27:00] [heartbeat] oppe, heap=201882
+[2026-09-01 18:27:20] [heartbeat] oppe, heap=201883
+[2026-09-01 18:27:40] [heartbeat] oppe, heap=201884
+[2026-09-01 18:28:00] [sensor] EC-pH poll ok, sample=1885, ec=1.3, ph=6.1
+[2026-09-01 18:28:20] [heartbeat] oppe, heap=201886
+[2026-09-01 18:28:40] [heartbeat] oppe, heap=201887
+[2026-09-01 18:29:00] [heartbeat] oppe, heap=201888
+[2026-09-01 18:29:20] [heartbeat] oppe, heap=201889
+[2026-09-01 18:29:40] [sensor] EC-pH poll ok, sample=1890, ec=1.4, ph=6.3
+[2026-09-01 18:30:00] [heartbeat] oppe, heap=201891
+[2026-09-01 18:30:20] [heartbeat] oppe, heap=201892
+[2026-09-01 18:30:40] [heartbeat] oppe, heap=201893
+[2026-09-01 18:31:00] [heartbeat] oppe, heap=201894
+[2026-09-01 18:31:20] [sensor] EC-pH poll ok, sample=1895, ec=1.6, ph=6.6
+[2026-09-01 18:31:40] [heartbeat] oppe, heap=201896
+[2026-09-01 18:32:00] [heartbeat] oppe, heap=201897
+[2026-09-01 18:32:20] [heartbeat] oppe, heap=201898
+[2026-09-01 18:32:40] [heartbeat] oppe, heap=201899
+[2026-09-01 18:33:00] [sensor] EC-pH poll ok, sample=1900, ec=1.7, ph=6.6
+[2026-09-01 18:33:20] [heartbeat] oppe, heap=201901
+[2026-09-01 18:33:40] [heartbeat] oppe, heap=201902
+[2026-09-01 18:34:00] [heartbeat] oppe, heap=201903
+[2026-09-01 18:34:20] [heartbeat] oppe, heap=201904
+[2026-09-01 18:34:40] [sensor] EC-pH poll ok, sample=1905, ec=1.4, ph=6.0
+[2026-09-01 18:35:00] [heartbeat] oppe, heap=201906
+[2026-09-01 18:35:20] [heartbeat] oppe, heap=201907
+[2026-09-01 18:35:40] [heartbeat] oppe, heap=201908
+[2026-09-01 18:36:00] [heartbeat] oppe, heap=201909
+[2026-09-01 18:36:20] [sensor] EC-pH poll ok, sample=1910, ec=1.2, ph=6.0
+[2026-09-01 18:36:40] [heartbeat] oppe, heap=201911
+[2026-09-01 18:37:00] [heartbeat] oppe, heap=201912
+[2026-09-01 18:37:20] [heartbeat] oppe, heap=201913
+[2026-09-01 18:37:40] [heartbeat] oppe, heap=201914
+[2026-09-01 18:38:00] [sensor] EC-pH poll ok, sample=1915, ec=1.6, ph=6.7
+[2026-09-01 18:38:20] [heartbeat] oppe, heap=201916
+[2026-09-01 18:38:40] [heartbeat] oppe, heap=201917
+[2026-09-01 18:39:00] [heartbeat] oppe, heap=201918
+[2026-09-01 18:39:20] [heartbeat] oppe, heap=201919
+[2026-09-01 18:39:40] [sensor] EC-pH poll ok, sample=1920, ec=1.7, ph=6.0
+[2026-09-01 18:40:00] [heartbeat] oppe, heap=201921
+[2026-09-01 18:40:20] [heartbeat] oppe, heap=201922
+[2026-09-01 18:40:40] [heartbeat] oppe, heap=201923
+[2026-09-01 18:41:00] [heartbeat] oppe, heap=201924
+[2026-09-01 18:41:20] [sensor] EC-pH poll ok, sample=1925, ec=1.1, ph=6.6
+[2026-09-01 18:41:40] [heartbeat] oppe, heap=201926
+[2026-09-01 18:42:00] [heartbeat] oppe, heap=201927
+[2026-09-01 18:42:20] [heartbeat] oppe, heap=201928
+[2026-09-01 18:42:40] [heartbeat] oppe, heap=201929
+[2026-09-01 18:43:00] [sensor] EC-pH poll ok, sample=1930, ec=1.8, ph=6.7
+[2026-09-01 18:43:20] [heartbeat] oppe, heap=201931
+[2026-09-01 18:43:40] [heartbeat] oppe, heap=201932
+[2026-09-01 18:44:00] [heartbeat] oppe, heap=201933
+[2026-09-01 18:44:20] [heartbeat] oppe, heap=201934
+[2026-09-01 18:44:40] [sensor] EC-pH poll ok, sample=1935, ec=1.7, ph=6.3
+[2026-09-01 18:45:00] [heartbeat] oppe, heap=201936
+[2026-09-01 18:45:20] [heartbeat] oppe, heap=201937
+[2026-09-01 18:45:40] [heartbeat] oppe, heap=201938
+[2026-09-01 18:46:00] [heartbeat] oppe, heap=201939
+[2026-09-01 18:46:20] [sensor] EC-pH poll ok, sample=1940, ec=1.1, ph=6.3
+[2026-09-01 18:46:40] [heartbeat] oppe, heap=201941
+[2026-09-01 18:47:00] [heartbeat] oppe, heap=201942
+[2026-09-01 18:47:20] [heartbeat] oppe, heap=201943
+[2026-09-01 18:47:40] [heartbeat] oppe, heap=201944
+[2026-09-01 18:48:00] [sensor] EC-pH poll ok, sample=1945, ec=1.2, ph=6.2
+[2026-09-01 18:48:20] [heartbeat] oppe, heap=201946
+[2026-09-01 18:48:40] [heartbeat] oppe, heap=201947
+[2026-09-01 18:49:00] [heartbeat] oppe, heap=201948
+[2026-09-01 18:49:20] [heartbeat] oppe, heap=201949
+[2026-09-01 18:49:40] [sensor] EC-pH poll ok, sample=1950, ec=1.8, ph=6.1
+[2026-09-01 18:50:00] [heartbeat] oppe, heap=201951
+[2026-09-01 18:50:20] [heartbeat] oppe, heap=201952
+[2026-09-01 18:50:40] [heartbeat] oppe, heap=201953
+[2026-09-01 18:51:00] [heartbeat] oppe, heap=201954
+[2026-09-01 18:51:20] [sensor] EC-pH poll ok, sample=1955, ec=1.7, ph=6.1
+[2026-09-01 18:51:40] [heartbeat] oppe, heap=201956
+[2026-09-01 18:52:00] [heartbeat] oppe, heap=201957
+[2026-09-01 18:52:20] [heartbeat] oppe, heap=201958
+[2026-09-01 18:52:40] [heartbeat] oppe, heap=201959
+[2026-09-01 18:53:00] [sensor] EC-pH poll ok, sample=1960, ec=1.8, ph=6.0
+[2026-09-01 18:53:20] [heartbeat] oppe, heap=201961
+[2026-09-01 18:53:40] [heartbeat] oppe, heap=201962
+[2026-09-01 18:54:00] [heartbeat] oppe, heap=201963
+[2026-09-01 18:54:20] [heartbeat] oppe, heap=201964
+[2026-09-01 18:54:40] [sensor] EC-pH poll ok, sample=1965, ec=1.0, ph=6.2
+[2026-09-01 18:55:00] [heartbeat] oppe, heap=201966
+[2026-09-01 18:55:20] [heartbeat] oppe, heap=201967
+[2026-09-01 18:55:40] [heartbeat] oppe, heap=201968
+[2026-09-01 18:56:00] [heartbeat] oppe, heap=201969
+[2026-09-01 18:56:20] [sensor] EC-pH poll ok, sample=1970, ec=1.3, ph=6.0
+[2026-09-01 18:56:40] [heartbeat] oppe, heap=201971
+[2026-09-01 18:57:00] [heartbeat] oppe, heap=201972
+[2026-09-01 18:57:20] [heartbeat] oppe, heap=201973
+[2026-09-01 18:57:40] [heartbeat] oppe, heap=201974
+[2026-09-01 18:58:00] [sensor] EC-pH poll ok, sample=1975, ec=1.4, ph=6.2
+[2026-09-01 18:58:20] [heartbeat] oppe, heap=201976
+[2026-09-01 18:58:40] [heartbeat] oppe, heap=201977
+[2026-09-01 18:59:00] [heartbeat] oppe, heap=201978
+[2026-09-01 18:59:20] [heartbeat] oppe, heap=201979
+[2026-09-01 18:59:40] [sensor] EC-pH poll ok, sample=1980, ec=1.4, ph=6.8
+[2026-09-01 18:00:00] [dose] syklus start
+[2026-09-01 18:00:00] [dose] pumpe 0: 12.5 ml -> register 12
+[2026-09-01 18:00:00] [dose] pumpe 1: 12.5 ml -> register 12
+[2026-09-01 18:00:00] [dose] pumpe 2: 7.0 ml -> register 7
+[2026-09-01 18:00:00] [dose] pumpe 3: 7.0 ml -> register 7
+[2026-09-01 18:00:01] [dose] syklus ferdig
+[2026-09-01 18:59:59] [dash] rapport sendt, HTTP/1.1 200 OK
+[2026-09-01 19:00:00] [heartbeat] oppe, heap=201981
+[2026-09-01 19:00:20] [heartbeat] oppe, heap=201982
+[2026-09-01 19:00:40] [heartbeat] oppe, heap=201983
+[2026-09-01 19:01:00] [heartbeat] oppe, heap=201984
+[2026-09-01 19:01:20] [sensor] EC-pH poll ok, sample=1985, ec=1.6, ph=6.1
+[2026-09-01 19:01:40] [heartbeat] oppe, heap=201986
+[2026-09-01 19:02:00] [heartbeat] oppe, heap=201987
+[2026-09-01 19:02:20] [heartbeat] oppe, heap=201988
+[2026-09-01 19:02:40] [heartbeat] oppe, heap=201989
+[2026-09-01 19:03:00] [sensor] EC-pH poll ok, sample=1990, ec=1.1, ph=6.1
+[2026-09-01 19:03:20] [heartbeat] oppe, heap=201991
+[2026-09-01 19:03:40] [heartbeat] oppe, heap=201992
+[2026-09-01 19:04:00] [heartbeat] oppe, heap=201993
+[2026-09-01 19:04:20] [heartbeat] oppe, heap=201994
+[2026-09-01 19:04:40] [sensor] EC-pH poll ok, sample=1995, ec=1.4, ph=6.8
+[2026-09-01 19:05:00] [heartbeat] oppe, heap=201996
+[2026-09-01 19:05:20] [heartbeat] oppe, heap=201997
+[2026-09-01 19:05:40] [heartbeat] oppe, heap=201998
+[2026-09-01 19:06:00] [heartbeat] oppe, heap=201999
+[2026-09-01 19:06:20] [sensor] EC-pH poll ok, sample=2000, ec=1.3, ph=6.6
+[2026-09-01 19:06:40] [heartbeat] oppe, heap=202001
+[2026-09-01 19:07:00] [heartbeat] oppe, heap=202002
+[2026-09-01 19:07:20] [heartbeat] oppe, heap=202003
+[2026-09-01 19:07:40] [heartbeat] oppe, heap=202004
+[2026-09-01 19:08:00] [sensor] EC-pH poll ok, sample=2005, ec=1.4, ph=6.3
+[2026-09-01 19:08:20] [heartbeat] oppe, heap=202006
+[2026-09-01 19:08:40] [heartbeat] oppe, heap=202007
+[2026-09-01 19:09:00] [heartbeat] oppe, heap=202008
+[2026-09-01 19:09:20] [heartbeat] oppe, heap=202009
+[2026-09-01 19:09:40] [sensor] EC-pH poll ok, sample=2010, ec=1.0, ph=6.0
+[2026-09-01 19:10:00] [heartbeat] oppe, heap=202011
+[2026-09-01 19:10:20] [heartbeat] oppe, heap=202012
+[2026-09-01 19:10:40] [heartbeat] oppe, heap=202013
+[2026-09-01 19:11:00] [heartbeat] oppe, heap=202014
+[2026-09-01 19:11:20] [sensor] EC-pH poll ok, sample=2015, ec=1.8, ph=6.4
+[2026-09-01 19:11:40] [heartbeat] oppe, heap=202016
+[2026-09-01 19:12:00] [heartbeat] oppe, heap=202017
+[2026-09-01 19:12:20] [heartbeat] oppe, heap=202018
+[2026-09-01 19:12:40] [heartbeat] oppe, heap=202019
+[2026-09-01 19:13:00] [sensor] EC-pH poll ok, sample=2020, ec=1.7, ph=6.4
+[2026-09-01 19:13:20] [heartbeat] oppe, heap=202021
+[2026-09-01 19:13:40] [heartbeat] oppe, heap=202022
+[2026-09-01 19:14:00] [heartbeat] oppe, heap=202023
+[2026-09-01 19:14:20] [heartbeat] oppe, heap=202024
+[2026-09-01 19:14:40] [sensor] EC-pH poll ok, sample=2025, ec=1.5, ph=6.3
+[2026-09-01 19:15:00] [heartbeat] oppe, heap=202026
+[2026-09-01 19:15:20] [heartbeat] oppe, heap=202027
+[2026-09-01 19:15:40] [heartbeat] oppe, heap=202028
+[2026-09-01 19:16:00] [heartbeat] oppe, heap=202029
+[2026-09-01 19:16:20] [sensor] EC-pH poll ok, sample=2030, ec=1.7, ph=6.8
+[2026-09-01 19:16:40] [heartbeat] oppe, heap=202031
+[2026-09-01 19:17:00] [heartbeat] oppe, heap=202032
+[2026-09-01 19:17:20] [heartbeat] oppe, heap=202033
+[2026-09-01 19:17:40] [heartbeat] oppe, heap=202034
+[2026-09-01 19:18:00] [sensor] EC-pH poll ok, sample=2035, ec=1.3, ph=6.8
+[2026-09-01 19:18:20] [heartbeat] oppe, heap=202036
+[2026-09-01 19:18:40] [heartbeat] oppe, heap=202037
+[2026-09-01 19:19:00] [heartbeat] oppe, heap=202038
+[2026-09-01 19:19:20] [heartbeat] oppe, heap=202039
+[2026-09-01 19:19:40] [sensor] EC-pH poll ok, sample=2040, ec=1.3, ph=6.0
+[2026-09-01 19:20:00] [heartbeat] oppe, heap=202041
+[2026-09-01 19:20:20] [heartbeat] oppe, heap=202042
+[2026-09-01 19:20:40] [heartbeat] oppe, heap=202043
+[2026-09-01 19:21:00] [heartbeat] oppe, heap=202044
+[2026-09-01 19:21:20] [sensor] EC-pH poll ok, sample=2045, ec=1.6, ph=6.4
+[2026-09-01 19:21:40] [heartbeat] oppe, heap=202046
+[2026-09-01 19:22:00] [heartbeat] oppe, heap=202047
+[2026-09-01 19:22:20] [heartbeat] oppe, heap=202048
+[2026-09-01 19:22:40] [heartbeat] oppe, heap=202049
+[2026-09-01 19:23:00] [sensor] EC-pH poll ok, sample=2050, ec=1.0, ph=6.0
+[2026-09-01 19:23:20] [heartbeat] oppe, heap=202051
+[2026-09-01 19:23:40] [heartbeat] oppe, heap=202052
+[2026-09-01 19:24:00] [heartbeat] oppe, heap=202053
+[2026-09-01 19:24:20] [heartbeat] oppe, heap=202054
+[2026-09-01 19:24:40] [sensor] EC-pH poll ok, sample=2055, ec=1.3, ph=6.7
+[2026-09-01 19:25:00] [heartbeat] oppe, heap=202056
+[2026-09-01 19:25:20] [heartbeat] oppe, heap=202057
+[2026-09-01 19:25:40] [heartbeat] oppe, heap=202058
+[2026-09-01 19:26:00] [heartbeat] oppe, heap=202059
+[2026-09-01 19:26:20] [sensor] EC-pH poll ok, sample=2060, ec=1.6, ph=6.1
+[2026-09-01 19:26:40] [heartbeat] oppe, heap=202061
+[2026-09-01 19:27:00] [heartbeat] oppe, heap=202062
+[2026-09-01 19:27:20] [heartbeat] oppe, heap=202063
+[2026-09-01 19:27:40] [heartbeat] oppe, heap=202064
+[2026-09-01 19:28:00] [sensor] EC-pH poll ok, sample=2065, ec=1.4, ph=6.3
+[2026-09-01 19:28:20] [heartbeat] oppe, heap=202066
+[2026-09-01 19:28:40] [heartbeat] oppe, heap=202067
+[2026-09-01 19:29:00] [heartbeat] oppe, heap=202068
+[2026-09-01 19:29:20] [heartbeat] oppe, heap=202069
+[2026-09-01 19:29:40] [sensor] EC-pH poll ok, sample=2070, ec=1.6, ph=6.5
+[2026-09-01 19:30:00] [heartbeat] oppe, heap=202071
+[2026-09-01 19:30:20] [heartbeat] oppe, heap=202072
+[2026-09-01 19:30:40] [heartbeat] oppe, heap=202073
+[2026-09-01 19:31:00] [heartbeat] oppe, heap=202074
+[2026-09-01 19:31:20] [sensor] EC-pH poll ok, sample=2075, ec=1.3, ph=6.7
+[2026-09-01 19:31:40] [heartbeat] oppe, heap=202076
+[2026-09-01 19:32:00] [heartbeat] oppe, heap=202077
+[2026-09-01 19:32:20] [heartbeat] oppe, heap=202078
+[2026-09-01 19:32:40] [heartbeat] oppe, heap=202079
+[2026-09-01 19:33:00] [sensor] EC-pH poll ok, sample=2080, ec=1.0, ph=6.5
+[2026-09-01 19:33:20] [heartbeat] oppe, heap=202081
+[2026-09-01 19:33:40] [heartbeat] oppe, heap=202082
+[2026-09-01 19:34:00] [heartbeat] oppe, heap=202083
+[2026-09-01 19:34:20] [heartbeat] oppe, heap=202084
+[2026-09-01 19:34:40] [sensor] EC-pH poll ok, sample=2085, ec=1.6, ph=6.5
+[2026-09-01 19:35:00] [heartbeat] oppe, heap=202086
+[2026-09-01 19:35:20] [heartbeat] oppe, heap=202087
+[2026-09-01 19:35:40] [heartbeat] oppe, heap=202088
+[2026-09-01 19:36:00] [heartbeat] oppe, heap=202089
+[2026-09-01 19:36:20] [sensor] EC-pH poll ok, sample=2090, ec=1.6, ph=6.3
+[2026-09-01 19:36:40] [heartbeat] oppe, heap=202091
+[2026-09-01 19:37:00] [heartbeat] oppe, heap=202092
+[2026-09-01 19:37:20] [heartbeat] oppe, heap=202093
+[2026-09-01 19:37:40] [heartbeat] oppe, heap=202094
+[2026-09-01 19:38:00] [sensor] EC-pH poll ok, sample=2095, ec=1.0, ph=6.4
+[2026-09-01 19:38:20] [heartbeat] oppe, heap=202096
+[2026-09-01 19:38:40] [heartbeat] oppe, heap=202097
+[2026-09-01 19:39:00] [heartbeat] oppe, heap=202098
+[2026-09-01 19:39:20] [heartbeat] oppe, heap=202099
+[2026-09-01 19:39:40] [sensor] EC-pH poll ok, sample=2100, ec=1.8, ph=6.1
+[2026-09-01 19:40:00] [heartbeat] oppe, heap=202101
+[2026-09-01 19:40:20] [heartbeat] oppe, heap=202102
+[2026-09-01 19:40:40] [heartbeat] oppe, heap=202103
+[2026-09-01 19:41:00] [heartbeat] oppe, heap=202104
+[2026-09-01 19:41:20] [sensor] EC-pH poll ok, sample=2105, ec=1.3, ph=6.7
+[2026-09-01 19:41:40] [heartbeat] oppe, heap=202106
+[2026-09-01 19:42:00] [heartbeat] oppe, heap=202107
+[2026-09-01 19:42:20] [heartbeat] oppe, heap=202108
+[2026-09-01 19:42:40] [heartbeat] oppe, heap=202109
+[2026-09-01 19:43:00] [sensor] EC-pH poll ok, sample=2110, ec=1.3, ph=6.4
+[2026-09-01 19:43:20] [heartbeat] oppe, heap=202111
+[2026-09-01 19:43:40] [heartbeat] oppe, heap=202112
+[2026-09-01 19:44:00] [heartbeat] oppe, heap=202113
+[2026-09-01 19:44:20] [heartbeat] oppe, heap=202114
+[2026-09-01 19:44:40] [sensor] EC-pH poll ok, sample=2115, ec=1.3, ph=6.3
+[2026-09-01 19:45:00] [heartbeat] oppe, heap=202116
+[2026-09-01 19:45:20] [heartbeat] oppe, heap=202117
+[2026-09-01 19:45:40] [heartbeat] oppe, heap=202118
+[2026-09-01 19:46:00] [heartbeat] oppe, heap=202119
+[2026-09-01 19:46:20] [sensor] EC-pH poll ok, sample=2120, ec=1.7, ph=6.3
+[2026-09-01 19:46:40] [heartbeat] oppe, heap=202121
+[2026-09-01 19:47:00] [heartbeat] oppe, heap=202122
+[2026-09-01 19:47:20] [heartbeat] oppe, heap=202123
+[2026-09-01 19:47:40] [heartbeat] oppe, heap=202124
+[2026-09-01 19:48:00] [sensor] EC-pH poll ok, sample=2125, ec=1.4, ph=6.4
+[2026-09-01 19:48:20] [heartbeat] oppe, heap=202126
+[2026-09-01 19:48:40] [heartbeat] oppe, heap=202127
+[2026-09-01 19:49:00] [heartbeat] oppe, heap=202128
+[2026-09-01 19:49:20] [heartbeat] oppe, heap=202129
+[2026-09-01 19:49:40] [sensor] EC-pH poll ok, sample=2130, ec=1.1, ph=6.7
+[2026-09-01 19:50:00] [heartbeat] oppe, heap=202131
+[2026-09-01 19:50:20] [heartbeat] oppe, heap=202132
+[2026-09-01 19:50:40] [heartbeat] oppe, heap=202133
+[2026-09-01 19:51:00] [heartbeat] oppe, heap=202134
+[2026-09-01 19:51:20] [sensor] EC-pH poll ok, sample=2135, ec=1.2, ph=6.3
+[2026-09-01 19:51:40] [heartbeat] oppe, heap=202136
+[2026-09-01 19:52:00] [heartbeat] oppe, heap=202137
+[2026-09-01 19:52:20] [heartbeat] oppe, heap=202138
+[2026-09-01 19:52:40] [heartbeat] oppe, heap=202139
+[2026-09-01 19:53:00] [sensor] EC-pH poll ok, sample=2140, ec=1.7, ph=6.6
+[2026-09-01 19:53:20] [heartbeat] oppe, heap=202141
+[2026-09-01 19:53:40] [heartbeat] oppe, heap=202142
+[2026-09-01 19:54:00] [heartbeat] oppe, heap=202143
+[2026-09-01 19:54:20] [heartbeat] oppe, heap=202144
+[2026-09-01 19:54:40] [sensor] EC-pH poll ok, sample=2145, ec=1.0, ph=6.2
+[2026-09-01 19:55:00] [heartbeat] oppe, heap=202146
+[2026-09-01 19:55:20] [heartbeat] oppe, heap=202147
+[2026-09-01 19:55:40] [heartbeat] oppe, heap=202148
+[2026-09-01 19:56:00] [heartbeat] oppe, heap=202149
+[2026-09-01 19:56:20] [sensor] EC-pH poll ok, sample=2150, ec=1.6, ph=6.0
+[2026-09-01 19:56:40] [heartbeat] oppe, heap=202151
+[2026-09-01 19:57:00] [heartbeat] oppe, heap=202152
+[2026-09-01 19:57:20] [heartbeat] oppe, heap=202153
+[2026-09-01 19:57:40] [heartbeat] oppe, heap=202154
+[2026-09-01 19:58:00] [sensor] EC-pH poll ok, sample=2155, ec=1.3, ph=6.0
+[2026-09-01 19:58:20] [heartbeat] oppe, heap=202156
+[2026-09-01 19:58:40] [heartbeat] oppe, heap=202157
+[2026-09-01 19:59:00] [heartbeat] oppe, heap=202158
+[2026-09-01 19:59:20] [heartbeat] oppe, heap=202159
+[2026-09-01 19:59:40] [sensor] EC-pH poll ok, sample=2160, ec=1.2, ph=6.6
+[2026-09-01 19:00:00] [dose] syklus start
+[2026-09-01 19:00:00] [dose] pumpe 0: 12.5 ml -> register 12
+[2026-09-01 19:00:00] [dose] pumpe 1: 12.5 ml -> register 12
+[2026-09-01 19:00:00] [dose] pumpe 2: 7.0 ml -> register 7
+[2026-09-01 19:00:00] [dose] pumpe 3: 7.0 ml -> register 7
+[2026-09-01 19:00:01] [dose] syklus ferdig
+[2026-09-01 19:59:59] [dash] rapport sendt, HTTP/1.1 200 OK
